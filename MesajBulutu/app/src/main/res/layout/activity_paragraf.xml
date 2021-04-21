@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paragraf">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1926"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAF"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1937"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragraf, bir düşünceyi tam olarak anlatabilmek için bir araya getirilen cümleler topluluğudur. Yani paragrafın bütün cümleleri aynı konuyu işler ve aynı düşünceyi açıklar ya da destekler. Tek bir düşünce etrafında oluştuğundan kendi içinde bir bütünlük gösterir; kendinden önceki ya da sonraki paragraflara bir bağlılık göstermez.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1938"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1939"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFIN KONUSU  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1943"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafta hakkında söz söylenen düşünce, olay ya da durumlar konuyu verir. Konuyu bulmak için “Parçada neden söz ediliyor?” diye sorabiliriz. Yani üzerinde durulan neyse konu da odur. Bununla ilgili sorular değişik soru kökleriyle karşımıza çıkar.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1948"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1949"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu parçada aşağıdakilerden hangisinden söz edilmektedir?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1950"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu parçanın konusu aşağıdakilerden hangisidir?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1951"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu parçada aşağıdakilerden hangisinden yakınılmaktadır?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1952"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi sorular konuyu sorar.  " />
+
+            <TextView
+                android:id="@+id/textView1953"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1954"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFIN BAŞLIĞI  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1955"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafın bir düşünce etrafında döndüğünü ve daima bir konudan söz ettiğini söylemiştik. Bir bakıma paragraf, bir makalenin, bir denemenin, bir fıkranın küçültülmüş şekli gibidir. Öyleyse nasıl bu tür yazıların bir başlığı varsa, paragrafın da bir başlığı olur. Ancak yazı başlıklarının dikkati çekme, ilgi uyandırma ya da şaşırtma gibi özellikleri vardır. Oysa paragrafın başlığı bu amaçla seçilmez. Konuyu en iyi şekilde yansıtan bir veya birkaç söz başlık olarak belirlenir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1956"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1957"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFIN ANADÜŞÜNCESİ  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1958"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadüşünce, parçada yazarın okuyucuya vermek istediği mesajdır. Buna yazarın paragrafı yazma amacı da diyebiliriz. Her paragrafın belli bir anadüşüncesi vardır. Bu düşünce bazen paragrafın herhangi bir yerinde bir cümle halinde verilir. Diğer cümleler bu düşünceyi açıklar ya da destekler. Bazen ise belli bir cümleyle verilmez, paragrafın bütününe sindirilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1959"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafın anadüşüncesini bulabilmek için kendimize “Yazar bu parçayı hangi amaçla yazdı?”, “Bize ne demek istedi?” gibi soruları sorabiliriz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1960"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1961"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadüşünce, değişik soru biçimleriyle karşımıza çıkar.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1962"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu paragrafın anadüşüncesi aşağıdakilerden hangisidir?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1963"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu paragrafta anlatılmak istenen aşağıdakilerden hangisidir?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1964"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu parçada aşağıdakilerden hangisi vurgulanmıştır?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1965"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFIN YARDIMCI DÜŞÜNCELERİ  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1967"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her paragrafın tek bir konu üzerinde durduğunu ve bir anadüşünce etrafında döndüğünü söylemiştik. Paragrafta bunun dışında, anadüşüncenin daha iyi açıklanmasını sağlayan, onu daha belirgin hale getiren, işlediği konunun sınırlarını çizen düşünceler de vardır. Bu düşüncelere de paragrafın yardımcı düşünceleri denir. Bir paragrafta anadüşünce bir tane iken yardımcı düşünce sayısı birden fazla olabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1968"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yardımcı düşünceyle ilgili sorular çoğu zaman olumsuz biçimdedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1969"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu paragraftan aşağıdakilerden hangisi çıkarılamaz?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1970"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu paragrafta aşağıdakilerden hangisine değinilmemiştir?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1971"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu parçadan aşağıdakilerden hangisine ulaşılamaz?”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1972"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi sorular hep yardımcı düşünceleri sormaktadır. Bir parça üzerinde yardımcı düşünceleri inceleyelim.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1973"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1974"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFIN YAPISI  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1975"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafın; bir makalenin, denemenin ya da başka bir yazının küçültülmüş biçimi olduğunu önceki sayımızda söylemiştik. Nasıl bu tür yazıların giriş, gelişme ve sonuç bölümleri varsa, bir paragrafın da bu tür bölümleri vardır. İşte paragrafın yapısıyla ilgili sorular böyle bir bölümlemeyi ortaya çıkarmak için sorulur.  " />
+
+            <TextView
+                android:id="@+id/textView1978"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1976"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafın yapısı değişik soru biçimleriyle karşımıza çıkar.  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1977"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı sorular paragraf oluşturmayla ilgilidir. Yani bir paragraf oluşturabilecek cümleler dağınık olarak verilir ve öğrencinin bunlardan bir paragraf oluşturması istenebilir. Bu tip sorularda cümlelerin anlamca ve yapıca birbirine bağlanabilmesi aranmalıdır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1979"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir paragraf kendi içinde bir bütünlük oluşturur. Bu yüzden kendinden önceki veya sonraki paragraflara yapıca bir bağlılık göstermez. Öyleyse paragrafın ilk cümlesi onu kendinden önceki cümlelere bağlayan herhangi bir anlam veya bağlayıcı öğe taşımamalıdır. Bir başlangıç ifade etmelidir. Aynı zamanda kendinden sonraki cümlelere de anlamca bağlılık göstermelidir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1980"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragraf tamamlamanın sorulduğu bir diğer soru tipinde de son cümle sorulur. Parçanın son cümlesi bir bitiş bildirir. Ya anlatılanlardan bir sonuç çıkarılır ya da bir olayın bitişini gösterir. Bu soruların çözümünde cümlelerin anlamca bağlılığı yanında yapısal olarak bağlanmalarına da dikkat edilmelidir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1981"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Son yıllarda sorulan paragraf oluşturmayla ilgili diğer bir soru tipi, paragrafın içine cümle yerleştirme şeklindedir. Bu tip sorularda cümlelerin hem anlam hem yapı bakımından uygun olduğu yer aranmalıdır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1982"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1983"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARAGRAFLARDA SORULAN KAVRAMLAR VE DUYGULAR  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1984"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı paragraf sorularında kişilerin nitelikleri üzerinde ya da yazının özellikleri üzerinde durulur. Bu tip sorularda seçeneklerde geçen kavramların duyu ve duyguların bilinmesi gerekir. Bunlardan bazıları şunlardır:  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1985"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1986"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özgünlük:"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1987"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başkasına benzememe, kendine has olma demektir. Parçalarda genelde taklitçilikten kaçınma ve yenilikçi olmayla açıklanır."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1988"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1989"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğallık:"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1990"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapmacıksız, süs ve özentiden uzak, günlük hayatta olduğu gibi olma demektir. Duruluk: Açık ve anlaşılır olma, kapalı ifadelerden kaçınma, söylenmek isteneni imgeler arkasına gizlemeden anlatma demektir"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1991"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1992"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akıcılık:"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1993"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Okuyucuyu sıkmayan, sürükleyici bir anlatıma sahip olma demektir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1994"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1995"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özlülük: "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1996"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Az sözle çok şey ifade edebilme, sözü uzatmaktan kaçınma demektir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1997"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1998"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yoğunluk:"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birçok anlamı bir arada verme, anlam içinde anlam bulunması demektir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimi zaman da parçada ağır basan duyu ve duygular sorulabilir. Duyu ve duyguyu birbirine karıştırmamak gerekir. Duyu dışarıdaki nesneleri algılama yolumuzdur. Nesneler beş duyu organıyla algılanır. Duygu ise içimizden geçen hislerdir. Sevinç, keder, hoşgörülü olma, alçak gönüllülük…  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANLATIM BİÇİMLERİ  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paragrafta yazarın herhangi bir düşünceyi ya da durumu ortaya koyma biçimine anlatım denir. Yazar aktaracağı duruma uygun bir anlatım biçimi seçemezse, yazısının etki gücü azalır. Bir bilgiyi aktarmakla bir olayı hikaye etmek ya da bir manzarayı betimlemek farklı bir anlatım gerektirecektir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Açıklama  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öğretici özellik gösteren bir anlatım biçimidir. Yazarın amacı bilgiyi en kısa yoldan okuyucuya anlatmak olduğundan, yazar sanatlı söyleyişlere, imalı sözlere pek yer vermez. Açık, anlaşılır bir dil kullanır. Soyutluktan, kişisellikten kaçınır. Tanımlarla, örneklerle konunun en iyi biçimde anlaşılmasını sağlar. Ansiklopedilerde daha çok bu tür bir anlatım görülür.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2009"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Tartışma  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yazarın, bir düşüncenin, bir önerinin doğru olmadığını ortaya koymak amacıyla hazırladığı yazılarda başvurduğu bir yöntemdir. Yazar okuyucuyla sohbet ediyormuş gibi bir üslupla yazısını oluşturur. Devrik cümlelerle, soru ve cevaplarla yazısına akıcılık kazandırır. Sonuçta burada da bilgi ortaya konmuş olabilir; ancak bir görüşün başka bir görüşe karşı savunuculuğunun yapılması onu açıklamadan ayırır. Yazar, görüşlerini inandırıcı kılmak için kanıtlama yoluna başvurur. Kanı niteliği taşıyan yargılardan kaçınır, nesnel olmaya çalışır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Betimleme  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yazarın, gördüklerini okuyucunun gözünde canlanacak biçimde anlatmasıyla oluşan bir anlatım biçimidir. Betimlemede asıl olan görselliktir. Bu nedenle gözle algılanan renk ve biçim ayrıntılarına büyük yer verilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Ruhsal betimleme :"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İnsanların iç dünyasıyla tanıtıldığı, tavır ve davranışlarının ele alındığı betimleme türüdür. Görsellikten çok, izlenim ve sezginin ağır bastığı bu betimlemeler sadece insanlara özgüdür."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“İçli, çok duygulu bir adamdı; konuşurken hem ağlar hem ağlatırdı…” sözleri bu tür betimlemedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Fiziksel betimleme :"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gözle görülenin anlatıldığı betimlemelerdir. Kişinin dış görünüşüyle betimlenmesi ya da dış dünyanın anlatılması bu türdendir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Betimlemelerde yazar nesnel olabileceği gibi gözlemlerine duygularını da katabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Öyküleme  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belli bir zaman diliminde gelişen olayların anlatıldığı durumlarda başvurulan anlatım biçimidir. Olayın olmadığı yerde öyküleme olmaz. Anlatım yönüyle betimlemeye benzer; ancak betimlemelerde yazarın izlenimleri söz konusu olduğu halde, öykülemede olayın aktarımı, durumların değişmesi, zaman süreci söz konusudur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DÜŞÜNCEYİ GELİŞTİRME YOLLARI  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her paragrafın belli bir düşünceyi aktarmak için yazıldığını söylemiştik. Yazar bu düşünceyi okuyucuya değişik şekillerde ortaya koyarak anlatır. Burada anlatım biçimiyle düşünceyi geliştirme yollarının farklı şeyler olduğunu da söylemeliyiz. Ancak anlatım biçimi dört tane olduğundan bir soru haline getirilemez. Bu nedenle geliştirme yollarıyla birlikte sorulur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Tanımlama  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kavramların tanımlar halinde verilmesi şeklinde ortaya çıkar. Tanımın ne olduğunu cümle anlamında görmüştük. Parça içinde bir tanım cümlesi varsa, tanımlama var sayılır; bütün paragrafın tanım olması gerekmez.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Karşılaştırma  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki farklı düşünce, kavram ya da durumun mukayese edilmesiyle ortaya çıkan bir yöntemdir. Karşılaştırmada, karşılaştırılan olgular arasında bir derecelendirme söz konusudur. Bir kavram diğerinden üstün, aşağı ya da diğeriyle aynı seviyede olması yönünden başka bir kavramla karşılaştırılır. Üslup olarak “Bu böyledir; şu ise şöyledir. “ ifadesi hakimdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Örneklendirme  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlatılan konuyla ilgili örneklerin verilmesiyle ortaya çıkar. Konuyu daha anlaşılır ve zihinde daha iyi kalıcı bir niteliğe kavuşturur. Verilen örneğin okur tarafından bilinen, çağrışım yaptırıcı bir nitelik taşıması gerekir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazen bir fıkra, bir öykücük bile örnek olarak verilebilir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Tanık Gösterme  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yazarın, düşüncesini inandırıcı kılmak için, o konuda sözüne güvenilir birinin sözünü parçasına alıntı yaparak almasıyla oluşur. Genellikle bu söz tırnak içinde verilir. Sözün olmadığı yerde tanık gösterme de olmaz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Benzetme  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir olguyu anlatırken başka olgularla benzerlik kurma şeklinde oluşur. İki olgu arasında sağlam bir benzerlik olmalıdır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. İlişki Kurma  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki kavram arasındaki ilgiden üçüncü bir hüküm çıkarma durumudur. Genellikle kavramlar arasında ilişki kurulduğu için bu adla verilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

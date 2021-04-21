@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hazircorbaa">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2350"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:background="@mipmap/hazirr" />
+
+            <TextView
+                android:id="@+id/textView2351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazır Çorba"
+                android:textColor="#5E0000" />
+
+            <TextView
+                android:id="@+id/textView2353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Günün mükemmel kahramanı olup üstüne tek paket 4 kişilik olduğunu düşünürsek, beleş.  (3 ila 5 lira arasındadır. Yarın ne olur bilemem )"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malzemeler"
+                android:textColor="#5729AA" />
+
+            <TextView
+                android:id="@+id/textView2356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazır çorba"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 bardak su"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2362"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapılışı"
+                android:textColor="#5729AA" />
+
+            <TextView
+                android:id="@+id/textView2363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bak şindii, litreyi falan unutun. Tencereye 5 bardak suyu doldur. Paketteki malzemeyi ilave edin. Kaynayana kadar karıştırın."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2366"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afiyet Olsun.." />
+
+            <TextView
+                android:id="@+id/textVi3ew202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+
+            <TextView
+                android:id="@+id/textView2368"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

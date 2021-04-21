@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/kimyaEkran"
+    android:layout_height="match_parent"
+    tools:context=".kimyaBilimineGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView672"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/beyaz" />
+
+            <CheckBox
+                android:id="@+id/kimyaBilimineGirisGeceModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView704"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView705"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SİMYA"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_purple"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView709"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="KİMYA"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_purple"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView710"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Teorik temelleri yoktur	."
+                    android:textColor="@color/kahveRengi" />
+
+                <TextView
+                    android:id="@+id/textView711"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Teorik temelleri vardır. "
+                    android:textColor="#9E1212" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView712"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Bigi birikimi içermez.	"
+                    android:textColor="@color/kahveRengi" />
+
+                <TextView
+                    android:id="@+id/textView713"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sistematik bilgi birikimi içermez."
+                    android:textColor="#9E1212" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView714"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deneme yanılmaz sistemine dayanır."
+                    android:textColor="@color/kahveRengi"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView715"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deneysel verilere dayanır."
+                    android:textColor="#9E1212"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView716"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deneysel alt yapısı yoktur."
+                    android:textColor="@color/kahveRengi" />
+
+                <TextView
+                    android:id="@+id/textView717"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deneysel alt yapısı vardır."
+                    android:textColor="#9E1212" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView718"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bir bilim değildir."
+                    android:textColor="@color/kahveRengi" />
+
+                <TextView
+                    android:id="@+id/textView719"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bir bilim değildir."
+                    android:textColor="#9E1212" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView690"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="match_parent"
+                android:background="@mipmap/simya"
+                android:layout_height="168dp" />
+
+            <TextView
+                android:id="@+id/textView699"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView708"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SİMYADAN GÜNÜMÜZE AKTARILAN  BAZI BULGULAR "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView687"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Barut"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madenlerin işlenmesi"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView686"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metaller üzerinde çalışmalar"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView706"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mürekkep "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView692"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Porselen ve seramik "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView697"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kağıt "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView693"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sülfürik asit : H2SO4    (Zaç yağı) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView698"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nitrik asit     :HNO3    (Kezzap) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView696"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidroklorik asit: HCI    (Tuz ruhu) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView695"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demir(II)sülfat  :FeSO4 (Kıbrıs taşı) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView694"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potasyum alüminyum sülfat : KAl(SO4)2  (Şap) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView691"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sodyum sülfür :NaS  (Sarı zırnık) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView689"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potasyum nitrat :KNO3 (Hint güherçilesi) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sodyum nitrat  : NaNO3 ( Şili güherçilesi) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView680"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView723"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView724"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Madde bilimi. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView685"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView684"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyanın Alt Disiplinleri "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView679"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organik Kimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView682"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Madde bilimi. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView725"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anorganik Kimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView683"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organik olmayan bileşiklerin özelliklerini ve kimyasal davranışlarını incelemektedir. Mineraller, su,tuzlar, metaller, büyük oranda asitler ki organik olan asitlerde var, bazlar ametaller."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView681"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView660"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fizikokimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasala sistemlerde fiziksel özellikleri ve enerji-iş dönüşümlerini incelemektedir. Reaksiyon hızı, reaksiyon mekanizması vb. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analitik Kimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Belirli bir maddenin kimyasal bileşenlerinin ya da kimyasal bileşenlerinden bir bölümünün niteliğini ve niceliğini incelemektedir. Kimyasal bir örnekteki bileşenlerin belirlenmesi, ayrılması ve miktarlarının ölçülmesi ile ilgilenir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView675"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biyokimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Canlı organizmalarda bulunan kimyasalları, kimyasal reaksiyonları ve etkileşimlerini inceler. İdrar ve kan gibi vücut sıvılarının bileşimlerindeki değişimleri inceleyerek teşhise yardım eder. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView727"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView726"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polimer Kimyası:  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polimer moleküllerin yapısını ve reaksiyonlarını incelemektedir. Plastikler, kumaşlar kaplamalar vb. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView728"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrokimya"
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/textView668"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin elektriksel yapısını, elektrik enerjisi ile kimyasal değişmeler arasındaki ilişkiyi incelemektedir. Elektronik bir iletken ile iyonik bir iletken arasında gerçekleşen reaksiyonlarla ilgilenir. Pil yapımı, metallerin arıtımı vb. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gıda Kimyası:  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView669"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Besin  maddelerinin kimyasal yapılarını ve organizmalardaki işlevlerini inceler. Konserveler vb. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView663"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView664"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tıbbi (Medikal) Kimya: "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView665"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Kimyasal maddelerin, hastalıkların tedavisinde kullanılmasını ve tedavi mekanizmasını inceler. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView667"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nükleer Kimya:  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView729"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom altı taneciklerin atomu nasıl oluşturduklarını inceler. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView730"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView732"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adli kimya:  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView731"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suç ve suçluları ortaya çıkarmada kullanılır. Sporcuların doping yapıp yapmadığını kontrol etmek için gerekli kimyasal işlemlerle ilgilenir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView733"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView734"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Termokimya:  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView735"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal reaksiyonların ısı ile olan ilişkisini inceler. "
+                android:textColor="@android:color/background_dark" />
+
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

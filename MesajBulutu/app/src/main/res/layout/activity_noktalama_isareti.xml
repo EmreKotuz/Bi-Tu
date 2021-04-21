@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noktalamaIsareti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1838"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1845"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOKTALAMA İŞARETLERİ  "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1846"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dilimizde ilk kez Tanzimat döneminde kullanılan noktalama işaretleri, yazının daha kolay anlaşılmasını sağlar. Yazının okunmasını kolaylaştırır ve anlam karışıklığına düşülmesine engel olur.Biz konuşurken cümlede anlatmak istediklerimizi ses tonumuzla açık olarak ortaya koyabiliriz. Nerede duracağımızı nerede vurgu yapacağımızı biliriz. Ancak yazıda böyle bir vurgulama yapamadığımızdan, bunu noktalama işaretleriyle sağlamaya çalışırız.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1847"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1848"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOKTA (.)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1849"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlamca tamamlanmış cümlelerin sonunda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1850"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüklerin kısaltılarak yazılmaları halinde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1851"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rakamla yazılan tarihler arasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1852"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıra bildiren “-ncı, -nci” eklerinin yerine kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1853"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saat ve dakikaların yazımında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1854"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1856"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VİRGÜL (,)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1857"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eş görevli sözcük ve söz öbeklerinin aralarında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1858"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlamca karışan öğelerin ayrılmasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1859"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arasözlerin başında ve sonunda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1860"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İçinde başka virgül bulunmayan sıralı cümlelerin ayrılmasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1861"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içindeki ünlem bildiren sözcüklerden sonra kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1862"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seslenme bildiren sözcüklerden sonra kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1863"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1864"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOKTALI VİRGÜL (;)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1865"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öğe sayısı fazla olan ya da cümle içinde virgül bulunan sıralı cümleler arasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1866"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir bağlaçla birbirine bağlanan cümleler arasında bağlaçtan önce kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1867"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aralarında nitelik farkı bulunan söz öbeklerinin ayrılmasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1868"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öznenin diğer öğelerle karıştığı yerlerde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1869"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1870"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İKİ NOKTA (:)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1871"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cümlede açıklama yapılacaksa, açıklamaya başlamadan hemen önce iki nokta kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1872"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kavramlar tanımlanırken ya da açıklanırken kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1873"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konuşma metinlerinde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1874"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1875"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜÇ NOKTA (…)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1876"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benzer örneklerin sürdürülebileceğini göstermek için kullanılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1877"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlamca tamamlanmamış cümlelerin sonunda kullanılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1878"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Söylenmek istenmeyen sözler yerine kullanılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1879"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir alıntının alınmayan yerleri yerine kullanılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1880"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözün bir yerde kesildiğini anlatmak için kullanılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1881"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklemi bulunmayan cümlelerin sonunda kullanılır. " />
+
+            <TextView
+                android:id="@+id/textView1882"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1883"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KISA ÇİZGİ (-)  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1884"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir olayın başlangıç ve bitiş tarihleri arasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1885"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birbiriyle ilgili ülke ya da kavram isimleri arasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1886"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içindeki arasözlerin başında ve sonunda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1887"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle sonunda sözcük yarım kaldığında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dilbilgisinde eklerin ve mastar halindeki fiillerin gösterilmesinde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1889"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlıca tamlamalarda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1890"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1891"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UZUN ÇİZGİ (—)  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1892"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konuşma metinlerinde, konuşmaların başında kullanılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1893"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+            <TextView
+                android:id="@+id/textView1924"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1894"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KESME İŞARETİ (‘)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1895"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel isimlere gelen çekim eklerinin ayrılmasında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1896"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sayılara ek getirilirken kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1897"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kısaltmalara ek geldiğinde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1898"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki sözcüğün kaynaştırılarak söylenmesi sırasında ses düşmesi olursa ya da şiirde vezin gereği ses düşmesi yapılmışsa kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1899"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlamca karışan sözcüklerin yazımında kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SORU İŞARETİ (?)  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1902"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soru anlamı taşıyan cümlelerin sonunda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1903"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüğün karşıt anlamının ifade edilmek istendiği yerlerde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1904"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kesin olarak bilinmeyen tarihler yerine kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1905"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1906"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIRNAK İŞARETİ (“ ”)  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1907"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içinde başkasına ait sözlerde kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1908"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içinde geçen kitap, dergi isimleri tırnak içine alınabilir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1909"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede önemsenen, vurgulanmak istenen sözcükler tırnak içine alınabilir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1910"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alıntılar tırnak içine alınarak verilir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1911"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1912"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARANTEZ (AYRAÇ) İŞARETİ ( ( ) )  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1913"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içinde bir sözcüğün eş anlamlısı verilirse kullanılır. " />
+
+            <TextView
+                android:id="@+id/textView1914"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümledeki herhangi bir sözcüğün açıklanması durumunda kullanılır. " />
+
+            <TextView
+                android:id="@+id/textView1915"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle içinde kullanılan tarihler ya da bir sözcüğün anlamıyla ilgili noktalamalar parantez içine alınır. " />
+
+            <TextView
+                android:id="@+id/textView1916"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yabancı sözcüklerin okunuşu parantez içinde gösterilir. " />
+
+            <TextView
+                android:id="@+id/textView1917"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiyatro metinlerinde hareketleri anlatan bölümler parantez içine alınır. " />
+
+            <TextView
+                android:id="@+id/textView1918"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1919"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜNLEM İŞARETİ (!)  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1920"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ünlem cümlelerinin sonunda kullanılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1922"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sözün yanında parantez içinde ünlem işareti bulunuyorsa, o söze inanılmadığını gösterir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1923"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Ne kadar nazik (!) biri olduğunu göreceksin.” "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1925"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

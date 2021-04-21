@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cografyaEkran"
+    tools:context=".cografyayaGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/kahveRengi"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2281"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView2280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cografyaModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harita Nedir? "
+                android:textColor="@android:color/holo_red_dark"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="297dp" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Yeryüzünün tamamının veya bir kısmının kuşbakışı görünüşünün belli bir ölçek dahilinde düzleme aktarılmasıyla oluşan çizimlere denir. Haritacılık bilimine kartografya denir." />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@mipmap/hb" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Kuşbakışı olarak çizilmiş olması  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritası çizilen alanın tam tepeden görünüşü kuşbakışı olarak adlandırılır. Haritaların çiziminde tepeden görünüm sağlanamaz ise yeryüzü şekillerinin biçimlerinde, boyutlarında ve birbirlerine göre uzaklıklarında değişmeler olur."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView755"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView751"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Ölçekli olması"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritalardaki küçültme oranına ölçek denir. Ölçek, kesir ve çizgi ölçek olmak üzere ikiye ayrılır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView758"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Kesir ölçek:"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Küçültme oranları kesirli sayılarla ifade edilir. 1/500.000, 1/2.000.000 gibi. Kesir ölçeklerde pay harita uzunluğunu payda ise çizimi yapılan yerin ne kadar küçüldüğünü göstermektedir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView753"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView756"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Çizik (Grafik) Ölçek:"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eşit dilimlere ayrılmış bir çizgi üzerinde harita üzerindeki uzunlukların gerçek uzunluklara oranının gösterildiği ölçeklerdir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView759"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Harita Anahtarı (Lejant): "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harita üzerinde dağılışı gösterilen olayların tamamının harita üzerine yazılarak gösterilmesi zor olduğu için haritalarda bazı bilgiler sembollerle gösterilir. Bu sembollerin yer aldığı bölümü harita anahtarı (lejant) denir"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritaların Sınıflandırılması"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent" android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Haritalar ölçeklerine göre ve kullanım alanlarına göre ikiye ayrılırlar." />
+
+            <TextView
+                android:id="@+id/textView761"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView760"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ölçeklerine Göre Haritalar: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritalar ölçeklerine göre üç gruba ayrılır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/textView762"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Büyük Ölçekli Haritalar: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ölçeği büyük yani ölçek paydası küçük olan haritalardır. Bu haritaların ölçekleri 1/20.000’e kadar olabilir. Büyük ölçekli haritaların özellikleri şu şekildedir:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gösterdiği alan dardır."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayrıntı fazladır."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hata payı azdır."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kağıt üzerinde kapladığı alan fazladır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ölçeğin paydası küçüktür. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İzohipsler arası yükselti farkı azdır."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView763"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Orta Ölçekli Haritalar: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ölçekleri 1/20.000 ile 1/500.000 arasında olan haritalardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/textView765"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Küçük Ölçekli Haritalar: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ölçekleri 1/500.000 den küçük olan haritalardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/textView766"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Kullanım Alanlarına Göre Haritalar: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir harita hazırlanırken belirtilen amaca göre hazırlanır. Bu haritalar kullanım amaçlarına göre farklı isim alırlar. Bu haritalardan bazıları"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView767"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView768"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiziki Haritalar:"
+                android:textColor="@color/kahveRengi"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeryüzünün fiziki yapısı, dağları, ovaları, platoları, akarsuları, gölleri v.b. unsurları gösteren haritalardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView769"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İdari (Siyasi) Haritalar: "
+                android:textColor="@color/kahveRengi"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ülke sınırlarını, ülke içerisinde eyaletlerin, illerin ve ilçelerin sınırlarını gösteren haritalardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView770"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beşeri Haritalar: "
+                android:textColor="@color/kahveRengi"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İnsanların dağılışı ve nüfus özelliklerini gösteren haritalardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView771"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekonomik Haritalar: "
+                android:textColor="@color/kahveRengi"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekonomik faaliyetlerin (tarım, hayvancılık, madencilik, ormancılık, ticaret v.b) dağılımını gösteren haritalardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bilesik">
+
+    <ScrollView
+        android:id="@+id/scrollView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BİLEŞİKLER"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birden fazla elementin belirli oranlarda kimyasal yollarla bir araya gelerek, kendi özelligini kaybedip oluşturdukları yeni saf maddeye bileşik denir. Bileşikteki atomların cins ve sayısını ifade etmeye bileşik formülü denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaba (Basit) Formül  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşikteki atomların cinsini ve oranını belirten formüldür. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaba formül ile bileşiğin molekül ağırlığı hesaplanamaz. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gerçek (molekül) formül  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşikteki atomların cinsini, oranını ve sayısını belirten formüldür. "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1053"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşiğin molekül ağırlığı hesaplanabilir. "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1054"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İyonik bağlı bileşiklerin kaba formülleri ile gerçek formülleri aynıdır. Kovalent bağlı bileşiklerde ise bir tane kaba formüle ait çok sayıda gerçek formül olabilir. "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1055"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1056"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BAZI ELEMENT VE KÖKLERİN İSİMLERİ ve DEĞERLİKLERİ  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1057"
+                android:layout_width="310dp"
+                android:layout_height="163dp"
+                android:background="@mipmap/eleme" />
+
+            <TextView
+                android:id="@+id/textView1058"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1059"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Metal + Ametal Bileşikleri  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim: Metalin adı + Ametalin adı + ÜR. eki  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1061"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametal Oksijen ise, oksit şeklinde isimlendirme yapılır. "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1062"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: Farklı degerlik alabilen metal bileşikleri isimlendirilirken metalin, o bileşikte aldığı değerlik belirtilmelidir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1063"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1064"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Metal + Kök Bileşikleri  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1065"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim: Metalin adı + Kök adı  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Ametal + Ametal Bileşikleri  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1068"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşik isimlendirilirken bileşikteki atomların sayısı, 1(mono), 2(di), 3(tri), 4(tetra), 5(penta), 6(hegza) gibi latince harflerle ifade edilir. Formülde önce yazılan atom bir tane ise yalnızca ad ı söylenir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1069"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ilk yazılan atomun sayısı birden farklı ise onun da latince olarak kaç tane olduğu belirtilir. Sonraki atomun sayısı kaç olursa olsun sayısı belirtilmelidir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1071"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEĞERLİK BULMA  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1072"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A grubu metalleri bileşiklerinde daima aynı değerliği alırlar. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1073"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B grubu metalleri (Geçiş metalleri) bileşiklerinde farklı (+) değerlik alabilirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1074"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametallerin (-) değerlikleri genellikle bir tanedir. Fakat farklı (+) değerlik alabilirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1075"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidrojenin değerligi ametallerle yaptığı bileşiklerde (+1), metallerle yaptığı bileşiklerde (-1) dir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1076"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oksijenin degerligi peroksitler hariç (-2) dir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1077"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Element halindeki atomların değerliği ve bileşiğin toplam yükü sıfırdır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1078"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: Değerliği bilinen elementler yardımıyla bilinmeyenler bulunabilir. Bileşik nötr ise yükler toplamı sıfır olacaktır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1079"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASİTLER"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suya H+1 iyonu verebilen bileşiklere asit denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1082"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(Cu, Hg, Ag, Pt, Au) metalleri hariç diğer tüm metallerle H2 gazı açığa çıkar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1083"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulu çözeltileri elektrik akımını iletir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1084"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turnusol kağıdını kırmızıya boyarlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1085"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazlarla reaksiyona girerek tuz oluştururlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1086"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tadları ekşidir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1087"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asitin kuvvetliliği: Suda %100 iyonlaşabilen asitlere kuvvetli asit, %100 iyonlaşamayanlara zayıf asit denir.Elektrik akımını iyi ileten asitlere kuvvetli asit, iyi iletmeyenlere zayıf asit denir.Periyotlar cetvelinde ise soldan sağa doğru ve yukarıdan aşağıya doğru asitlik kuvveti artar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1088"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1089"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BAZ"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1090"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuvvetli bazlar anfoter (Al, Zn) metallerle H2 gazı açığa çıkarırlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1091"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulu çözeltisi elektrik akımını iletir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1092"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turnusol kağıdını maviye boyarlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1093"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asitlerle reaksiyona girerek tuz oluştururlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1094"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tadları acıdır. Ele kayganlık hissi verirler. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1095"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazın kuvvetliliği: suda %100 iyonlaşabilen bazlara kuvvetli, suda %100 iyonlaşamayanlara zayıf baz denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1096"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1097"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik akımını iyi ileten bazlara kuvvetli, iletmeyenlere zayıf baz denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1098"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyotlar cetvelinde sağdan sola ve yukarıdan aşağıya bazlık kuvveti artar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1099"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TUZLAR  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baz katyonu ile, asit anyonundan oluşan bileşiklere tuz adı verilir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuvvetli asit + Kuvvetli baz ® Nötr tuz "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuvvetli asit + Zayıf baz ® Asidik tuz "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuvvetli asit + Zayıf baz ® Asidik tuz "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Asidik oksit  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametallerin oksijence zengin olan bileşiklerine denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Su ile asitleri oluştururlar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Bazlarla tuz oluştururlar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Bazik oksit  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genellikle metal oksitler bazik oksittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Su ile bazları oluştururlar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Asitlerle tuz oluştururlar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Nötr oksit  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametallerin oksijence eşit veya fakir olan oksitlerine nötr oksit denir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Asitlerle, bazlarla ve su ile etkileşmezler.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Oksijen ile tekrar yakılabilirler.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Anfoter oksit  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hem asit ile hem de bazla ayrı ayrı reaksiyona girebilen maddelere anfoter maddeler denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asitlere karşı baz, bazlara karşı asit özelliği gösteren maddelere denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Peroksit  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iki tane Oksijenin toplam değerliği (O2)–2 ise, bu bileşiklere peroksit denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Bu oksitler ısıtılınca kolayca O2 gazı verirler.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Bileşik Oksit  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Farklı değerlik alabilen metal oksitlerin birleşmesi ile oluşan bileşiklere bileşik oksit denir. Bileşiğin yapısında metal her iki değerliğini de bulundurur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

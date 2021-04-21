@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".golge">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1525"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gölge: "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1526"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1527"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tam Gölge – Yarı Gölge "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1528"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynaklardan yayılan ışınlar, ortamda ilerlerken saydam olmayan cisimler üzerine düşerlerse, cisimleri geçemediklerinden dolayı, cisimlerin arka tarafında karanlık alanlar oluşur. Meydana gelen bu karanlık alanlara gölge denir. Gölgenin şekli, saydam olmayan cismin şeklinin en büyük kesiti gibidir. Bunun sebebi, noktasal ışık kaynağından çıkan ışığın doğrusal olarak yayılmasıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1529"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noktasal Işık Kaynağı "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1531"
+                android:layout_width="336dp"
+                android:layout_height="128dp"
+                android:background="@mipmap/noktasal" />
+
+            <TextView
+                android:id="@+id/textView1532"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1533"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Küresel Işık Kaynağı "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1534"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki ışık kaynağından çıkan ışınların hiç düşmediği yerlere tam gölge, kaynağın bazı bölgelerinden ışık düşüp bazı bölgelerinden ışık düşmediği yerlere de yarı gölge denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1535"
+                android:layout_width="336dp"
+                android:layout_height="133dp"
+                android:background="@mipmap/kuresel" />
+
+            <TextView
+                android:id="@+id/textView1576"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1536"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğer kullanılan ışık kaynağı şekildeki gibi saydam olmayan engelden büyük ise, perdenin bulunduğu yere  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="göre gölge şekilleri değişir. Perde (a) konumunda iken ortada tam gölge ve etrafında yarı gölge oluşur. Perde  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1538"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(b) konumunda iken yalnız yarı gölge oluşur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1539"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(Şekil (a) ve (b))  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1540"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:background="@mipmap/sekilab" />
+
+            <TextView
+                android:id="@+id/textView1541"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1542"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya güneş etrafında dönerken, ay dünya ile güneş arasına şekildeki gibi girdiğinde, ayın gölgesi dünya  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1543"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="üzerine düşer ve K noktasından bakan gözlemci güneşi göremez. Bu olaya güneş tutulması denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1544"
+                android:layout_width="366dp"
+                android:layout_height="71dp"
+                android:background="@mipmap/guness" />
+
+            <TextView
+                android:id="@+id/textView1545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya, güneş etrafında dönerken ay ile güneş arasına şekildeki gibi girdiğinde dünyanın gölgesi, ay üzerine  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1556"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="güneş ışınlarının gelmesini engeller. Güneşten ışık alamayan ay, L noktasından bakıldığında görülmez, bu olaya da ay tutulması denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1557"
+                android:layout_width="356dp"
+                android:layout_height="85dp"
+                android:background="@mipmap/dunyaa" />
+
+            <TextView
+                android:id="@+id/textView1575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

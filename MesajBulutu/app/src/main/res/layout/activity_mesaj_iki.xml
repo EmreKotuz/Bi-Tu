@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/renkss"
+    tools:context=".Mesaj">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/randommm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kaydolma"
+                    android:layout_width="179dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Merhaba, kaydolmak için tıklayın"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/kahveRengi"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/ders"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/dd" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/tarif"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/tarr" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/spor"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/sporr" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/en"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/enn" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kısaNotlar"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/not" />
+
+            <TextView
+                android:id="@+id/destekButton1"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="55dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

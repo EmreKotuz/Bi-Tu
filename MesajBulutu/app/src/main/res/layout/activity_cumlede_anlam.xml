@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cumledeAnlam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CÜMLE ANLAMI  "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümle, yargı bildiren sözcük ya da söz öbeğidir. Bir sözün yargı bildirmesi, şahıs ve kip bildirecek biçimde çekimlenmesine bağlıdır. Bu özelliği gösteren tek bir sözcük cümle olabileceği gibi birbirini tamamlayan birçok sözcük de cümle özelliği gösterebilir. Yani “geliyorum”, “hastayım” sözleri de cümledir; “Dün seni okulun bahçesinde arkadaşlarınla gezerken görmüştüm.” de cümledir. Daha uzun cümleler de kurulabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1704"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bizim burada üzerinde duracağımız konu cümlenin yapısal özellikleri değil anlamlarıdır. Sınavlarda çıkan cümle anlamıyla ilgili soruları iki grupta değerlendirebiliriz. Birincisi cümlelerin anlamca eşleştirilmesi şeklindedir. Bir bilgi gerektirmeyen bu tür soruların çözümünde cümlelerin ifade ettiği anlamların iyi kavranması gerekir. Kimi zaman ise bu şekilde eşleştirme sorulmaz da cümlede anlatılmak istenenin ne olduğu, sözü edilen düşünceyle, hangi cümlenin aynı doğrultuda olduğu ya da sözü edilen düşünceyle hangi cümlenin çeliştiği sorulabilir  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1714"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı cümle anlamı soruları da cümle tamamlama biçiminde olabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1716"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TANIMLAMA"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1717"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir şeyin ne olduğunu anlatan cümleler tanım cümleleridir. Bu tür cümleler “Bu nedir?” sorusuna cevap verir. Örneğin, “Sözcük, dilin anlamlı en küçük parçasıdır.” cümlesinde tanım yapılmıştır. Çünkü, “Sözcük nedir?” sorusuna cevap verir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1718"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1719"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜSLUP"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanatçının dili kullanma biçimi, anlatım şekli üslupla ilgilidir. Cümlelerin uzunluğu, kısalığı, sözcük seçimi, sanatlı ya da yalın oluş, sanatçının üslubunu ortaya koyar. Örneğin, “Sanatçı eserinde gerçekleri dile getirir.” cümlesi üslupla ilgili değildir. Çünkü anlatımdan söz edilmemiş. Ancak “Sanatçı, eserinde gerçekleri kısa, yalın cümlelerle dile getirmiş.” sözü üslupla ilgilidir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KARŞILAŞTIRMA"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1723"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir düşünceyi ya da kavramı daha anlaşılır hale getirmek için onu başka bir düşünce ya da kavramla herhangi bir yönden değerlendirmeye denir. Karşılaştırma, ortak ya da farklı yönlerden yapılabilir. Örneğin “Ahmet’in boyu Ali kadar uzundur.” cümlesinde Ahmet ve Ali boyları yönünden karşılaştırılmışlardır. “Ali, Ahmet’ten çalışkandır.” cümlesi de bir karşılaştırmadır. Karşılaştırma çalışkanlık yönünden yapılmış. “Ahmet gezmeyi çok sever, Ali ise ders çalışmayı tercih eder.” cümlesinde de karşılaştırma vardır. Ali ve Ahmet sevdikleri durumlar yönünden karşılaştırılmışlardır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1724"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1725"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karşılaştırmayla benzetmeyi karıştırmamalıyız. Karşılaştırmada üstünlük, aşağılık ya da aynı seviyede olmak gibi bir derecelendirme vardır. Benzetmede bu görülmez. “O aslan gibi bir delikanlıdır.” cümlesinde benzetme vardır. Ancak “O aslan kadar güçlüdür.” cümlesinde karşılaştırma vardır; çünkü birincisinde benzerlik, ikincisinde derecelendirme söz konusudur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1726"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1727"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÖZNELLİK VE NESNELLİK  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1728"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimi yargıların kişiden kişiye değişen göreli bir yanı vardır. Bu yargıların doğru ya da yanlış olduğu kanıtlanamaz. Söyleyenin yorumunu içeren bu tür yargılara öznel yargılar denir. Örneğin “En beğenilen edebiyat türü romandır.” cümlesinde beğeni ifadesi, söyleyenin yorumuna bağlıdır ve bu yorum kişiden kişiye değişir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1729"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğruluğu ya da yanlışlığı kişiden kişiye değişmeyen, kanıtlanabilir bir bilgi özelliği taşıyan ve söyleyenin yorumunu içermeyen yargılar ise nesneldir. Örneğin, “En çok satan romanlar aşk romanlarıdır.” cümlesi nesneldir. Çünkü satış rakamları incelenerek kanıtlanabilecek bir bilgi cümlesidir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1730"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1731"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEĞERLENDİRME"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1732"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sanat eserinin, sanatçının ya da herhangi bir durumun iyi ya da kötü yönlerini ortaya koymaya veya özelliklerini belirlemeye değerlendirme denir. Değerlendirmeler öznel ya da nesnel nitelik gösterebilir. Örneğin “Sanatçı şiirinde yabancı sözcüklere hiç yer vermemiş.” cümlesi nesnel bir değerlendirmedir. Ancak “Şiirde her insanı derinden etkileyen hayal alemlerine yer verilmiş.” cümlesi öznel bir değerlendirmedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1733"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Değerlendirme belli bir eser, kişi ya da durum üzerine yapılır ve genel kanı niteliği taşımaz.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1734"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1735"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOŞULA BAĞLILIK  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1736"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir eylemin ya da durumun gerçekleşebilmesi için önceden olması gereken başka bir durumun varlığı, koşula bağlılıktır. Örneğin “Sizinle gelirim, ama önce bu işi bitirmeme yardım ederseniz.” cümlesinde “gelme” eyleminin olması “yardım etme” eyleminin gerçekleşmesine bağlıdır. Koşul olarak ileri sürülen durum gerçekleşmezse sonuç olacak durum da gerçekleşmez. Cümledeki koşulu bulabilmek için yükleme “hangi şartla, hangi taktirde” gibi sorular sorulabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1737"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1738"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEDEN – SONUÇ  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1739"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir eylemin hangi gerekçeyle ya da hangi nedenden dolayı yapıldığını bildiren cümlelerde neden-sonuç ilgisi vardır. Bunu bulmak için yükleme “niçin” sorusu sorulabilir. Bu tür sorularda neden-sonuç sorulabileceği gibi hangi gerekçeyle yapıldığı da sorulabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1758"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1759"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

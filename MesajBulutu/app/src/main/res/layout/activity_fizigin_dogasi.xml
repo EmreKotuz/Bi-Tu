@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fiziginDogasi">
+
+    <ScrollView
+        android:id="@+id/scrollView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2288"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiziğin Doğası"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiziğin Doğasında hangi kavram ya da ne var? İçinde bulunduğumuz zamanda bu soruya cevap vermek oldukça zor.Çünkü bina o temeller üzerinde yükselmiş durumda.İnsanlığın düşünce tarihine bakıldığında pozitif bilimler oldukça yeni olarak karşımıza çıkar ama buna rağmen oldukça hızlı gelişmişlerdir.(yine düşünce tarihine göre).  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En başta bütün bilimler;kendi dışımızda varlığı bizden bağımsız bir olgular dünyasından yola çıkmışlardır.Bu olgular dünyasının en temel özelliği nesnel ve anlaşılabilir olmasıdır.20. yy. başlarında fizikte oluşan devrimsel nitelikteki gelişmeler;kendi dışımızda bizden bağımsız ve nesnel bir olgusal dunyanın varlığı konusundaki görüşlerimizi değiştirmiştir.Bu noktada; nasıl ki olgulardan ve olaylardan bağımsız bir uzay ve zaman düşünülemezse, bizden bağımsız bir epistemolojik süreç de düşünülemez(evreni anlamak adina)Bu bilme sürecini bazıları şöyle tanımlar:  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1233"
+                android:background="@mipmap/fidoga"
+                android:layout_width="match_parent"
+                android:layout_height="162dp" />
+
+            <TextView
+                android:id="@+id/textView1234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kendimize,dışımızdaki nesnelerin içimizdeki hayalet cisimlerini ya da simgelerini yaparız.Öyle ki, resmin mantıksal olarak zorunlu sonuçları,her zaman resmedilen nesnelerin fiziksel olarak zorunlu sonuçlarıdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bilim,her türlü düzenden yoksun duyu verileri(algılar) ile mantıksal olarak düzenli düşünme arasındaki uygunluk sağlama çabasıdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bilim,gözlem ve gözleme dayalı uslama(akıl yürütme) yoluyla önce dünyaya ilişki olguları,sonra bu olguları birbirine bağlayan yasaları bulma çabasıdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Russel ‘Religion and Science’  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Görüldüğü gibi Einstein in tanımından;düzenin olgu dünyasının değil ,insan aklının bir niteliği olduğu çıkıyor.Aslında düzenin olgu dunyasından mı yoksa insan aklından mı kaynaklandığı cok da önemli değil.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiziğin iki temel kavramı uzay ve zaman dır.Uzay nesnelerin,zaman da nesnelerin değişiminin düzeni olarak düşünülebilir.Fizik içinde bulunduğumuz evreni anlamak için,o evrenden yapılan soyutlamalar bütünü olarak düşünülürse ,o evrenden ilk elden soyutlanan kavramlar uzunluk kütle ve zamandır.Klasik fizikteki diğer tüm kavramlar(kuvvet,momentum,enerji gibi) bu üçünün üzerine kurulmuştur.Bu üç kavramın ölçülmesi herkezce kabul edilmiş, standart niceliklere göre yapılmaktadır.  " />
+
+            <TextView
+                android:id="@+id/textView1228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Einstein"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Einstein in bu düşüncesi yukarıda sorulan soruya bir cevaptır.Ama bu cevap ile matematiğin fizikteki konumu net olarak belirmez.Burada bir enformasyon azalışı sözkonusudur.(Aynı durum kuantum fiziğinde vardır:mikroevrende yapılan bir deneye ait olasılık genliği olası tüm sonuçları kapsar ama gözlenen deney sonucu bunlardan sadece biridir.)  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

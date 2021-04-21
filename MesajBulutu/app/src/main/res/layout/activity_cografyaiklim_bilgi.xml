@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ıklım"
+    tools:context=".cografyaiklimBilgi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView487"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView488" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/geceModuIklım"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView509" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView489"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İklim Bilgisi "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView490"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar olan bölgede, kısa süre içinde değişim gösteren atmosfer vakalarına hava durumu denir. Bir alanda havanın yağmurlu, bulutlu, rüzgarlı ya da güneşli olması oradaki gökyüzü vaziyetini etkiler. Gökyüzü olaylarını meteoroloji bilimi incelemektedir. Geniş tek bölgede uzunca seneler süresince görülen gökyüzü vakalarının vaziyetine iklim denir. İklimi inceleyen bilim dalı klimatolojidir. İklim ve gökyüzü vaziyetinin karşılaştırılması; İklim kapsamlı sahalarda (ör. Akdeniz havzası), uzunca seneler süresince (30-40 sene) benzer olan aşağı yukarı gökyüzü durumu iken; gökyüzü durumu dar tek bölgede (ör. İstanbul-Kadıköy), kısa zamanda (tek iki saat) değişim gösteren atmosfer olaylarıdır. İklimde tek kararlılık laf konusu iken, gökyüzü durumu gün ve saat içinde farklılaşma gösterir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView511"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meteoroloji bilimi: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView510"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atmosferin fizyolojik özelliklerini, atmosferde yaşanan olayların dayandığı fizik kanunlarını meydana koymaya çalışır. İklim personellerinin gündelik değerlerini çeşitli aletlerle ölçülür ya da aletsiz olarak gözlenerek kayıtlara geçirilir. Yapılmış Olan bu işe Rasat (Gözlem) denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meteoroloji biliminin yaptığı bu rasatları alarak bunların ortalamasını çıkarıp, bu gökyüzü vakalarının birey yaşamı üst kısmına olan etkilerini araştıran bilime ise Klimatoloji denir.Bir yerin abuhava özelliklerini tam ve gerçek olarak belirtebilmek amaçlı kafi sıklıkta ve gerekli yerlerde istasyon ağının olması gerekir. İklim, dinamik yaşamı etkileyen en mühim unsurdur. Bununla Birlikte yeryüzünün şekillenmesinde de mühim tek rol oynar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İklimin İnsan Üzerindeki Etkileri "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Nüfusun dağılışını"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Uygun Fiyat faaliyetlerini"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yemek ve giyeceklerini,"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextVie- Fizyolojik gelişimlerini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Karakterlerini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView491"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kültür faaliyetlerini etkiler "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView492"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- İklimin Uygun Fiyat Hayat Üzerindeki Etkileri "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Endüstrinin dağılışını "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView494"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Erişim faaliyetlerini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Konut tipi ve kullanılan malzemeyi "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView495"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Turizm faaliyetlerini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tarım faaliyetlerini ve mahsulleri çeşitliliğini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView496"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunlara ilişkili olarak ticaret şekilleri de iklimin denetimi altındadır "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView513"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- İklimin Naturel Etraf Üzerindeki Etkileri "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Harici kuvvetlerin etki alanlarını "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yer şekillerinin oluşumunu "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView526"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Taşların hal biçimini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView525"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Toprak oluşumu, tipleri ve verimliliğini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView523"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Nebat örtüsünü ve dağılışını "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView522"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Göllerin dağılışı ve sularının kimyevi öz "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView520"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yer üstü ve yer altı su durumu "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView521"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Akarsu debilerini ve rejimlerini "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView519"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Okyanus akıntılarının yönleri ve hızlarını "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView518"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Hayvan türleri ve dağılışını "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Erozyonu ve heyelan oluşumunu "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Daimi kar sınırı "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView517"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Ormanın ve tarımın üst hududunu "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView527"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Denizlerin tuzluluk oranını etkiler."
+                android:textColor="@color/kahveRengi" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

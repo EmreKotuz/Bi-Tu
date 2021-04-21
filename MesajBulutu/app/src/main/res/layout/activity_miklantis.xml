@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".miklantis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MIKNATIS ve ÖZELLİKLERİ "
+                android:textColor="@color/gırmızı"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnetik adı verilen demir oksit (Fe3O4) bileşiği tabii bir mıknatıs olarak bilinir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1558"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demir, nikel, kobalt gibi maddeleri çekme özelliği gösteren cisimlere mıknatıs denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üç çeşit mıknatıs vardır.  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1561"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Doğal mıknatıs :"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1562"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğada oluşan ve taş olarak bulunan mıknatıslardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1563"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1564"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Yapay mıknatıs :"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1565"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demir, nikel ya da kobalttan yapılır. Çubuk, pusula iğnesi, U şekline ve at nalı şekline benzeyen çeşitleri vardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1566"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1567"
+                android:layout_width="392dp"
+                android:layout_height="118dp"
+                android:background="@mipmap/mikl" />
+
+            <TextView
+                android:id="@+id/textView1614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1568"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu mıknatıslara daimi ya da geçici mıknatıslık kazandırılabilir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1569"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1570"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Elektromıknatıslar :"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnetik özellik gösteren maddeye örneğin demir üzerine tel sarılıp telden akım geçirildiğinde oluşan mıknatıslardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1573"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısın Kutupları "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1574"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısların uçları çekme ve itme özelliği gösterirler. Mıknatıslık etkisinin en şiddetli olduğu bu uçlara kutup adı verilir. Bir mıknatısın şekli nasıl olursa olsun iki kutbu bulunur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1577"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1578"
+                android:layout_width="391dp"
+                android:layout_height="103dp"
+                android:background="@mipmap/mikkut" />
+
+            <TextView
+                android:id="@+id/textView1615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1579"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir mıknatıs ortadan iple asılırsa, kuzey-güney doğrultusuna yönelerek durur. Kuzeyi gösteren kutba N, güneyi gösteren kutba ise S kutbu denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik yüklerinde olduğu gibi, mıknatıslarında aynı kutupları birbirini iter, zıt kutupları ise birbirini çeker. Bu itme ya da çekme kuvveti, mıknatısların kutup şiddetleri ile doğru, aralarındaki uzaklığın karesi ile ters orantılıdır  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1581"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mikk" />
+
+            <TextView
+                android:id="@+id/textView1616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1583"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatıslar, demir, nikel, kobalt gibi maddeleri ve bunların alaşımlarını çeker. Bu nedenle bu maddelere magnetik maddeler denir. Cam, kağıt, tahta, plastik gibi maddeleri mıknatıs çekmez.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1584"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısı Bölmek"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1586"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çubuk şeklindeki bir mıknatıs ikiye bölündüğünde, oluşan her bir parça yine N–S kutuplu mıknatıs olur.Bölme işlemi atomik boyuta kadar devam ettirildiğinde de yine mıknatıs özelliği devam eder. Yani tek kutuplu mıknatıs elde edilemez." />
+
+            <TextView
+                android:id="@+id/textView1587"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mikbol" />
+
+            <TextView
+                android:id="@+id/textView1588"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1589"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geçici Mıknatıslanma "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1590"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapay mıknatıslardan faydalanılarak magnetik özelliği olan demir, nikel ve kobalt geçici olarak mıknatıslanabilir. Üç yolla geçici mıknatıslanma elde edilebilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1591"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1592"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sürtünme ile Mıknatıslanma "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1593"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir demir çubuğa,şekildeki gibi mıknatısın her defasında aynı kutbu aynı yönlü sürtürülürse, mıknatısın ilk sürtülen uç kısmı mıknatısla aynı kutuplu olacak şekilde demir çubuk geçici olarak mıknatıslanır.	"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1594"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1595"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Dokunma ile Mıknatıslanma "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1596"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısa dokundurulan demir parçalarını mıknatıs tutar. Çünkü demir parçası mıknatısın dokunduğu kutupla zıt kutupla kutuplanır ve onu çeker. Demir parçaları uç uca eklenirse, her bir uç bir öncekine göre zıt kutuplanır.	"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1597"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Etki ile Mıknatıslanma "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısın magnetik alanı içine konulan demir parçaları geçici olarak mıknatıslık özelliği kazanır. Şekilde demir parçasına mıknatısın S kutbu yaklaştırılırsa, demirin S ye yakın olan kısmı N, diğer tarafı ise S kutbu olur.	"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir mıknatıs demir çubuğun orta kısmına şekildeki gibi yaklaştırılırsa, demir çubuğun uç kısımları N, orta kısımları ise S kutbu olacak şekilde etki ile mıknatıslanır.	"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatısların Kullanıldığı Alanlar "
+                android:textColor="#2196F3"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mıknatıslar, pusula yapımında, kapı zilinde, telefon, radyo, televizyon, voltmetre, ampermetre, elektrik motorları, bazı oyuncakların yapısı gibi bir çok yerlerde kullanılmaktadır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1605"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanayide demir parçalarını diğer maddelerden ayırmak için yine mıknatıslar kullanılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1606"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

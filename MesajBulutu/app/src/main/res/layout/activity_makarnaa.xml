@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".makarnaa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2300"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:background="@mipmap/makarnaimgg" />
+
+            <TextView
+                android:id="@+id/textView2321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAKARNA"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öğrencilerin, bordo bereli yemeği olarak bilinen bu namı değer yemeğe öncelik vermezsek ayıp olur :)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MALZEMELER"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.5 - 2 litre su (8 bardağa denk gelir)"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yarım paket makarna "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 yemek kaşığı sıvı yağ"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapılışı"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlk olarak tencereye suyu ilave edin"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynayan suyun içine tuzu, makarnayı, yağı dökün ağzını kapatın. Isı derecesine göre değişebilir tahmini 10 dakika sonra yiyibelirsiniz :)"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afiyet Olsun.." />
+
+            <TextView
+                android:id="@+id/textView2313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2320"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

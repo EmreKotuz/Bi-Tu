@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/icVeDisKuvvetler"
+    tools:context=".cografyaicVeDisKuvvetler">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView389"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/kahveRengi"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2284"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2282"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView2283"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView390"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <CheckBox
+                android:id="@+id/icGeceModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView434" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView438"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView437"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İÇ VE DIŞ KUVVETLER "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView391"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Enerjisini yerin içinden alan kuvvetlere iç kuvvetler denir. (dağ oluşumu, kıta oluşumu ve volkanizma dır.)"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView427"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Enerjisini güneşten alan kuvvetlere ise dış kuvvetler denir. (akarsular, rüzgarlar, dalgalar) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView436"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView435"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yer kabuğunun hareketleri :  "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView433"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yer kabuğu bir bütün değildir. Çatlaklardan ve kırık boşluklardan oluşur. Yer kabuğu bir birinden ayrı parçalardan oluşur. Bu her bir parçaya levha denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bu levhalar manto üzerinde yüzer haldedirler. Yaklaşık yılda 1-2 cm hareket ederler.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView431"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAĞ OLUŞUMU VE TÜRKİYE’DE DAĞ OLUŞUMU "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView429"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Okyanus ve deniz diplerinde biriken kalın tortul tabakalar (jeosenklinal) kıtalarının levha birbirine yaklaşması sonucu yan basınçlara maruz kalırlar. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView417"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bu yan basınçlar sonucunda jeosenklinal eğer esnek yapıdaysa kıvrılarak yükselir ve yer yüzünün kıvrım dağlarını oluşturur. (Toros dağı)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView428"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Jeosenklinal eğer sert yapıdaysa veya önceden yükselmiş kıvrım dağları tekrar yan basınçlara maruz kalırsa kırılma olur. Yükselen bölümlere horst, alçakta kalan kısımlara ise grabent denir. Yüksekte kalan horstlar dağı oluştururken, alçakta kalan kısımlar, daha sonra akarsuların gelişmesiyle ovaları oluşturur. (Ege bölgesi kıyı kesimleri. Burada yer alan boz dağlar kırılma sonucu oluşan horstlardır. Bu dağlar arasında bulun ve üzerinde aynı isimli akarsıların geçtiği bakırçay, b.menderes , ovalarında birer çöküntü (grabent) alanlarıdır.)"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView368"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView418"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kıta Oluşumu : "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yer kabuğunun geniş tabanlı alçalma ve yükselme hareketleridir. Bu alçalma ve yükselme hareketleri çeşitli biçimlerde olabilir.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView424"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kıtaların yükselmesi sonucunda su seviyesi geri çekilir. Bu olaya denizlerin çekilmesi yani reogresyon denir. Tam tersi durumuna da transregsiyon denir.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView425"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView420"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volkanizma :  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView426"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yer kabuğu altındaki kızgın mağmanın yer kabuğunun çatlak ve kırık yerlerinden yeryüzüne çıkmasına denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yeryüzüne katı gaz ve akıcı maddeler çıkarır. (karbondioksit, taş, kaya) "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView414"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oluşumlarına Göre Ovalar :  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Aşıntı Ovalar :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dış güçler tarafından aşırı dereceden aşındırıp, düzleştirilmesi sonucu oluşur. Bu ovalara Türkiye’de rastlanmaz. Doğu Avrupa bu konuya en belirgin örnek olarak bilinmektedir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView419"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Çöküntü Ovalar : "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView416"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Yeryüzündeki çöküntü hendeklerin, dış güçlerin taşıyıp getirdiği taklarla dolması sonucu oluşur. (Iğdır ovası) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView410"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Birikinti Ovası : "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" İç kesimlerdeki ya da kıyılarda ki çukur alanların, dış güçlerin taşıyıp getirdiği tortulların dolması sonucu oluşur. (Konya ve Malatya ovaları) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView413"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) Karstik Ovalar : "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView412"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Çökebilir taşların uzandığı alanlarda, suyun taşları çözümlemesi sonucunda oluşan ovalardır. Bu çanakların tabanının tortullarla dolup düzleşmesi ile karstik ovalar oluşur. (Teke ve Taşeli platoları) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView392"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YERYÜZÜNÜN BİÇİMLENMESİ (DIŞ KUVVETLER) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Mekanik (Fiziksel) Çözünme :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Günlük sıcaklık farkının fazla olduğu yerlerde görülür. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView398"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Günlük sıcaklığa bağlı olarak taşların ısınıp sonra soğuması sonucu oluşur. (Çöllerde görülebilir) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Kimyasal Çözünme :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Suyun taşları eritmesi, aşındırması, ve çürütmesi sonucu oluşur. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Sıcaklığın etkisiyle bu çözünme daha da artar. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView399"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Nemli bölgelerde daha da yaygındır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView776"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Biyolojik Çözünme :"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bitki köklerinin, kayalarının çatlaklarına girerek zamanla büyümesi ve bunun sonucu genişleyerek kayaların çatlamasına denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView393"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPRAK OLUŞUMU ve TOPRAK TÜRLERİ  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Toprağın oluşması için önce kayaların çözünmesi gerekir.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Canlı kalıntılarıyla oluşabilir.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView394"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Toprağın oluşumuna etki eden faktörler; iklim, bitki örtüsü, yer şekilleri, taşların özelliğidir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView395"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Taşınmış Topraklar :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView396"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Dış kuvvetlerin taşıyıp getirdiği malzemelerin birikmesiyle oluşur.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView439"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Üç çeşittir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView441"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alüvyonlar : Kum ve çakıl gibi maddelerin oluşumuyla oluşan topraklardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView442"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Morenler (Buzul Taşlar) : Buzulların taşıyıp biriktirdikleri, üzerleri çoğu kez parıltılı yada çizikli taşlardan oluşur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView443"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lösler : Rüzgarların, kurak bölgelerden az çok yağışlı bölgelere taşıyıp yığdıkları, katmanlaşmış ince ögelerden oluşan toprak. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView397"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView440"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akarsular "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Yerli Topraklar :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView445"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bu topraklar, kayaların çözüldüğü yerde oluşan topraklardır.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView446"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- İki gruba ayrılır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView449"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nemli Bölge Toprakları : Bu topraklar nemin gür olduğu yerlerde, gür bitki örtüsüyle kaplıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView455"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kurak ve yarı kurak bölge toprakları : Kestane ve kahverengi bozkır topraklarıdır yani çöl toprakları. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView454"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView447"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Akarsuyun oluşumu :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView452"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeryüzündeki yatakların değişik büyüklüklerdeki yataklar içerisinde su toplanır ve bu yatak boyunca akmasına akarsu denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView451"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Akarsuların, küçüklerine dere denir. Büyüklerine ise çay, nehir denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView448"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Akarsuyun, çıktığı yere kaynak. Akarsuyun aktığı yere yatak denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView450"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Akarsuyun birim zamanda aldığı yola akarsuyun hızı denir. Bu hız mualine denilen araçla ölçülür. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView456"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView458"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Akarsuyun ağları, Su bölümü ve Akarsu Havzaları :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView460"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- En küçük dereden ana ırmağa kadar bir akarsuyun beslenme havzası içinde tüm kollarıyla birlikte oluşturduğu su yolu örgüsüne akarsu ağı denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView457"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Havzaları birbirinden ayıran doğal sınıra su bölümü çizgisi denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView459"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Akarsuyun denize ulaştırabilen havzalara açık havza, ulaştıramayan havzalara ise kapalı havza denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView473"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView472"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Akarsuyun debisi ve rejimi :  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView470"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bir akarsuyun her hangi bir yerindeki enine kesitinde bir saniyede geçen suyun m3 cinsinden miktarına debi denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView471"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bir akarsuyun debisinde yıl boyunca değişmeye rejim denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView469"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView477"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) Selintiler ve Akarsular : "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yüzeyleri kaplarcasına akan sulara selinti denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yüzeyleri kaplarcasına akan sulara selinti denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView475"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bir akarsuyun aşındırma gücü; su miktarı, eğim, bitki örtüsü, akış hızı, yük miktarıdır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView474"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView468"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YER ALTI SULARI ve KAYNAKLAR "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView467"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Dağınık tortulların içerisinde ya da kaya oyuklarında toplanmış suya rastlanır. Buna yer altı suyu denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView466"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView464"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TÜRKİYE’DE KARSTİK SULAR, AŞINDIRMA VE BİRİKTİRME ŞEKİLLERİ "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView482"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kolayca çözünen taşların yaygın olduğu yerlerde oluşan yer şekillerine karstik şekiller denir. (Toroslar) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView484"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Yanları dik, ağız kısımları türlü genişlikte olabilen, derin doğal kaynaklara obruk denir. (Obruk gölü) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView483"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÖLLERİN OLUŞUMU "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView478"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Karalarda ki çanak ve tekne gibi küçük alanlarda birikmiş sulara denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView480"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kara içerisinde ne kadar çok büyük olursa olsun, eğer denize bağlı değil ise göl olur. Göller oluşumlarına göre beş gruba ayrılır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView481"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Tektonik göller : Yer hareketleri sırasındaki kırılmalar, kıvrılmalar ve epirojenik hareketler sonucu oluşur. (Hazar gölü) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView461"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Volkanik göller : Volkanik çanaklarda biriken suların oluşturduğu göllerdir. Bu göller sönmüş volkanların kraterlerinden oluşur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView479"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Karstik göller : Çözünebilir taşlardan oluşmuş çanaklarda biriken suların oluşturduğu göllerdir. Bu göller kireç taşı ve alçı taşının olduğu yerlerde görülür (Dalmaçya) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView463"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) Buzul ve sirk gölleri : Örtü buzulları ile dağ buzullarının oluşturduğu çanaklarda yer alan göllerdir. (İsviçre’de var) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView485"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="e) Karma yapılı göller : İç ya da dış gücün etkisiyle oluşan çanak, bir başka gücün etkisiyle büyütülüp derinleştirilmesine denir. (Van gölü) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView486"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

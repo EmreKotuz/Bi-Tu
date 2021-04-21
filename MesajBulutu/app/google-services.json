@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160306805657",
+    "firebase_url": "https://mesaj-bulutuuu.firebaseio.com",
+    "project_id": "mesaj-bulutuuu",
+    "storage_bucket": "mesaj-bulutuuu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160306805657:android:fa14b386a3f10a05",
+        "android_client_info": {
+          "package_name": "com.kotuz.mesajbulutu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160306805657-3dup94k8gjbleuegk6noscsjn78thlku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8FPy9yy3G3YYxr12fRu4-ZH7sabBsWzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160306805657-3dup94k8gjbleuegk6noscsjn78thlku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

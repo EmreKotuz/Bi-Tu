@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maddeveozellikler">
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView821"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView822"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MADDE VE ÖZELLİKLERİ "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView823"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView824"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MADDE NEDİR? "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView825"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütlesi, hacmi ve eylemsizliği olan her şey maddedir. Buna göre kütle hacim ve eylemsizlik maddenin ortak özelliklerindendir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView826"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çevremizde gördüğümüz, hava, su, toprak vs gibi her şey maddedir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView827"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddeler tabiatta katı, sıvı, gaz olmak üzere üç halde bulunurlar.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView854"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView828"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:background="@mipmap/mad" />
+
+            <TextView
+                android:id="@+id/textView829"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Element"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView830"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tek cins dan oluşmuş saf maddeye element denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView831"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnezyum (Mg), Hidrojen (H2) gibi.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView832"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView833"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementler"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView834"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Homojendirler (Özellikleri her yerde aynıdır.) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView835"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belirli erime ve kaynama noktaları vardır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView836"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapı taşıdır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView837"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal ve fiziksel yollarla daha basit parçaya ayrılamazlar. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView838"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView839"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşik"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView840"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birden fazla elementin belirli oranlarda kimyasal yollarla bir araya gelerek, kendi özelliklerini kaybedip oluşturdukları yeni özellikteki saf maddeye bileşik denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView841"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin; İki hidrojen (H) uyla, bir oksijen (O) u birleşerek hidrojen ve oksijenden tamamen farklı olan su (H2O) bileşiğini oluşturur.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView842"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView843"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşikler  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView844"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Homojendirler"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView845"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belirli erime ve kaynama noktaları vardır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView846"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yalnızca kimyasal yollarla bileşenlerine ayrılabilir. Fiziksel yollarla bileşenlerine ayrılamazlar. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView847"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapı taşı moleküldür. " />
+
+            <TextView
+                android:id="@+id/textView848"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşiği oluşturan elementler sabit kütle oranı ile birleşirler. Bu oran değişirse başka bir bileşik oluşur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView849"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal özellikleri kendisini oluşturan elementlerin özelliğine benzemez. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView850"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formüllerle gösterilirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView851"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Molekülünde en az iki cins vardır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView852"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView855"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KARIŞIM"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView856"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birden fazla maddenin her türlü oranda (rastgele oranlarla) bir araya gelerek, kimyasal özelliklerini kaybetmeden oluşturdukları maddeye karışım denir. Karışımda maddeler fiziksel özelliklerini kaybedebilirler.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView857"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView858"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Homojen karışım: Özellikleri her yerde aynı olan karışımlara denir. (Çözeltiler, alaşımlar, gaz karışımları vb.)  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView859"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView860"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Heterojen Karışım: Özellikleri her yerde aynı olmayan karışımlara denir.  " />
+
+            <TextView
+                android:id="@+id/textView861"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView862"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Süspansiyon: Katı + Sıvı heterojen karışımlarının özel adıdır. Bir katının sıvı içinde çözünmeden asılı kalmasına denir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView863"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emülsiyon: Sıvı + Sıvı heterojen karışımlarının özel adıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView864"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView865"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karışımların Özellikleri  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView866"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karışımlarda maddeler kendi özelliklerini korurlar. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView884"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karışımlar fiziksel yollarla bileşenlerine ayrılabilirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView885"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Erime ve kaynama noktaları sabit değildir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView886"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Homojen ya da heterojen olabilirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView887"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapısında en az iki cins vardır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saf değildirler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView889"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formülleri yoktur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView890"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddeler belirli oranlarda birleşmezler. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView891"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView892"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiziksel Değişme "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView893"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin dış görünüşü ile ilgili olan özelliklere fiziksel özellikler denir. Yoğunluk, sertlik, renk, koku, tad …… gibi. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView894"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin dış görünüşündeki değişiklikler fiziksel olaydır. Şekerin suda çözünmesi, kağıdın yırtılması, buzun erimesi……. gibi. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView895"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView896"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal Değişme "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView897"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin iç yapısı ile ilgili olan özelliklere kimyasal özellikler denir. Yanıcı olup olmaması, asidik ya da bazik özellik ….. gibi. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView898"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin ve moleküllerinde meydana gelen değişiklikler kimyasal olaydır. Kağıdın yanması, hidrojen ve oksijenin birleşerek su oluşturması, demirin paslanması …… gibi. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView867"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView868"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin Ayırt Edici Özellikleri "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView869"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı şartlarda miktara bağlı olmayan yalnızca o maddeye ait olan özelliklere ayırt edici özellikler denir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView870"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Özkütle (yoğunluk)  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView871"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Erime noktası  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView872"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Kaynama noktası  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView873"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d. Çözünürlük  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView874"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="e. Esneklik  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView875"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="f. İletkenlik  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView876"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="g. Genleşme  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView877"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView878"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özkütle"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView879"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin 1 cm3 ündeki madde miktarının gram cinsinden değeridir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView912"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView880"
+                android:layout_width="188dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/ozk" />
+
+            <TextView
+                android:id="@+id/textView913"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView881"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Erime ve kaynama noktası "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView899"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Katı fazdaki maddenin sıvı faza geçtiği sıcaklık erime noktası, sıvı fazdaki maddenin kaynamaya başladığı sıcaklık kaynama noktasıdır. Erime ve kaynama sırasında sıcaklık sabit kalır. Sıcaklığın sabit kaldığı zamanlarda potansiyel enerji artarken diğer zamanlarda kinetik enerji artar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView914"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView902"
+                android:layout_width="238dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/sssee" />
+
+            <TextView
+                android:id="@+id/textView915"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView903"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView904"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çözünürlük "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView905"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belirli bir sıcaklıkta 100 gram çözücüde çözünebilen maksimum madde miktarıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView906"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çözünürlük ; çözücü ve çözünenin cinsine, sıcaklığa, basınca bağlı olarak değişir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView907"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView916"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esneklik"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView917"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Katı maddelerin yapısı ile ilgili bir özelliktir. Madde üzerine bir kuvvet uygulandığında şeklin değiştiği kuvvet ortadan kaldırıldığında eski haline geldiği durum esnekliktir. Yalnız katılar için ayırt edici özelliktir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView918"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView919"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genleşme"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView920"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isıtılan cismin hacminde, yüzeyinde veya boyundaki değişmedir. Genleşme katı ve sıvılar için ayırt edici özelliktir. Her katı ve sıvı maddenin ayrı bir genleşme katsayısı vardır. Ancak bütün gazların genleşme katsayısı aynıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView922"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView923"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik İletkenliği "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView921"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metaller elektrik akımını iletir, ametaller iletmez. Çözelti bazındaki maddelerde ise yapısında iyon bulunduranlar elektrik akımını iletir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView908"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin bu ayırt edici özellikleri aynı şartlarda farklı maddelerin birbirinden ayırt edilmesinde yararlanılan özelliklerdir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView909"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView910"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView911"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView882"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bolmeBolunebilme">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BÖLME-BÖLÜNEBİLME  "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. BÖLME:  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A, B, C, K birer doğal sayı ve B ¹ 0 olmak üzere,  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                app:srcCompat="@mipmap/bolme" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bölme işleminde,"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ya bölünen, B ye bölen, C ye bölüm, K ya kalan denir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A = B × C + K dir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalan, bölenden küçüktür. (K küçüktür B) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalan, bölümden (C den) küçük ise, bölen (B) ile bölümün (C) yeri değiştirilebilir. Bu durumda A ve K değişmez. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="K = 0 ise, A sayısı B ile tam bölünebilir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B. BÖLÜNEBİLME KURALLARI   "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView739"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 ile bölünebilme: "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her çift sayı 2 ile tam bölünür. Tek sayılar 2 ile tam bölünemeyip 1 kalanını verir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 ile bölünebilme : "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rakamlarının toplamı 3 ün katı olan sayı 3 ile tam bölünür. Kalan, rakamlar toplamının 3 ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 ile bölünebilme:"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bir sayının son iki basamağı 4 ün katı ise bu sayı 4 e tam bölünür. Kalan son iki basamağında belirtilen sayının 4 ile bölümüne eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 ile bölünebilme: "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sayının son rakamında 0 veya 5 bulunuyorsa o sayı 5 ile tam bölünür. Aksi halde kalan son basamağın 5 ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 ile bölünebilme:"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Eğer bir sayı 2 ve 3 e tam bölünüyorsa 6 ya da tam bölünür."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7 ile bölünebilme:  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1, 3 ve 2 sayıları bir sayının sırasıyla birler, onlar ve yüzler basamağıyla sırayla çarpılır. Çıkan üçlü grupların toplamlarının farkı, o sayının 7 ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 ile bölünebilme: "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sayının son üç basamağının oluşturduğu sayı 8 ile tam bölünüyorsa o sayı 8 ile tam bölünür. Kalan o sayının son üç basamağının oluşturan sayının 8 ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9 ile bölünebilme :"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rakamlarının toplamı 9 un katı olan sayı 9 ile tam bölünür. Kalan, rakamlar toplamının 9ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 ile bölünebilme: "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bir sayının son rakamı 0 ise o sayı 10 ile tam bölünür. Değil ise o sayının 10 ile bölümünden kalan, o sayının son (birler) basamağındaki rakama eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11 ile bölünebilme: "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" abcdef gibi bir sayının 11 ile bölümünden kalanı bulmak için birler basamağından itibaren birer atlanarak toplanır. Çıkan iki ayrı değerin farkının 11 ile bölümünden kalan, sayının 11 ile bölümünden kalana eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ogrenciDestek">
+
+
+
+    <!--EditText: Input the recipient-->
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yorum, eksikler, yetersiz bilgi veya istiğiniz ne varsa bize yazın. BETA sürümünü beraber geliştirelim..."
+        android:textColor="#6D0303" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/recipientEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:text="kotuzapp@gmail.com" />
+
+    <!--EditText: Input the subject of email-->
+    <EditText
+        android:id="@+id/subjectEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Konu"
+        android:inputType="text|textCapSentences"
+        android:padding="10dp"
+        android:text="Bi-Tu" />
+
+    <!--EditText: Input the message-->
+    <EditText
+        android:id="@+id/messageEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="Buraya yazın                                                                              "
+        android:inputType="text|textCapSentences"
+        android:minHeight="150dp"
+        android:padding="10dp" />
+
+    <!--Button:   Launch existing email clients to send email-->
+
+    <CheckBox
+        android:id="@+id/onaylama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Küfür, argo kelime, kötü söz kullandığım takdirde gerekli işleme razıyım." />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/gönder"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="112dp"
+        android:background="@mipmap/gg"
+        android:layout_height="51dp"
+        android:layout_gravity="end"
+         />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kimya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@mipmap/kimyaaa" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kimyaButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/kimyagelisim" />
+
+            <Button
+                android:id="@+id/kimyaKanun"
+                android:background="@mipmap/kimyakanun"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/maddeveozellikButton"
+                android:background="@mipmap/maddeve"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/molButton"
+                android:background="@mipmap/molkavram"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/atomButton"
+                android:background="@mipmap/atomveyapi"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/bilesikButton"
+                android:background="@mipmap/bilesik"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/peryodikButton"
+                android:background="@mipmap/periyodikta"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

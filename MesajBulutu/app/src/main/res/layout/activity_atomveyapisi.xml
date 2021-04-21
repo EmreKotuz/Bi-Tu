@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atomveyapisi">
+
+    <ScrollView
+        android:id="@+id/scrollView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView977"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView976"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ATOM ve YAPISI "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView978"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementin özelliğini taşıyan en küçük parçasına denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView979"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                android:background="@mipmap/atomre" />
+
+            <TextView
+                android:id="@+id/textView980"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView981"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom Numarası "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView982"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir elementin unda bulunan proton sayısıdır. Protonlar (+) yüklü olduklarından pozitif yük sayısı ya da çekirdek yükü şeklinde ifade edilebilir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView983"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom numarası = Proton sayısı = Çekirdek yükü"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView984"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle Numarası = Proton sayısı + Nötron sayısı "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView985"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eşitliği yazılabilir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nötr (yüksüz) bir için, çekirdekte kaç proton varsa çekirdeğin etrafındaki yörüngelerde de o kadar elektron dolaşır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İYON"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(+) veya (–) yüklü ya da gruplarına iyon denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1035"
+                android:layout_width="297dp"
+                android:layout_height="56dp"
+                android:background="@mipmap/iyon" />
+
+            <TextView
+                android:id="@+id/textView1042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="elektron verirse (+) yüklü iyon oluşur ve katyon olarak isimlendirilir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="elektron alırsa (–) yüklü iyon oluşur ve anyon olarak isimlendirilir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İZOTOP"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="numaraları aynı kütle numaraları farklı olan atomlara izotop atomlar denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView986"
+                android:layout_width="233dp"
+                android:layout_height="49dp"
+                android:background="@mipmap/izotop" />
+
+            <TextView
+                android:id="@+id/textView1044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView987"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="birbirinin izotopudur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView988"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İzotop atomların kimyasal özellikleri aynıdır. Fiziksel özellikleri farklıdır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView989"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İzotop iyonların elektron sayıları farklı ise kimyasal özellikleri de farklıdır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView990"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView991"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALLOTROP"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView992"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal özellikleri aynı (aynı dan oluşmuş), fiziksel özellikleri (renk, kaynama noktası, erime noktası, uzaydaki dizilişleri v.s.) farklı olan maddelere allotrop maddeler denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView993"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elmas, grafit, amorf karbon, üç madde de yapısında yalnızca karbon (C) u içerir. Fakat uzaydaki dizilişleri ve bağların sağlamlığı farklı olan maddelerdir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView994"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O2 gazı ve O3 (Ozon) gazı birbirlerinin allotropudur. Allotrop için bilinmesi gereken en önemli özellik ise;  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView995"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView996"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modern Teorisi  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView997"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektron dalga özelliği göstermektedir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView998"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atomdaki elektronun aynı anda yeri ve hızı bilinemez. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView999"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektronların bulunma ihtimalinin fazla olduğu küre katmanları vardır ve bu katmanlara orbital denir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELEKTRONLARIN DİZİLİŞİ "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pauli Prensibi  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektronlar yörüngelere yerleştirilirken ; "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2n2 formülüne uyarlar.  (2n kare)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(n : yörünge sayısı, 1,2,3 ………. gibi tamsayılar) " />
+
+            <TextView
+                android:id="@+id/textView1006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Son yörüngede maksimum 8 elektron bulunur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1007"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:background="@mipmap/yorunge" />
+
+            <TextView
+                android:id="@+id/textView1046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektronik Konfigürasyon "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1009"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir atomun elektronlarının hangi yörüngede olduğu ve orbitallerinin cinsinin belirtildiği yazma düzenine Elektronik konfigürasyon denir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n : Baş kuant sayısı olup 1, 2, 3, … gibi tam sayılardır. Elektronun hangi yörüngede olduğunu belirtir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="l : Yan kuant sayısı olup, orbital adı olarak bilinir, s, p, d, f gibi harflerle anılır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektronlar önce düşük potansiyel enerjili orbitallere yerleşirler. Dört değişik enerji düzeyi vardır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="s : Enerji seviyesi en düşük orbitaldir. 2 elektron alabilir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="p : s orbitalinden sonra elektronlar p orbitallerine yerleşir. px , py , pz olmak üzere 3 tanedir. p orbitalleri toplam 6 elektron alabilir.  " />
+
+            <TextView
+                android:id="@+id/textView1016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d : 10 elektron alır ve toplam 5 tanedir. p orbitallerinden sonra elektronlar d orbitallerine yerleşirler.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="f : f orbitalleri toplam 14 elektron alır ve 7 tanedir. Enerji düzeyi en yüksek olan orbitaldır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyot : "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dizilişi yapılan elementin en son yazılan s orbitalinin başındaki sayıya periyot denir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup :"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Son yörünge orbitalleri s ve p ile bitiyorsa A grubu, d ve f ile bitiyorsa B grubu elementidir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

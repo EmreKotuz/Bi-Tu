@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahveRengi"
+    tools:context=".yemegeGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2216"
+                android:layout_width="match_parent"
+                android:layout_height="175dp" />
+
+            <TextView
+                android:id="@+id/textView1929"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:text="Beta sürümünden dolayı daha düzenlemeler devam ediyor. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="549dp" />
+
+            <TextView
+                android:id="@+id/textView2213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yemek tarifleri nasıl olacak?"
+                android:textColor="#008EFF"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="410dp" />
+
+            <TextView
+                android:id="@+id/textView2217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Ucuz, kolay erişebilir, çok zahmet gerektirmeyen yemekler olacak, tam öğrenci yemeği :)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Malzemeler ve yapılışına kadar anlatılacaktır."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/yemekDestek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Şu da eklensin dediğiniz kısmı bizle paylaşın      >"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:id="@+id/textView2221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/yemekButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/yemektarif" />
+
+            <TextView
+                android:id="@+id/textView2297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tatlıButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/tatlitariff" />
+
+            <TextView
+                android:id="@+id/textView2225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

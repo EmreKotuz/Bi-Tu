@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".molKavrami">
+
+    <ScrollView
+        android:id="@+id/scrollView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView853"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView883"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOL KAVRAMI "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mol :"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView924"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Avagadro sayısı ( 6,02.1023 ) kadar atom yada molekül içeren maddeye 1 mol denir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView925"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView926"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek :"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView927"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 mol HF 6,02.1023 tane HF molekülüdür. Yine bu molekülün içerisinde 1 mol H atomu (6,02.1023tane) ve 1 mol F atomu (6,02.1023 tane) vardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView928"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView929"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom Ağırlığı : "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView930"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12C izotopu standart seçilerek diğer elementlerin bu izotopla kıyaslanması sonucu hesaplanan kütlelerdir. Örneğin, H=1 O=16 N=14 S=32"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView931"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1Atomik Kütle Birimi (¤¤¤¤.b) : 1/ 6,02.1023 = 1,66.10-24 gramdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView932"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView933"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Molekül Ağırlığı :"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView934"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşiği oluşturan elementlerin gram cinsinden kütlelerinin toplamı denir." />
+
+            <TextView
+                android:id="@+id/textView935"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView936"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek :"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView937"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 mol C6H12O6 (glikoz) kaç gramdır ? (C=12 O=16 H=1)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView938"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.12 = 72 gram C"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView939"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.1 = 12 gram H"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView940"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.16 = 96 gram O"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView941"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="——————————-  " />
+
+            <TextView
+                android:id="@+id/textView942"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="180 gram  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView943"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView944"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir Tane Molekülün Kütlesi : "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView945"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir tek molekülün kütlesi molekül ağırlığının Avagadro sayısına bölümüyle bulunur ."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView946"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 tek molekülün kütlesi = MA/6,02.1023  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView947"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView948"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek :"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView949"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 tane H2O molekülü kaç gramdır ? (H=1 O=16)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView950"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 tane H2O = 18/ 6.1023 = 3.10-23 gramdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView951"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView952"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir Tane Atomun Kütlesi :"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView953"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom ağırlığının Avagadro sayısına oranıdır."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView954"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir tek atomun kütlesi = A.A./ 6,02.1023  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView955"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView956"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="N.Ş.A’ da Hacim : Bütün gazların bir molü N.Ş.A’da ( 0 0C ve 1 atmosfer de) 22,4 litredir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView957"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView958"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOL HESAPLAMA YÖNTEMLERİ "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView959"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m: Verilen Litre Verilen tanecik Sayısı n: mol sayısı Ma=Molekül ağırlığı  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView960"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verilen ağırlık Verilen hacim verilen tanecik  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView961"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView962"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n =—————— =—————–=—————— " />
+
+            <TextView
+                android:id="@+id/textView963"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ma 22,4 6,0210-23  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView964"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView965"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek :"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23 gram C2H5OH kaç moldür ? (C=12 O=16 H =1)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView967"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MA = 2.12 + 6.1 + 16.1= 46 gram/mol"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView968"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n=23/46 = 0,5 mol  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView969"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView970"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütlece yüzde = (Elementin bileşikteki kütlesi/toplam kütle)x100  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView971"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView972"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. elementin bileşikteki kütlesi I. elementin verilen gramı = II. elementin bileşikteki kütlesi II. elementin verilen gramı"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView973"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView974"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. elementin bileşikteki kütlesi I. elementin verilen yüzdesi = II. elementin bileşikteki kütlesi II. elementin verilen yüzdesi"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView975"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

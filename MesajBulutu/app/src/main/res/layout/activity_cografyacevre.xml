@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cevreEkran"
+    tools:context=".cografyacevre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cevreMod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView362" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView596"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView384"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa (çevre) ve İnsan"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dağlar, denizler, ormanlar, hayvanlar, güneş gibi oluşumunda insan etkisi olmayan, doğada bulunan her şey doğal unsurlar içinde yer almaktadır. İnsanların doğada ihtiyaçlarını karşılamak için yapmış olduğu her faaliyet ise beşeri unsurlar içinde yer almaktadır.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView381"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView364"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa ile insan sürekli etkileşim içerisindedir. Doğal çevredeki şartlar insanların hem karakterlerini hem de beslenme, giyinme ve barınma şekillerini etkilemektedir. Güneydoğu Asya’da halkın temel besin kaynağı pirinç iken Orta Asya’da tahıl olması, kıyılarda yaşayan insanların balık tüketiminin karasal bölgelerde yaşayanlara göre fazla olması, ormanlık alanlarda ahşap, kurak bölgelerde kerpiç evlerin görülmesi bu duruma verilecek örneklerden bazılarıdır."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView382"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView383"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İnsanın yaşadığı bu doğal ortam, atmosfer (hava küre), litosfer (taş küre), hidrosfer (su küre) ve biyosfer (canlılar küresi) olmak üzere dört temel ortamdan oluşmaktadır.   "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView380"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView376"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Doğa ve İnsan Etkileşimi "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView775"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView377"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğanın İnsana Etkisine Örnekler"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView379"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ilıman iklim kuşağında nüfusun yoğun olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView365"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dağlık alanlarda nüfusun seyrek olması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView378"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İklimin elverişli olduğu alanlarda tarımsal faaliyetlerin yoğun olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView375"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soğuk ve sıcak iklim bölgelerinde giyim, beslenme, barınma alışkanlıklarının farklı olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView366"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Okyanus kıyılarında balıkçılık faaliyetlerinin yoğun olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView374"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engebeli alanlarda yol yapım maaliyetlerinin yüksek olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güneşlenme süresinin fazla olduğu alanlarda tarım ve turizmin daha yoğun olması"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView373"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İnsanın Doğaya Etkisine Örnekler"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView370"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fosil yakıt kullanımının çevresel etkileri"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView386"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Orman tahribatının çevresel etkileri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView387"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şehirleşmenin artmasıyla tarım alanlarının ve ormanlık alanların hızla daralması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ulaşım faaliyetleri için yapılan yollar, tüneller, köprüler ve kanalların çevresel etkileri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView385"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarım, enerji ve su ihtiyacı için yapılan barajların çevresel etkileri"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView372"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulak alanların tarım faaliyetleri için kurutulmasının çevresel etkileri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView388"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa ve insan konusunun devamı olarak aşağıdaki konulara da göz atmayı unutmayın;"
+                android:textColor="@color/black" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+            <TextView
+                android:id="@+id/textView1924"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

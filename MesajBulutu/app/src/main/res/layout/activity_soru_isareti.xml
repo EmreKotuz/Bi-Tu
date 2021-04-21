@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beyazz"
+    tools:context=".soruIsareti">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="TYT bütün öğrencilere geçerli olduğu için bütün tyt konuların önemli kısımlarını sana sunduk her güncellemede daha da artacaktır... Boş zamanlarında burda görmek istiyoruz :)"
+        android:textColor="#962121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <TextView
+        android:id="@+id/anaSayfaSoruİşareti"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/anasayfa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kokluSayi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="364dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÖKLÜ İFADELER  "
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. TANIM  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n, 1 den büyük bir sayma sayısı olmak üzere,  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xn = a denklemini sağlayan x sayısına a nın n yinci dereceden kökü denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/kokb" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ekran" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yukarıdaki son iki özelikte a, ardışık iki pozitif tam sayının çarpımı ise; 5. nin cevabı bu sayıların büyüğü, 6. nın cevabı bu sayıların küçüğüdür. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a, pozitif reel (gerçel) sayı olmak üzere, "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/kokbi" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÖKLÜ İFADELERDE SIRALAMA  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kök dereceleri eşit olan (ya da eşitlenen) pozitif sayılarda, kök içindeki sayıların büyüklüğüne göre sıralama yapılır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:srcCompat="@mipmap/kokbii" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="28dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                app:srcCompat="@mipmap/kokbiii" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="k pozitif tam sayı ve a pozitif gerçel sayı olmak üzere;"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                app:srcCompat="@mipmap/koki" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÖKLÜ İFADELERDE YAPILAN İŞLEMLER  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kök dereceleri birbirine eşit ve kök içindeki sayılar da birbirine eşit olan ifadelerin kat sayıları toplanır ya da çıkarılır. Bulunan sonuç köklü ifadenin kat sayısı olur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1. Toplama – Çıkarma İşlemi  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                app:srcCompat="@mipmap/ieiee" />
+
+            <TextView
+                android:id="@+id/textView260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Çarpma İşlemi "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n ve m, 1 den büyük tek sayı ya da a ve b negatif olmamak üzere,  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                app:srcCompat="@mipmap/iieieei" />
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Bölme İşlemi "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@mipmap/iii" />
+
+            <TextView
+                android:id="@+id/textView275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Paydayı Kökten Kurtarma "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="347dp"
+                app:srcCompat="@mipmap/iiii" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/textView263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

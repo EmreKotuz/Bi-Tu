@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kimyaTemelKanunu">
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TEMEL KİMYA YASALARI "
+                android:textColor="@color/deneme"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView754"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÜTLENİN KORUNUMU YASASI "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView786"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal olaylara giren maddelerin kütleleri toplamı oluşan ürünlerin toplamına eşittir. Buna göre: X + Y ® Z + T tepkimesinde X ve Y girenler (reaktif) olup, Z ve T (ürünler)’ye kütlece eşittir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView787"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal maddelerin kütleleri atom sayıları ile orantılı olduğundan tüm kimyasal tepkimelerde atom sayıları korunur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView788"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView789"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örn; 1 mol C atomu 12 gram, 1 mol O2 molekülü 32 gramdır.Buna göre 1 mol C atomu 44 gram olur. C + O2 ® CO2"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 gram + 32 gram ® 44 gram  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SABİT ORANLAR YASASI (PROUST YASASI) "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView793"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir bileşikteki elementlerin  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütlece yüzde bileşimi sabittir  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView795"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView796"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örn; Al=27, S=32 olduğuna göre Al2S3 bileşiğinde:  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView797"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mol sayıları oranı : nAl = 2 Kütleleri oranı : mAl = 2.27 = 9 ‘dır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView798"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nS = 3 mS = 3.32 16  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView799"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9 gram Al + 16 gram S = 25 gram bileşik oluşturur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25 gram bileşikte 9 gram Al, 16 gram S vardır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100 gram bileşikte 36 gram Al, 644 gram S vardır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView802"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşikte kütlece %36 Al, %64 S vardır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView803"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView804"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KATLI ORANLAR YASASI (DALTON YASASI) "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView805"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki element aralarında iki bileşik oluşturuyorsa, bu elementlerden birinin sabit miktarları ile birleşen diğer elementin değişen miktarları arasında basit bir oran vardır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView806"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView807"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örn; NO2 – N2O4 bileşik çiftinde:  " />
+
+            <TextView
+                android:id="@+id/textView808"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı miktar N ile birleşen O kütleleri arasında.  " />
+
+            <TextView
+                android:id="@+id/textView809"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2/ NO2 = N2O4 = 4 "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView810"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1/ N2O5 = N2O5 5  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView811"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı miktar O ile birleşen N kütleleri arasında " />
+
+            <TextView
+                android:id="@+id/textView812"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5/ NO2 = N5O10 = 5 "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView813"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2/ N2O5 N4O10 4  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView814"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView815"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HACİM ORANLARI YASASI (GAY – LUSSAC YASASI) "
+                android:textColor="@android:color/holo_purple"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView816"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Kimyasal bir tepkimeye giren gazlarla, tepkimede oluşan gaz halindeki ürünlerin aynı koşullarda (aynı sıcaklık ve basınç) hacimleri arasında sabit bir oran vardır.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView817"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) Aynı koşullarda gazların hacimleri mol sayıları ile doğru orantılıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView820"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView819"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örn; H2(g) + Cl2(g) ® 2HCl(g) tepkimesine göre, 1 mol H2 1 mol Cl2 ile birleşerek 2 mol HCl oluşturur.Hacimler mol sayıları ile doğru orantılı olduğundan, aynı olayı anlatmak için “1 hacim H2 gazı, 1 hacim Cl2 gazı ile birleşerek eşit koşullarda 2 hacim HCl gazı oluşturur.” İfadesi de kullanılabilir.  "
+                android:textColor="@color/kahveRengi" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

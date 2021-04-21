@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peryodikTablo">
+
+    <ScrollView
+        android:id="@+id/scrollView11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PERİYODİK TABLO "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementlerin atom numaralarına göre belirli bir kurala uyarak sıralanması ile periyodik cetvel oluşur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyodik cetvelde yatay sıralara periyot, düşey sıralara grup denir. Periyodik cetvelde 7 tane periyot, 8 tane A grubu, 8 tane B grubu vardır. 8B grubu 3 tanedir. Her periyot kendine ait olan s orbitali ile başlar p orbitali ile biter. Diger bir ifade ile 1A grubu ile başlayıp 8A grubu ile sona erer. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1137"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                android:background="@mipmap/pery" />
+
+            <TextView
+                android:id="@+id/textView1138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A grubu elementleri s ve p blokunda,B grubu elementleri d ve f blokunda bulunurlar.B grubu elementlerine geçiş elementleri denir. Bunların tamamı metaldir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyodik cetvelde A grubu elementlerinin özel isimleri vardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metal"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup numarası 1A,2A, 3A, ve B gruplarında bulunan elementler metaldir."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kendilerini soygaza benzetmek için son yörüngelerindeki elektoronları vererek (+)değerlik alırlar. 1A(+1), 2A (+2)Kesinlikle (-) değer almazlar."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ndi aralarında bileşik oluşturmazlar.Ametallerle bileşik oluştururlar."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dirgen özellik gösterirler."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tel ve Levha haline gelebilirler."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektirik akımını iletirler. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabiatta genellikle katı halde bulunurlar . "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametal"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup numarası 5A ,6A,7A, olanlar ametaldir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soygaza benzeme yani son yörüngelerindeki elektronları 8′e tamamlamak için elektron alarak(-) değerlik alılar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kendi aralarında ve me-tallerle bileşik oluşturur-lar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yükseltgen özellik göste-rirler. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektirik akımını iletmez-ler."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soygaz"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup Numarası 8A olanlar soygazdır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kararlıdırlar,elektron alış-verişi yapmazlar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşik yapmazlar "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orbitalleri doludur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabiatta tek atomlu gaz halinde bulunur-lar. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ATOM ve İYON ÇAPI (HACMİ) "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peryot numarası (yörünge sayısı) arttıkça atom hacmi büyür. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup numarası arttıkça atom hacmi küçülür. Çünkü yörünge sayısı aynı kalmakta fakat çekirdek yükü ve çekirdeğin elektronları çekme gücü artmaktadır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir atom ya da iyon elektron aldıkça çapı büyür, elektron verdikçe çapı küçülür. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İYONLAŞMA ENERJİSİ "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaz halindeki bir atomdan bir elektron koparmak için verilmesi gereken enerjiye iyonlaşma enerjisi (1. iyonlaşma enerjisi) denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2′inci elektronu koparmak için verilen enerjiye 2. iyonlaşma enerjisi denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3′üncü elektronu koparmak için verilen enerjiye 3. iyonlaşma enerjisi denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyot numarası arttıkça iyonlaşma enerjisi azalır. "
+                android:textColor="@color/kahveRengi" />
+
+
+
+            <TextView
+                android:id="@+id/textView1187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KİMYASAL BAĞLAR "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (NOT: Bu konuyu kimyasal Bağlar Konusunda daha detaylı göreceğiz)  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşiğin en küçük parçası olan ve en az iki atomun birleşmesinden meydana gelen kararlı yapı moleküldür. Moleküldeki atomları bir arada tutan kuvvet ise kimyasal bağlardır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimyasal bağlar ikiye ayrılır.  "
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. İyonik bağ  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Kovalent bağ  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İYONİK BAĞ  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metallerle ametaller arasında meydana gelen bağlardır. Metaller elektron vererek (+) yüklü iyon, ametaller elektron alarak (-) yüklü iyon oluştururlar. Bu zıt yüklü iki iyonun birbirlerini coulomb çekim kuvveti ile çekmesinden iyonik bag oluşur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek olarak NaCI bileşiğinde Na atomunun iyonlaşma enerjisi küçük olduğundan 1 tane değerlik elektronunu vererek (+1) yüklü iyon, klor ise Na atomunun verdiği elektronu alarak (-1) yüklü iyon oluşturur. Bu iki iyonun birbirini coulomb çekim kuvveti ile çekmesi sonucu NaCI bileşiği oluşur ve meydana gelen bağ iyonik bağdır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iyonik bağ oluşurken metal ve ametal ne kadar aktifse bağ o kadar sağlam olur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOVALENT BAĞ  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ametallerin (C, N, P, S, O, H, F, CI, Br, I) kendi aralarında elektron ortaklığı ile oluşturdukları bağdır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örnek olarak hidrojen molekülü arasındaki bağı incelersek; "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidrojenin atom numarası 1 olduğundan, 1 tane elektronu vardır. Bu elektron 1s orbitalinde bulunmaktadır. ıki hidrojen atomundaki birer elektronun etkileşmesinden H2 molekülü oluşur, aradaki bağ kovalent bağdır. Hidrojen molekülü H• •H veya H–H şeklinde gösterilir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı cins ametal atomları arasında oluşan kovalent bağ apolar, farklı cins ametal atomları arasında oluşan kovalent bağ polardır. H2 molekülündeki H – H bağı apolar, HCl molekülündeki H – Cl bağı polardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

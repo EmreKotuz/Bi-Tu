@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DestekOl">
+
+    <ScrollView
+        android:id="@+id/scrollView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2265"
+                android:layout_width="match_parent"
+                android:layout_height="105dp" />
+
+            <TextView
+                android:id="@+id/textView2266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merhaba, buraya geldiysen destek olmak için burda olmalısın."
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bize 2 türde yardım edebilirsiniz. Yorum yaparak veya reklam izleyerek."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neden mi destek alanı oluşturduk?"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ders çalışırken büyük reklamlar ekleyebilirdim ama sizin dikkatinizi dağıtacağını bildiğim için zorunlu olmadan gönül ricanız varsa izleyin diye böyle bir sayfa oluşturduk. Burda olmanız bile büyük desteğinizdir... Teşekkürler, iyi çalışmalar. Hep yanınızdayız!"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2272"
+                android:layout_width="match_parent"
+                android:layout_height="66dp" />
+
+            <Button
+                android:id="@+id/reklamIzle"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_blue_light"
+                android:text="Reklam izle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2273"
+                android:layout_width="match_parent"
+                android:layout_height="36dp" />
+
+            <Button
+                android:id="@+id/yorumYap"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:text="5 yıldız ver"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

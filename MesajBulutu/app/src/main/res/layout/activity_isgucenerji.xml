@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".isgucenerji">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1434"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1436"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İŞ"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1435"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İş kelimesi, günlük hayatta çok kullanılan bir kelimedir. Yatay ve sürtünmesiz yüzey üzerinde durmakta olan bir cismin F büyüklüğünde bir kuvvet şeklideki gibi uygulanır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1317"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareket doğrultusuna dik olan kuvvetler iş yapmazlar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duran ya da hareket eden bir cisme uygulanan F kuvveti cismin başlangıç şartlarına bağlı olarak değişik hareketlere neden olabilir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1319"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1320"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin duran bir cisme sabit bir kuvvet uygulanarak iş yapılırsa, cisim düzgün hızlanan hareket yapar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi bir kuvvet yönünde yapılan iş pozitif ise, ters yönde uygulanan kuvvetin yaptığı iş negatiftir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="W = F . Dx bağıntısına göre, iş yapılabilmesi için kuvvet cisme yol aldırmalı ve kuvvet ile yol paralel olmalıdır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1324"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÜÇ"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1431"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1325"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birim zamanda yapılan işe güç denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1425"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1326"
+                android:layout_width="181dp"
+                android:layout_height="51dp"
+                android:background="@mipmap/guc" />
+
+            <TextView
+                android:id="@+id/textView1426"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1327"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SI (MKS) birim sisteminde güç birimi  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1427"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1328"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/gucc" />
+
+            <TextView
+                android:id="@+id/textView1428"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 kw = 1000 watt tır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENERJİ"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cismin iş yapabilme kapasitesidir. Skaler bir büyüklüktür. İş birimleri aynı zamanda enerji birimlerine eşittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enerji skaler bir büyüklüktür. Yani enerjinin yönü, bileşeni ve uygulama noktası gibi vektörel özellikleri yoktur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sisteme uygulanan kuvvet iş yapıyorsa yapılan iş enerjideki değişime eşittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wdış = DEsistem = E2 – E1 dir."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, sistemin enerjisinde bir değişme var ise iş yapılmıştır, değişme yok ise iş yapılmamış demektir. Bir sisteme uygulanan kuvvetler bu sistemin enerjisini artırıyorsa, pozitif iş yapar. Bu kuvvetler sistemin enerjisini azaltıyorsa, negatif iş yapar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1337"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enerji çeşitleri oldukça fazladır. Mekanik enerji, ısı enerjisi, Güneş enerjisi, nükleer enerji, rüzgar enerjisi, bazı enerji çeşitleridir. İş birimleri ile enerji birimleri aynıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1339"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kinetik Enerji "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareket halindeki cisimlerin sahip olduğu enerjiye kinetik enerji denir.  " />
+
+            <TextView
+                android:id="@+id/textView1341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütlesi m, hızı v olan bir cismin kinetik enerjisi,  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1342"
+                android:layout_width="135dp"
+                android:layout_height="36dp"
+                android:background="@mipmap/kine" />
+
+            <TextView
+                android:id="@+id/textView1343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="şeklinde tanımlanır. Kinetik enerji kütle ile hızın karesinin çarpımı ile doğru orantılıdır. Birimi Joule dir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kinetik enerji-hız grafiği şekildeki gibidir. Düz bir yolda cisme F kuvveti uygulandığında, yapılan iş cismin kinetik enerji değişimine eşit olur.	"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potansiyel Enerji "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potansiyel enerjiyi, yer çekim potansiyel enerjisi ve esneklik potansiyel enerjisi olmak üzere iki çeşidi incelenecektir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1429"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerçekim Potansiyel Enerjisi  "
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu enerji yerçekimi kuvvetinden kaynaklanır. m kütleli bir cismi yer seviyesinde h kadar yükseğe sabit hızla çıkarmak için yapılması gereken iş, "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="W = F . h = mg . h "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dir." />
+
+            <TextView
+                android:id="@+id/textView1353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapılan işin enerji değişimine eşit olduğunu biliyoruz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cisim sabit hızla çıkarıldığı için kinetik enerji değişmemiştir. O halde yapılan iş, cismin potansiyel enerji değişimine eşittir. Buna göre, yerden h kadar yükseklikte cismin yere göre potansiyel enerjisi,  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENERJİNİN KORUNUMU "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1358"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sistemdeki enerji; kinetik ve potansiyel gibi çok farklı türler halinde bulunabilir. Bu enerji türleri kendi aralarında dönüşüme uğrayabilir. Örneğin elektrik enerjisi ütüde ısıya, ampülde ışığa, çamaşır makinesinde hareket enerjisine dönüşür.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1375"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enerji kaybolmadan bir türden başka bir tür enerjiye dönüşür. Toplam enerji daima sabittir. Toplam enerji sabit ise, bir tür enerji azalırken başka bir tür enerji aynı oranda artar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1376"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1377"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sürtünmelerin ihmal edildiği sistemlerde kinetik ve potansiyel enerjilerin toplamı sabittir. Sürtünme olmadığı için ısıya dönüşen enerji olmaz. Mekanik enerji toplam enerjiye eşittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1378"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Etop = Ek + Ep = sabit  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1379"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kinetik enerjideki artış, potansiyel enerjideki azalışa ya da, kinetik enerjideki azalış, potansiyel enerjideki artışa eşittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1380"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1381"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Sürtünmenin olduğu sistemlerde mekanik enerji (Ek + Ep) sabit değildir. Zamanla mekanik enerji azalır. Azalma miktarı kadar enerji, sürtünmeden dolayı ısı enerjisine dönüşür. Toplam enerji ise sabittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1382"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Etop = Ek + Ep + Eısı = sabit  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1383"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

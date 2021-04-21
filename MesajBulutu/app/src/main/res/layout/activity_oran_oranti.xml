@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oranOranti">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView184"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.DOĞRU ORANTI"
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" İki çokluktan biri artıyorken diğeri de aynı oranda artıyor ya da biri azalırken diğeri de aynı oranda azalıyorsa bu iki çokluk “doğru orantılıdır” denir. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView147"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView154"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2. TERS ORANTI"
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView155"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İki çokluktan biri artarken diğeri aynı oranda azalıyorsa ya da biri azalırken diğeri aynı oranda artıyorsa bu çokluklar “ters orantılıdır” denir. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView156"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doğru orantıda çoklukları böldüğümüzde bulduğumuz sabit sayı, ters orantıda ise çoklukları çarptığımızda bulduğumuz sabit sayıya “orantı sabiti” denir. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView157"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView160"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İÇLER DIŞLAR ÇARPIMI"
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İçler dışlar çarpımı verilen bir orantıda bilinmeyen değeri bulmaya yarayan işlemdir. "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView208"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView162"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" a= 1. terim"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView163"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b= 2. terim"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c= 3. terim"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d= 4. terim olmak üzere isimlendirilir"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView166"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="içler dışlar çarpımı yapılırsa ; "
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView167"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a.d=b.c işlemi yapılmalıdır."
+            android:textColor="@color/kahveRengi"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView168"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView169"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ÖRNEK"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView170"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 kg portakaldan 9 bardak portakal suyu çıkıyor. 36 kg portakaldan kaç bardak portakal suyu çıkar?"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ÇÖZÜM : "
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView172"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.x=9.36"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView173"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.x=324 buradan da x= 27 bulunur."
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView177"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView180"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:id="@+id/textView1618"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

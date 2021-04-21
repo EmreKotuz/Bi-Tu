@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c19f9f</color>
+    <color name="colorPrimaryDark">#7B7D89</color>
+    <color name="colorAccent">#87ff0004</color>
+    <color name="şeffafButton">#63bf0034</color>
+    <color name="sade">#87565666</color>
+    <color name="mavi">#873f89c6</color>
+    <color name="mavii">#8700bbff</color>
+    <color name="ders">#87F4EF58</color>
+    <color name="derss">#87efedab</color>
+    <color name="beyaz">#87ffffff</color>
+    <color name="black">#F0000000</color>
+    <color name="açıkMavi">#f01be7ea</color>
+    <color name="dahaAçikMavi">#F09FEEEF</color>
+    <color name="sari">#f7e6d4</color>
+    <color name="beyazz">#FFFFFF</color>
+    <color name="sarı">#faef25</color>
+    <color name="kahveRengi">#4A3E2C</color>
+    <color name="beyazaYakin">#EBEAE7</color>
+    <color name="kırmızı">#e1abac</color>
+    <color name="gırmızı">#D62C2C</color>
+    <color name="deneme">#D62C2C</color>
+    <color name="geceModu">#E6D973</color>
+    <color name="krono">#3A1D36</color>
+
+
+
+
+
+
+
+</resources>

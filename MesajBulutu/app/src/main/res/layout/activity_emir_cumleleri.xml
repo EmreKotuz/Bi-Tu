@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mavi"
+    tools:context=".emirCumleleri">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView658"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OLUMLU EMİR CÜMLELERİ"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView657"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView607"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speak slowly ==> (yavaş konuş)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Look at me ==> (bana bak)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Come here ==> (buraya gel)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Come with me ==> (Benimle gel)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Close the door ==> (kapıyı kapat)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Send me a calculater ==> (bana bir hesap makinesi gönder)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Write this page again ==> (bu sayfayı tekrar yaz)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Sit down ==> (Oturun)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listen to me ==> (Beni dinle)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView639"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView655"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OLUMSUZ EMİR CÜMLELERİ"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView656"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t cry ==> (ağlama)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Don’t speak ==> (konuşma)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t write this page again ==> (bu sayfayı tekrar yazma)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t speak loudly ==> (yüksek sesle konuşma)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Don’t laugh at me ==> (bana gülme)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t drink cola ==> (kola içme)"
+                android:textColor="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t open the door ==> (kapıyı açma)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView659"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÖRNEKLER:"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let us listen ==> (dinleyelim)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView612"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let’s go ==> (gidelim)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Let him speak ==> (konuşsun)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let them speak ==> (konuşsunlar)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't speak loudly ==> (Yüksek sesle konuşma.)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Come here. ==> (Buraya gel.)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView654"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't look at me. ==> (Bana bakma.)"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView653"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let us speak. ==> (Konuşalım.)    "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't let us watch. ==> (Seyretmeyelim.) "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let them speak. ==> (Konuşsunlar)  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

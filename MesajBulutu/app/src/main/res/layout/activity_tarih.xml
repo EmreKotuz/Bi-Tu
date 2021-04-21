@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarih">
+
+    <ScrollView
+        android:id="@+id/scrollView17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='" ' />
+
+            <TextView
+                android:id="@+id/textView2404"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:background="@mipmap/tarfot" />
+
+            <TextView
+                android:id="@+id/textView2405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='" ' />
+
+            <Button
+                android:id="@+id/tarihinTanimiButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/tarih"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/ilkcag"
+                android:layout_width="match_parent"
+                android:background="@mipmap/imi"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2319"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/islamTarihiButton"
+                android:background="@mipmap/iti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2391"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/onYedi"
+                android:background="@mipmap/onyedi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2392"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Eksikler Giderilecektir."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ekrann"
+    tools:context=".dunyaninSekli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView317"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <CheckBox
+                android:id="@+id/geceModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView288"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView316"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünyanın Şekli Ve Hareketleri"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şişkince kendine has bir şekli vardır. Bu şekle geoit adı verilir. Dünya geoit şeklini, kendi ekseni etrafındaki dönüşü­ne bağlı olarak Ekvator kısmında oluşan merkez kaç kuvvetinin etkisiyle meydana gelen savrulma sonu­cunda almıştır. Dünyanın şekli ve hareketleri küresel coğrafyayı anlamak için çok önemlidir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünyanın Boyutları"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekvator çevresi	40076 km"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kutuplar çevresi	40009 km"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekvator yarıçapı	 6378 km "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kutuplar yarıçapı	 6357 km "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basıklık oranı	1/297 "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüzölçümü	510 milyon km2"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hacmi	1 milyar 83 milyon km3"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView597"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textVeiew299"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:background="@mipmap/ds" />
+
+            <TextView
+                android:id="@+id/textView299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya'nın şeklinin sonuçları"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekvator’un uzunluğu, tam bir meridyen dairesinin uzunluğundan fazladır."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekvator’un yarıçapı, kutuplardan geçen çemberin yarıçapından 21 km daha uzundur. "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerçekimi Ekvator’da az, kutuplarda fazladır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekvator’dan kutuplara gidildikçe Güneş ışınlarının geliş açısı küçülür. Bunun sonucunda Ekva­tor’dan kutuplara doğru; sıcaklık, buharlaşma, denizlerin tuzluluk oranı, bitki türleri azalır. Kalıcı kar sınırı, orman üst sınırı ise alçalır. "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya’nın yarısı aydınlık yarısı karanlık olur."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralellerin uzunlukları Ekvator’dan kutuplara doğru gidildikçe kısalır."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meridyenler arası uzaklık Ekvator’dan kutuplara gidildikçe kısalır."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya’nın ekseni etrafındaki dönüş hızı Ekva­tor’dan kutuplara doğru azalır."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView772"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kutup Yıldızı’nın görünüm açısı Kuzey Yarımküre’de bulunulan yerin enlem derecesini verir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritalar çizilirken bozulmalar meydana gelir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünyanın Hareketleri"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünyanın hareketleri dünyanın günlük hareketleri ve dünyanın yıllık hareketleri olarak sınıflandırılabilir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView773"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dünyanın Günlük Hareketi"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya kendi ekseni etrafında batıdan doğuya doğru 24 saatte döner. Buna 1 gün, harekete ise günlük hareket denir."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya'nın günlük hareketlerinin sonuçları"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece gündüz ardalanır."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView320"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gün içinde güneş ışınlarının yere düşme açısı değişir. Buna bağlı olarak gün içinde; "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklıklar değişir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cisimlerin gölge boyu ve yönü değişir"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gün içinde güneşin konumu ve gölge yönü Günlük sıcaklık farklarına bağlı olarak taşlarda mekanik çözülmeler oluşur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Günlük basınç farklarına bağlı olarak meltem rüzgârları meydana gelir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30° ve 60° enlemlerinde dinamik basınç alanları oluşur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView319"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürekli rüzgârların yönlerinde sapmalar oluşur. Kuzey Yarımküre’de hareket yönünün sağına, Gü­ney Yarımküre’de hareket yönünün soluna sapar."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürekli rüzgârlardaki sapmalar "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Okyanus akıntılarında halkalanmalar oluşur."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğudaki bir yerde Güneş batıdaki bir yere göre erken doğar ve erken batar."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğu ve batı yönleri belirlenir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerel saat farkları oluşur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView774"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Dünya'nın Yıllık Hareketi"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya, Güneş çevresindeki dönüşünü 365 gün 6 saatte tamamlar. Buna 1 yıl, harekete ise yıllık ha­reket denir. Dünya, Güneş çevresinde elips şeklinde­ki yörüngeyi takip ederek döner. Dünya’nın elips şeklindeki yörünge üzerindeki hare­keti esnasında Güneş’e olan uzaklığı sabit değildir. Dünya, Güneş’e yaklaşıp uzaklaşır. Dünya’nın Gü­neş’e en yakın olduğu 3 Ocak tarihine günberi (perihel), Güneş’e en uzak olduğu 4 Temmuz tarihine ise günöte (afel) denir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya’nın yörünge üzerindeki hareketi sırasında Gü­neş’e yaklaştığı dönemlerde hızı artarken, uzaklaştığı dönemlerde hızı azalır. Bunun sonucunda;"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView358"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mevsim süreleri farklı olur."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eylül ekinoksu 2 gün gecikerek 23 Eylül’de ger­çekleşir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView360"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şubat ayı kısa sürer."
+                android:textColor="@color/kahveRengi" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ekranToprak"
+    android:layout_height="match_parent"
+    tools:context=".cografyaToprakTipleri">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView533"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView534" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/toprakGeceModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView578" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView535"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView586"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPRAK OLUŞUMUNA ETKİLİ FAKTÖRLER "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView583"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1-İKLİM Nemli-sıcak –> Kimyasal çözünme fazladır "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView590"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Kurak-Yarıkurak –> Fiziksel (Mekanik) Ufalanma fazladır "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView587"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Kurak -> Toprak -> kireçli, tuzlu, az humuslu  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView588"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yağış fazlaysa -> Kireç, tuz azalır. Toprak fazla yağıştan yıkanır kireç, tuz daha az tutunur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView579"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView589"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nem fazlaysa toprak oluşumu daha hızlıdır.  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YERŞEKİLLERİ"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView584"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAŞLAR-Kayaçlar "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView576"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BİTKİ ÖRTÜSÜ"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView581"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Orman, maki, bozkır, yüksek dağ çayırları toprak oluşumunda etkendir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView570"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toprak çeşitleri  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView782"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laterit Toprak: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rengi kırmızımsıdır (Demiroksit). Tarıma elverişli değildir. D.Karadenizde bulunur  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView577"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView781"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kahverengi Orman Toprağı: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView573"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humus oranı fazla ve verimlidir. Karadeniz-Marmara(Yıldız-Samanlı)’da bulunur  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView780"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terra rosa (Kırmızı renkli Orman Toprağı): "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akdeniz İkliminin görüldüğü yerlerde bulunur, kalkerli arazilerde sulamayla verimli olur, G.Marmara, Ege kıyıları, Akdeniz kıyıları, G.D.A. Batısında bulunur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView539"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView779"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Podzol Topraklar: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView574"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soğuk-nemli iklim bölgelerinde bulunur + İğne yapraklı ormanların olduğu bölgelerdede rastlanılır. Yıkanmış olduklarından minarelce fakirdir. B.Karadeniz bölgesinde yaygın olarak bulunur "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView778"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tundra Toprak: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView569"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soğuk iklimlerde görülür, Türkiye’de YOKTUR. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView566"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView568"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Kurak Bölge Toprakları  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView562"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yağışların az olduğu yerlerde görülür, kireç-tuz miktarı fazladır, yıkanmamış topraklardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView563"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView783"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çöl toprakları: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView567"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarıma uygun değildir, rengi boz, Türkiye’de YOKTUR. (Konya-Karapınar’da benzeri vardır) "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView565"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView784"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kestanerengi Topraklar: "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView564"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tahıl tarımı için çok elverişlidir, Ülkemizde İç Anadolu, D.Anadolu, İç Batı Anadolu, G.D.Anadoluda bulunur  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView591"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView785"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çernozyomlar(Kara Toprak): "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView592"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rengi siyahtır, humusça çok zengindir, dünyanın en verimli topraklarıdır, ülkemizde Erzurum-Kars platosunda bulunur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView593"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAŞINMIŞ TOPRAKLAR (Dış kuvvetlerin taşıdıkları malzemenin birikmesiyle)  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alüvyon (Akarsuların biriktirmesiyle) Lös (Rüzgarların biriktirmesiyle)  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moren (Buzulların biriktirmesiyle) "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView594"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Verimli topraklardır, mineral bakımından zengindir, tarıma elverişlidir  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView595"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukurova, Silifke, Çarşamba, Bafra, K.-B. Menderes, Balat, Gediz, Menemen Ovaları "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

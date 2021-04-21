@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yapiBilgisi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2097"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2098"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EKLER"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2099"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüklerin kök veya gövdelerine gelerek onların cümledeki görevlerini belirleyen, onlara değişik anlamlar katan ya da onlardan yeni sözcükler türeten ses veya ses bileşimlerine ek denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunlardan çekim eklerini daha önce gördüğümüz için yapım ekleri üzerinde duracağız.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapım Ekleri  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim ve fiillerin kök veya gövdelerine gelerek onlardan başka isim ya da fiil türeten eklerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kök"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sözcüğün anlamı ve yapısı bozulmadan parçalanamayan en küçük parçasıdır. Köklerde yapım eki bulunmaz, ancak çekim eki bulunabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Evimiz” sözünde “ev”; sözcüğün, anlamlı ve parçalanamayan en küçük parçasıdır. “-(i)-miz” eki iyelik ekidir; yani isim çekim ekidir. Öyleyse bu sözcük yapım eki almamıştır, kök halindedir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kökler iki türde bulunur; İsim kökleri ve Fiil kökleri. “Geldi” sözcüğündeki kök “gel-” fiil kökü; “sözlük” sözcüğünün kökü olan “söz” isim köküdür. Ancak bazen ses taklidi yoluyla oluşan yansıma kökler de vardır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekim Ekiyle Yapım Ekinin Farkları:  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekim ekleri eklendiği sözcüğün anlamında bir değişiklik yapmaz; yapım ekleri ise anlamı, köke bağlı olmak şartıyla, değiştirir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Yolda bekliyor.” cümlesindeki “yol” sözü “geçilen yer” anlamındadır. “-de” hal ekini alarak “yolda” şekline geldiğinde de geçilen yer olma anlamı değişmemektedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Yolcu bekliyor.” cümlesinde ise “geçilen yer” olan “yol” sözü “-cu” yapım ekini alarak bu anlamını yitirmiş “yoldan gelen” ya da “yola giden” kişi anlamına gelmiştir. Yani yolla bir anlam ilgisi vardır; ama yer ismi, kişinin niteliği anlamını ifade edecek hale gelmiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekim ekleri bir sözcüğe yapım ekinden sonra eklenir. Yani önce yapım ekleri, sonra çekim ekleri gelir. İstisnaları olsa da bu genel bir kuraldır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ek ve kök hakkındaki bu genel bilgilerden sonra şimdi eklerin önemlileri üzerinde durabiliriz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. İsimden İsim Yapan Ekler  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim kök veya gövdelerine gelerek onlardan yeni isimler türeten eklerdir. Ancak bu sözcükler sıfat, zarf gibi görevlerde de kullanılabilir.  " />
+
+            <TextView
+                android:id="@+id/textView2125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu eklerden bazıları şunlardır:  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“-lık – lik” eki  " />
+
+            <TextView
+                android:id="@+id/textView2128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Buraya bir odunluk yapmıştık.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde ek, “odunların koyulacağı yer” anlamında bir sözcük türetmiş.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. İsimden Fiil Yapan Ekler  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim kök veya gövdelerine gelerek onlardan fiil türeten eklerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bahçedeki çiçekleri suladı.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesindeki altı çizili sözü incelediğimizde “su” ismine getirilen “-la-” eki, ismi “sulamak” şeklinde bir fiile dönüştürmüştür.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Fiilden İsim Yapan Ekler  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiil kök veya gövdelerine gelerek onlardan isim türeten eklerdir. Bunlar da cümlede sıfat, zarf görevlerinde kullanılabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Burada eskiden bir durak vardı.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde altı çizili sözcük, “dur-” fiiline “-ak” eki getirilerek yapılmıştır.  " />
+
+            <TextView
+                android:id="@+id/textView2141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d. Fiilden Fiil Yapma Ekleri  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiil kök veya gövdelerine gelerek onlardan yeni fiiller türeten eklerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Buradan iki yıl önce taşındı.”  " />
+
+            <TextView
+                android:id="@+id/textView2146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Müzeyi gezmeden buradan gidilmez.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Ortalık iyice karıştı.”  "
+                android:textColor="@color/kahveRengi" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

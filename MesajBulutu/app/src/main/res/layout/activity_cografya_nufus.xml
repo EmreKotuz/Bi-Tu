@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ekranNufus"
+    tools:context=".cografyaNufus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView528"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView529"
+                android:layout_width="match_parent" android:background="#FF818181"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/nufusGeceModu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gece Modu"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView545" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView550"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView557"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkiye’de Nüfus ve Yerleşme "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView556"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ülkemizde sürekli olarak yaşayan insanların tamamı, Türkiye’nin nüfusunu oluşturur. Nüfus ise yapılan sayımlara göre belirlenir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genel Nüfus Sayımları ve Yararları "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView558"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nüfus, belirli bir alanda yaşayan insan topluluğudur. Bu insan sayısının belirlenmesi ve çeşitli özelliklerinin öğrenilmesi için yapılan çalışmaya nüfus sayımı denir. Ülkemizde ilk nüfus sayımı 1927 yılında yapılmıştır. Ikinci nüfus sayımı ise 1935 yılında yapılmıştır. Bundan sonra 1990 yılına kadar her 5 yılda bir yapılmıştır. Daha sonra ise 1997 ve 2000 yıllarında da nüfus sayımı yapılmıştır. Ülkemizde genel nüfus sayımlarını Devlet Istatistik Enstitüsü (DIE) yapmaktadır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/texitView559"
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:background="@mipmap/nu" />
+
+            <TextView
+                android:id="@+id/textView559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView554"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğal Etkenler "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView552"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iklim özellikleri: Doğal etkenlerin en önemlisidir. Iklimin uygun olduğu fazla soğuk ve kurak olmayan yerler yerleşime uygundur. Buna karşılık çok soğuk olan ve az yağış alan yerler, yerleşmeye ve yaşamaya uygun değildir. Buralarda nüfus çok seyrektir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView777"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beşeri Etkenler "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanayi: Ülkemizde sanayinin gelişmiş olduğu yerler en sık nüfuslu alanlardır. Buralar aynı zamanda en fazla göç alan yerlerdir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView548"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kırsal Yerleşmelerden Kentlere Göçün Nedenleri ve Sonuçları "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView549"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insanların yaşadıkları yeri değiştirmelerine göç denir. Eğer değiştirilen yer ülke içinde olursa buna iç göç denir. Ülkemizdeki iç göçler, köy ve kasaba gibi küçük yerleşim merkezlerinden iş bulma imkÃ¢nlarının daha kolay olduğu büyük kentlere doğru göç ederler.Cumhuriyetin ilk yıllarında nüfusumuzun üçte ikisi köylerde yaşamaktaydı. Göçler sayesinde günümüzde nüfusumuzun yarıdan fazlası kentlerde yaşamaktadır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView561"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView547"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kırsal Kesimdeki Itici Etkenler "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView546"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# Kırsal bölgelerde hızlı nüfus artışından dolayı tarım alanlarının küçük parçalara ayrılması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView531"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# Kırsal kesimlerdeki eğitim ve sağlık hizmetlerinin yeterince gelişmemiş olması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView543"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# Tarım alanlarında makine kullanımının artması ile birçok insanın işsiz kalması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView544"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# Genellikle kırsal kesimdeki ekonomik yetersizlikler insanların göç etmesine neden olur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView536"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView541"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kentlerdeki Çekici Etkenler "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView542"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Kentlerde gelişmiş olan sanayi ve ticaret sayesinde iş imkÃ¢nlarının daha fazla olması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView532"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Kentlerdeki eğitim ve sağlık hizmetlerinin oldukça gelişmiş olması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView538"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Bu nedenlerden dolayı ülkemizde kırsal bölgelerden büyük kentlere hızlı bir göç meydana gelmektedir. Ülkemizdeki kentleşme hızı sanayileşme hızını geçmiştir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView540"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

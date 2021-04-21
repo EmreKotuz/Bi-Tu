@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".turkceyeGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1607"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/anlatimBozukluguButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/anlatimbozuklugu"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/cumledeAnlamButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/cumledeanlam"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/cumleninOgeleriButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/cumleninogeleri"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/fiilButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/fiildecati"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1612"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/noktalamaIsaretiButton"
+                android:background="@mipmap/noktalamaisareti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/paragrafButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/paragraff"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/sozcukteAnlamButton"
+                android:background="@mipmap/sozcukanlam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/yapiBilgisiButton"
+                android:background="@mipmap/yapibilgisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/yazimKuraliButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/yazimkurallari"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

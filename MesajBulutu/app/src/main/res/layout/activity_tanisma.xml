@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tanisma">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/sari"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:background="@mipmap/tanisma"
+                android:layout_height="135dp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good morning   ==>  Günaydın."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Hi! My name is Emre  ==>  Merhaba! Benim ismim Emre" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/textView73" android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where are you from  ==>  Nerelisin?" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35" android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What’s up  ==>   Nasıl gidiyor?" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Couldn’t be better  ==>  Daha iyisi olamazdı." />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How are you  ==>  Nasılsın?" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="What is your name?  ==>  Adın ne" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How old are you?  ==>  Kaç yaşındasın?" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Good night  ==>   İyi geceler." />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How about you  ==>  Senden naber?" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How is your family ==>  Ailen nasıl" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView36" android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="That my pleasure  ==>  O zevk bana ait." />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Nice yo meet you  ==>  Tanıştığımıza sevindim." />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How is it going?  ==>  Nasıl gidiyo" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Are you ‘’student’’ ?   ==>  Öğrenci misin" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="How old are you?   ==>  Kaç yaşındasın" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Have a good day  ==>  İyi günler" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="I’m from Turkey  ==>  Türkiye’den geliyorum." />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Good bye  ==>   Güle güle" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textSize="20sp"
+                android:text="I'm good, thanks.How rae you  ==>   İyiyim,teşekkürler.Sen nasılsın" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="I'm good, thanks.How rae you  ==>   İyiyim,teşekkürler.Sen nasılsın" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Im fine thank you for asking  ==>   Ben iyiyim. Sorduğun için teşekkür ederim." />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="I'm Emre and yours  ==>   Ben emre, ya sen" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="I can't believe it  ==>   Buna inanamıyorum" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Talk to you Later  ==>   Sonra konuşuruz" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Do you know English  ==>   İngilizce biliyor musun" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Nice to meet you  ==>   Tanıştığıma memnun oldum" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textSize="20sp"
+                android:text="Can you please repeat that  ==>   lütfen tekrar eder misin" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent" android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Can you please repeat that  ==>   lütfen tekrar eder misin" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

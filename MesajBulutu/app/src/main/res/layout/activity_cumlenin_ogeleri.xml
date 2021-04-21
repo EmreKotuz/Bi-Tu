@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cumleninOgeleri">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1698"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1699"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CÜMLENİN ÖĞELERİ  "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1740"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir duygu, düşünce veya durumu tam olarak anlatan sözcük ya da söz öbeklerine cümle denir. Şimdi birbirini tamamlayan öğeleri inceleyeceğiz.Bir cümlenin oluşması için en önemli şart, kip ve şahıs bildiren bir unsurun bulunmasıdır. Yani eğer cümle içinde herhangi bir söz, haber veya dilek kiplerinden herhangi biriyle çekimli halde bulunuyorsa o, bir yargı bildiriyor demektir. Yargı bildirmek ise cümle olmanın en önemli koşuludur. Şahıs bildirmek, cümle olmak için her zaman gerekli değildir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1741"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1742"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklem"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1743"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede kip ve zaman bildirerek yargıyı ortaya koyan temel unsurdur. Tek başına cümle özelliği gösterir. Diğer öğeler yüklemin tamamlayıcı öğeleridir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1744"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede yüklemi bulmak için herhangi bir öğeye soru soramayız. Onu çekimli durumda bulunan sözcüklerden anlarız.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1745"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1746"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özne"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1747"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede yüklemin bildirdiği işi, hareketi yapan ya da oluş içinde bulunan öğedir. Cümlenin temel öğesidir. Ancak her cümlede bulunmak zorunda değildir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1748"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede özneyi bulmak için yükleme “kim” ve “ne” sorularını sorarız. Ancak özellikle “ne” sorusu, nesneyi bulmak için de sorulduğundan, biz özne sorusunu yükleme değişik biçimde sorarız.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1749"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1750"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesne"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView1751"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede yüklemin bildirdiği işten etkilenen öğedir. Yükleme sorulan “kimi, neyi, ne” sorularına cevap verir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1752"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1753"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesneler hal ekini alıp almamalarına göre iki grupta incelenir.  " />
+
+            <TextView
+                android:id="@+id/textView1825"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1754"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Belirtili Nesne  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1755"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesne görevinde bulunan söz, “-i” hal ekini almışsa, nesneye belirtili nesne denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1756"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Çiçekleri annesine verdi.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1757"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “Çiçekleri” nesnesi “-i” hal eki aldığından belirtili nesnedir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1760"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1761"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Belirtisiz Nesne  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1762"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesne görevinde bulunan söz “-i” hal ekini almamışsa nesne, belirtisiz nesnedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1763"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Annesi için çiçek topladı.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1764"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “çiçek” nesnesi bu eki almamış ve belirtisiz nesne olmuştur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1765"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1766"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dolaylı Tümleç  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1767"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklemin yöneldiği, bulunduğu, çıktığı yeri gösteren öğedir. Yükleme sorulan “-e”, “-de” ve “-den” hal eklerini alan sorulara aynı ekleri alarak cevap veren sözcük ya da söz öbekleri dolaylı tümleç görevinde bulunur. Soruların ve cevapların aynı ekleri alması zorunluluğu bunun diğer öğelerle karışmasına engel olur. Bunu örneklerle açıklayalım.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1768"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1769"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Elindeki kitap ve defterleri bana verdi.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1770"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde altı çizili öğeyi bulabilmek için yükleme “kime” sorusunu soruyoruz. Soru da cevap da aynı eki almış. Öyleyse “bana” sözü dolaylı tümleçtir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1771"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1772"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zarf Tümleci  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1773"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklemin zamanını, durumunu, miktarını, yönünü, koşulunu vb. bildiren öğelerdir. Bunların her biri değişik bir soruyla bulunur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1774"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1775"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Hava kararmadan köye inmeliyiz.”  " />
+
+            <TextView
+                android:id="@+id/textView1776"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" “ne zaman”"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1777"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1778"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Dosta düşmana muhtaç olmadan yaşamalıyız.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1779"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" “nasıl” "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1780"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vb. Yükleme sorulan bu sorulara cevap veren öğeler daima zarftır. Ancak burada “nereye” sorusuna dikkat etmeliyiz. Dolaylı tümleç konusunda da söylemiştik, bu soru dolaylı tümleci de buldurur. Ancak cevabın da aynı eki alması gerekir. Örnekteki “içeri” sözü ise bu eki almamıştır. Bu özelliği, yani hal eki almadan yön bildirme özelliğini yer-yön zarfları gösterir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1781"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1782"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edat Tümleci  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1783"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çıkmış sorularda, seçeneklerde bile olsa, edat tümleci adının geçtiği görülmemiştir. Ancak bazı soruların çözümünde yardımcı olduğu söylenebilir. Eğer seçeneklerde “edat tümleci” adı geçmiyorsa, siz “edat tümleci” olarak gördüğünüz söz öbeklerine zarf tümleci de diyebilirsiniz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1784"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklemin ne ile, kimin ile, hangi amaçla, yapıldığını gösteren söz öbeklerine edat tümleci denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1785"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1786"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CÜMLE VURGUSU  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1787"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede asıl anlatılmak istenen öğe vurgulanır. Biz konuşurken, önemsediğimiz öğeyi cümlenin herhangi bir yerinde ses tonumuzu yükselterek vurgulayabiliriz. Ancak yazıda bunu yapamayacağımızdan, vurgulamak istediğimiz öğeyi yükleme yaklaştırırız. Yani cümlede yükleme en yakın öğe, en çok vurgulanan öğedir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1788"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1789"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ARASÖZ"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1790"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümleyi söylerken söz arasına sıkıştırılan, bazen bir öğenin açıklayıcısı, bazen cümle dışı unsur olan söz veya söz öbeklerine arasöz denir. Eğer bu söz bir cümle ise “aracümle” diye de adlandırılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1791"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1824"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

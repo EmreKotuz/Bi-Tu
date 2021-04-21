@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".islamTarihi">
+
+    <ScrollView
+        android:id="@+id/scrollView19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2513"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslam Tarihi "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâmiyet’in Doğuşu ve Hz.Muhammed Dönemi "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed, 610 yılında 40 yaşındayken peygamberlikle görevlendirilmiş ve İslam dinini yaymaya başlamıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2517"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2518"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mekke’den Medine’ye Hicret (622) "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2519"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hicretin Nedenleri "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2520"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mekkelilerin Müslümanlara karşı baskılarını artırmaları ve İslâmiyet’in Mekke’de yaşanamaz hale gelmesi  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2521"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Peygamberin İslâmiyet’i değişik yerlere yaymak istemesi  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2522"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2523"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hicretin Sonuçları "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medine’de İslâm site devleti kurulmuştur. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2525"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhacirlerle Ensar kardeş ilan edilmiştir. Böylece Müslümanlar arasında sosyal dayanışma artmıştır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2526"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanların Medine’ye yerleşmeleri Mekkelilerin kullandığı Şam ticaret yolunu tehlikeye sokmuştur. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2527"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlarla Yahudiler arasında savunma ittifakı kurulmuştur. Bu vatandaşlık antlaşması İslâm tarihinin ilk anayasası kabul edilmiştir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2529"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlar Mekkelilerin işkence ve baskılarından kurtulmuştur. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2532"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâmiyet Medine’de daha hızlı bir yayılma göstermiş, kısa zamanda "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2533"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlar büyük bir siyasal güç haline gelmişlerdir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2534"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2535"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedir Savaşı (624) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2536"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medine’ye hicret eden Müslümanların Mekke’deki mallarının yağmalanıp Şam’da satılması üzerine Hz. Muhammed buna bir misilleme olarak Şam’dan dönen kervanın Medine yakınlarında yolunu kesmek istemiştir. Bu gelişme üzerine Mekkelilerle Müslümanlar arasında Bedir Savaşı yapılmıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2538"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedir Savaşı’yla;  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2539"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlar siyasi ve dini yönden daha güçlü hale gelmiştir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2540"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed’e olan güven artmıştır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2541"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâm hukukunun temelleri atılmış, elde edilen ganimetler paylaştırılmıştır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2542"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şam ticaret yolları Müslümanların kontrolüne geçmiştir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2543"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2544"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uhud Savaşı (625) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bedir Savaşı’nda mağlup olan Mekkeliler, bu yenilginin acısını çıkarmak için Medine üzerine yürüdüler. Uhud dağı eteklerinde yapılan savaşı Müslümanlar kaybettiler.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2546"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu olay en çok Yahudileri sevindirmişti. Hz. Muhammed Uhud Savaşı sırasında önceden yapılan anlaşmaya uymayan Yahudileri şehir dışına sürgün etmiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2547"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2548"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hendek Savaşı (627) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2549"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yahudilerin maddi destek vererek Mekkelileri kışkırtması ve Mekkelilerin Müslümanların gelişmesini engellemek istemeleri Hendek Savaşı’na neden olmuştur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2550"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hendek Savaşı’nın Sonucunda;  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2552"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanların kuvvetlerinin arttığı ve mağlup edilemiyeceği Kureyşliler tarafından anlaşılmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kureyş’in mağlup olmasıyla etraftaki kabileler arasında İslâmiyet’in yayılması hızlanmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2554"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yahudiler Medine’den çıkarılarak içeriden gelebilecek tehlikeler önlenmiş, böylece Medine tamamen Müslümanların denetimine geçmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hendek Savaşı Müslümanların son savunma savaşı oldu. Bu savaştan sonra Mekkeliler savunmaya çekilmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2556"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2557"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hudeybiye Antlaşması (628) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2558"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medine’ye hicret eden Müslümanlar Mekke’ye gidip Kabe’yi ve akrabalarını ziyaret etmek istediler. Mekkeliler Hz. Muhammed’in önderlik yaptığı bu grubu Mekke’ye sokmadılar. İki taraf arasındaki görüşmeler sonucunda antlaşma imzalanmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hudeybiye Barışıyla;  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2561"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanların siyasi bir varlık olarak imzaladıkları ilk antlaşmadır. Böylece Mekkeliler Müslümanları hukuken tanımıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2562"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlarla Mekkeliler arasında kaynaşma olmuş, İslâmiyet Mekkeliler ve etrafındaki kabileler arasında yayılmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2563"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taraflar arasında sert davranışlar yumuşamış, buna paralel olarak ticaret faaliyetleri artmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2564"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2565"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hayber’in Fethi (629)  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2566"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mekke’den gelecek saldırı tehlikesini önleyen Hz. Muhammed, Hendek Savaşı’nın yapılmasında önemli rol oynayan Yahudilerin oturduğu Hayber’i fethetti. Yahudilerin vergi ödemeleri şartıyla burada yaşamalarına izin verildi. Böylece Şam ticaret yollarının güvenliği sağlanmıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2567"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2568"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mute Savaşı (629)  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2569"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arap olmayan uluslarla Müslümanların ilk mücadelesi Mute Savaşı’yla başlamıştır. Müslümanlar bu savaşta Bizans ordusuna karşı kesin bir başarı sağlayamamıştır. Bizans ile Müslümanlar arasında ilk savaş yapılmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2570"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mekke’nin Fethi (630) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz.Muhammed, Hudeybiye Antlaşması’na uymayan Mekkeliler üzerine 10.000 kadar askerle sefere çıktı. Güçlenen ordu şehri kuşatmış, ciddi bir direnme görmeden Mekke’yi fethetmiştir. Mekke’nin fethinden sonra Müşriklerle Müslümanlar arasında Huneyn Savaşı yapılmış ve Taif kuşatılmıştır. Bizans Ordusu’na karşı yapılan Tebük seferi sırasında Gassani Arapları Müslümanlığı kabul ettiler. Tebük seferi Arap Yarımadası’nda siyasal birliğin önemli ölçüde kurulduğunu göstermektedir. Tebük Hz. Muhammed’in son seferi olmuştur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2573"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed, Tebük Seferi’nden Medine’ye döndükten bir yıl sonra hac yapmak amacıyla Mekke’ye gitmiştir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2574"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Veda Haccı’ndan sonra Hz. Peygamber rahatsızlanarak 8 Haziran 632’de 63 yaşındayken vefat etmiştir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2576"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dört Halife Devri (632 – 661) "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2577"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed, vefatı sırasında fertlerin seçme haklarına saygılı davranmak amacıyla yerine kimseyi tayin etmemiştir. Müslümanlar Kureyş’in ileri gelenlerinden Hz. Ebubekir halife seçtiler. Dört Halife Devri’nde Halifeler seçimle belirlendiği için bu döneme “Cumhuriyet” denilmiştir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2578"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2579"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Hz. Ebubekir Dönemi (632 – 634) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2581"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İç Olaylar  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed’in vefatından sonra zekat vermeyen ve dinden dönenlerle mücadele edilerek düzen sağlanmıştır.  " />
+
+            <TextView
+                android:id="@+id/textView2585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2583"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yalancı peygamberler ortadan kaldırılmıştır. " />
+
+            <TextView
+                android:id="@+id/textView2584"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kur’an-ı Kerim ayetleri toplanarak bir kitap haline getirilmiştir. " />
+
+            <TextView
+                android:id="@+id/textView2586"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2587"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuran-ı Kerim’in kitap haline getirilmesinde;  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2588"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed’in vefat etmesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2589"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yalancı peygamberlerin ortaya çıkması "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2590"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hafızların savaşlarda şehit olmaları "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2591"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayetlerle hadislerin birbirine karışmasının önlenmek istenmesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2593"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuran ayetleri arasına rivayetlerin girmesinin önlenmek istenmesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2594"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuran’ın yazılı olduğu malzemenin (deri, taş, ağaç gibi) korunmasındaki zorluklar "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2595"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2596"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2597"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dış Olaylar  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muhammed’in hazırladığı ordu Hz. Ebubekir tarafından Suriye’ye gönderilmiştir. Bu seferle Arap Yarımadası dışında ilk fetihler başlamıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Hz. Ömer Dönemi (634 – 644) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siyasal Gelişmeler  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suriye, Filistin, İran, Irak, Mısır, Azerbaycan fethedilmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâm kültürü ilk kez bu dönemde farklı kültürlerle karşılaşmıştır. Bizans ve Sasani kültürleri İslâm kültürünü olumlu yönde etkilemiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2605"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2606"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Hz. Osman Dönemi (644 – 656) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2607"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İran’ın fethi tamamlanmış, Trablusgarp ve Tunus fethedilmiştir. Kafkaslara giren İslam Orduları Hazarlara yenilerek Kafkasların güneyine çekilmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2608"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şam’ da ilk kez donanma kurulmuş, Kıbrıs bu donanmanın seferleri sonucunda vergiye bağlanmış, Rodos fethedilmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kur’an–ı Kerim’in Çoğaltılması  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dört Halife döneminde sınırların genişlemesine paralel olarak değişik uluslar İslâmiyet’i benimsemişti. Farklı dil ve şiveleri kullanan toplumlarda Kur’an–ı Kerim’in değişik okuma şekilleri ortaya çıktı. Bu durumu önlemek amacıyla Hz. Osman döneminde bir heyet kurularak Kur’an çoğaltılmıştır (651).  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2612"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Osman döneminde;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Önemli görevlere Emevi ailesinden kişilerin getirilmesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yahudi asıllı Abdullah b. Sebe’nin ve İslâmiyet’i kabul etmiş gibi görünüp gerçekte benimsemeyen (münafık) kişilerin çalışmaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ganimet gelirlerinin azalması ve orduda memnuniyetsizlikler isyanları başlatmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Osman döneminde yaşanan bu olaylar sonucunda;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2628"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâm dünyasında ilk defa anarşi faaliyetleri başlamıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2629"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İslâm dünyasında başlayan görüş ayrılıkları; karışıklıklara ve fetihlerin durmasına neden olmuştur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Hz. Ali Dönemi (656 – 661) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Ali’nin halife seçilmesinden kısa bir süre sonra, Hz. Osman’ın katillerinin bulunmasında yavaş davranıldığını söyleyen Hz. Muaviye ve Hz. Aişe, Hz. Ali’nin halifeliğini tanımadılar. Bu nedenle Hz. Aişe’nin önderliğindeki Mekke grubu ile Hz. Ali grubu arasında Cemel Savaşı yapılmıştır (656). Müslümanlar arasında yapılan bu ilk savaşı Hz. Ali kazanmış ve İslâm dünyasında herhangi bir ayrılık olmamıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hz. Muaviye’nin başını çektiği Şam grubu ile Hz. Ali grubu arasında Sıffin Savaşı yapılmıştır (657). Hakem Olayından sonra Müslümanlar, siyasal gruba ayrılmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2634"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hariciler; 661’de sadece Hz. Ali’yi şehit etmişlerdir. Dört Halife dönemi bitmiş, Emeviler dönemi başlamıştır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2635"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2636"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Velid Dönemi (705 – 715) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2637"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarık b. Ziyad komutasındaki İslâm orduları 711’de İspanya’nın fethine başlamıştır. Daha sonra buraya Endülüs ismi verilmiştir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2638"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müslümanlar 732’de Puvatya Savaşı’nda Franklara yenilinceye kadar ilerlediler. Puvatya Savaşı sonucunda Avrupa’daki son sınır Pirene dağları olarak kalmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2639"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emevilerin Yıkılışında;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arap milliyetçiliği yapmaları ve diğer milletlere değer vermemeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fetih hareketlerinin durması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emevilerin Hz. Muhammed’in soyundan gelenlere iyi davranmamaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arap kabileleri arasındaki rekabetin savaşlara dönüşmesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emeviler Devleti, Horasan valisi Ebu Müslim Horasani’nin isyanı ve Emevi halifesi Mervan’ın öldürülmesiyle sona ermesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi nedenler etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2624"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abbasiler Devleti (750 – 1258) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="751’de Talas Savaşı yapılmıştır. Bu savaşta Türklerin Karluk, Yağma ve Çiğil boyları Abbasilere yardım etmiş, savaştan sonra da İslâmiyet’i kabul etmişlerdir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Halife Mansur döneminde ilk kez eski Yunan ve Hellenistik medeniyetine ait eserler tercüme edilmeye başlanmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abbasilerin en parlak dönemi Harun Reşid’in halifeliği sırasında yaşanmıştır. Bu dönemde halkın yaşam standartı yükselmiş, kültür ve mimari alanda çalışmalar yapılmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abbasilerin Genel Özellikleri  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abbasiler Arap olmayan uluslara hoşgörüyle yaklaşmış ve İslâmiyet’in daha fazla yayılmasını sağlamışlardır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2625"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu dönemde Emevilere göre bilim – kültür alanında daha çok gelişme gözlenmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkler ilk kez bu dönemde İslâmiyet’i kitleler halinde benimsemişlerdir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2627"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abbasilerin denizciliğe önem vermemeleri ticari ve askeri alanda gelişmelerini engellemiştir. "
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

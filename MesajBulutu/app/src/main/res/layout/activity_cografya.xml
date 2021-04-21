@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cografya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:background="@mipmap/cogek"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/harita"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/harita" />
+
+            <Button
+                android:id="@+id/dogalAfet"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/afet" />
+
+            <Button
+                android:id="@+id/dunyanınSekli"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/dunya" />
+
+            <Button
+                android:id="@+id/cevree"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/evre" />
+
+            <Button
+                android:id="@+id/icc"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/iiiii" />
+
+            <Button
+                android:id="@+id/iklim"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/iklim" />
+
+            <Button
+                android:id="@+id/nufus"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/nufus" />
+
+            <Button
+                android:id="@+id/toprakTipleri"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/toprak" />
+
+            <Button
+                android:id="@+id/ulasim"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/ulasim" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

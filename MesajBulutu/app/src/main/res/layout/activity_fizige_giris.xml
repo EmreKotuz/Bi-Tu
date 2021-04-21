@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fizigeGiris">
+
+    <ScrollView
+        android:id="@+id/scrollView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dogasiButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/fizikdoga" />
+
+            <TextView
+                android:id="@+id/textView1211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/maddeButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/maddeveozel" />
+
+            <TextView
+                android:id="@+id/textView1186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dogrusalButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/dogrusal" />
+
+            <TextView
+                android:id="@+id/textView1201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/isguc"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/isguc" />
+
+            <TextView
+                android:id="@+id/textView1202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/isiSicaklikButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/isivesicaklik" />
+
+            <TextView
+                android:id="@+id/textView1203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/basinc"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/basinc" />
+
+            <TextView
+                android:id="@+id/textView1204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/golgeButon"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/golge" />
+
+            <TextView
+                android:id="@+id/textView1207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/miklantisButton"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/miknatis" />
+
+            <TextView
+                android:id="@+id/textView1210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

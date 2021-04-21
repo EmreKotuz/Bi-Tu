@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basinc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1316"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BASINÇ"
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1384"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeryüzünde bulunan bütün maddeler ağırlıklarından dolayı bulundukları zemin üzerine kuvvet uygular. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1487"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uygulanan bu kuvvetler cisimler üzerinde bir basınç oluşturur. Buna göre basınç, kuvvetin bir etkisidir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1488"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1489"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Katıların Basıncı "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1550"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1490"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birim yüzeye dik olarak etki eden kuvvete basınç denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1491"
+                android:layout_width="169dp"
+                android:layout_height="84dp"
+                android:background="@mipmap/fs" />
+
+            <TextView
+                android:id="@+id/textView1554"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1492"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basınç P, kuvvet F ve yüzey alanı da S ile gösterilirse,  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1494"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basınç Formülü – Hesaplama "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1549"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1495"
+                android:layout_width="96dp"
+                android:layout_height="51dp"
+                android:background="@mipmap/fss" />
+
+            <TextView
+                android:id="@+id/textView1552"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1496"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu bağıntıya göre, kuvvet sabit ise, basınç yüzey alanı ile ters orantılıdır. Eşit ağırlıktaki tavuğun bataklıkta ördekten daha fazla batmasının nedeni, tavuğun ayaklarının yüzey alanının ördeğinkine göre küçük, dolayısıyla basıncının ördeğinkine göre büyük olmasıdır. Ördeğin ayağı perdeli olduğu için yüzey alanı büyük, basıncı ise küçüktür. Sivri uçlu çivinin ucundaki basınç büyük olduğu için küt uçlu çiviye göre daha kolay çakılır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bıçak köreldiği zaman bilenerek yüzey alanı küçültülür ve basıncın artması sağlanır. Bu nedenle aynı kuvvetle daha kolay kesme işlemi sağlanmış olur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DURGUN SIVILARIN BASINCI "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1548"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıvıların belli bir şekli yoktur. İçinde bulundukları kabın şeklini alırlar. Sıvıların katılardan temel farkı akışkan olmalarıdır. Bundan dolayı sıvılar bulundukları kabın taban ve yan yüzeylerine yani dokundukları her noktaya basınç uygularlar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde h yüksekliğine kadar sıvı dolu olan kabın tabanına uygulanan sıvı basıncı,P=h.psıvı =h.d.g bağıntısı ile hesaplanır."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burada, h yüksekliği, basıncın uygulandığı noktanın sıvının açık yüzeyine olan dik yüksekliği, rsıvı ise, sıvının özağırlığıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu bağıntıya göre basınç hem sıvı yüksekliği, hem de sıvının özağırlığı ile doğru orantılıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BASINÇ KUVVETİ "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1546"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir kapta bulunan sıvı, ağırlığının etkisi ile dokunduğu bütün yüzeylere kuvvet uygular. Sıvının kap yüzeyinin tamamına uyguladığı kuvvete basınç kuvveti denir.	"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki kabın taban alanı S, sıvının özağırlığı r ve sıvı yüksekliği h ise, sıvının kap tabanına uyguladığı basınç kuvveti  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1547"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1509"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F=h.p.S bağıntısı ile hesaplanır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1510"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1511"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GAZ BASINCI"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gazların basıncı, gaz moleküllerinin sürekli kabın iç çeperlerine çarpmaları sonucu oluşmaktadır. Kabın iç yüzeyindeki birim yüzeye, birim zamanda çarpma sayısı ne kadar fazla ise, basınç ta o kadar fazladır. Gaz moleküllerinin kabın iç yüzeyindeki her noktaya çarpma sayısı eşit olduğundan, her noktadaki gaz basıncı da eşit olur.  " />
+
+            <TextView
+                android:id="@+id/textView1513"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kapalı kaptaki gazların basıncı genel olarak üç niceliğe bağlıdır.  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sıcaklık ve hacim sabit ise gaz basıncı molekül sayısı ile doğru orantılıdır. (P ~ N)  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Sıcaklık ve molekül sayısı sabit ise, kabın yani gazın hacmi ile ters orantılıdır. Hacim arttıkça basınç azalır, hacim azaldıkça basınç artar.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1517"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Hacim ve molekül sayısı sabit ise, gazın basıncı mutlak sıcaklıkla doğru orantılıdır. Sıcaklık arttıkça gaz moleküllerinin hızı artar ve kabın iç yüzeyinde birim alana çarpma sayısı artar. Bu da basıncın artmasına neden olur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1518"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu üç nicelik ve basınç arasındaki ilişki  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1519"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1520"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P . V = k . N . T şeklinde olur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1521"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P ; basınç, V ; hacim, N ; molekül sayısı,  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1522"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T ; mutlak sıcaklık, k ; sabit bir sayı  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1523"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

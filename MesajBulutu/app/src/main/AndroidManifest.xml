@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kotuz.mesajbulutu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bitul"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bitull"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".patates"></activity>
+        <activity android:name=".hazircorbaa" />
+        <activity android:name=".kronometre" />
+        <activity android:name=".teknoek" />
+        <activity android:name=".upLoad" />
+        <activity android:name=".onSekizOsmanliDevleti" />
+        <activity android:name=".onYediOsmanliDevleti" />
+        <activity android:name=".islamTarihi" />
+        <activity android:name=".ilkCagMedeniyeti" />
+        <activity android:name=".tarihinTanimi" />
+        <activity android:name=".tarih" />
+        <activity android:name=".mantiActivity" />
+        <activity android:name=".pilavActivity" />
+        <activity android:name=".ezmeSalata" />
+        <activity android:name=".makarnaa" />
+        <activity android:name=".yemekler" />
+        <activity android:name=".DestekOl" />
+        <activity android:name=".cografyaUlasim" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6537190103014639~2649982050" />
+
+        <activity android:name=".yazimKurallari" />
+        <activity android:name=".yapiBilgisi" />
+        <activity android:name=".sozcukteAnlam" />
+        <activity android:name=".paragraf" />
+        <activity android:name=".noktalamaIsareti" />
+        <activity android:name=".fiildeCati" />
+        <activity android:name=".cumleninOgeleri" />
+        <activity android:name=".cumledeAnlam" />
+        <activity android:name=".anlatimBozuklugu" />
+        <activity android:name=".turkceyeGiris" />
+        <activity android:name=".biyolojiWeb" />
+        <activity android:name=".biyolojiyeGiris" />
+        <activity android:name=".miklantis" />
+        <activity android:name=".golge" />
+        <activity android:name=".basinc" />
+        <activity android:name=".isiSicaklik" />
+        <activity android:name=".isgucenerji" />
+        <activity android:name=".dogrusalHareket" />
+        <activity android:name=".maddeveOzellikleri" />
+        <activity android:name=".fiziginDogasi" />
+        <activity android:name=".fizigeGiris" />
+        <activity android:name=".peryodikTablo" />
+        <activity android:name=".bilesik" />
+        <activity android:name=".atomveyapisi" />
+        <activity android:name=".molKavrami" />
+        <activity android:name=".maddeveozellikler" />
+        <activity android:name=".kimyaTemelKanunu" />
+        <activity android:name=".kimyaBilimm" />
+        <activity android:name=".bolmeBolunebilme" />
+        <activity android:name=".oranOranti" />
+        <activity android:name=".mutlakDeger" />
+        <activity android:name=".kokluSayi" />
+        <activity android:name=".rasyonelSayi" />
+        <activity android:name=".basitEsitsizlik" />
+        <activity android:name=".temelKavramlar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".animasyon"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HesapAyarlari"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Destek" />
+        <activity
+            android:name=".dua"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mesaj"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".yemegeGiris" />
+        <activity android:name=".derseGiris" />
+        <activity android:name=".ayarlar" />
+        <activity
+            android:name=".beyin"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".egzersizeGiris" />
+        <activity android:name=".SinavaGiris" />
+        <activity android:name=".squatGiris" />
+        <activity android:name=".lungeGiris" />
+        <activity android:name=".mekikeGiris" />
+        <activity android:name=".yuruyuseGiris" />
+        <activity android:name=".bisikleteGiris" />
+        <activity android:name=".soruIsareti" />
+        <activity android:name=".matematikeGiris" />
+        <activity android:name=".fizik" />
+        <activity android:name=".reklamaGiris" />
+        <activity android:name=".ingilizceGiris" />
+        <activity android:name=".Mesajİki" />
+        <activity android:name=".gunlukKonusma" />
+        <activity android:name=".Tanisma" />
+        <activity android:name=".logindenSonra" />
+        <activity android:name=".ogrenciDestek" />
+        <activity android:name=".telegramGiris" />
+        <activity android:name=".cografyayaGiris" />
+        <activity android:name=".cografya" />
+        <activity android:name=".dogalAfetler" />
+        <activity android:name=".dunyaninSekli" />
+        <activity android:name=".cografyacevre" />
+        <activity android:name=".cografyaicVeDisKuvvetler" />
+        <activity android:name=".cografyaiklimBilgi" />
+        <activity android:name=".cografyaNufus" />
+        <activity android:name=".cografyaToprakTipleri" />
+        <activity android:name=".ulasimYollari" />
+        <activity android:name=".kimya" />
+        <activity android:name=".emirCumleleri" />
+        <activity android:name=".kimyaBilimineGiris" />
+    </application>
+
+</manifest>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rasyonelSayi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gırmızı"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RASYONEL SAYILAR  "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a ve b tam sayı, b ¹ 0 olmak üzere, a / b şeklinde ifade edilen sayılara rasyonel sayı veya kesir denir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView757"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                app:srcCompat="@mipmap/bir" />
+
+            <TextView
+                android:id="@+id/textView272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                app:srcCompat="@mipmap/iki" />
+
+            <TextView
+                android:id="@+id/textView273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:srcCompat="@mipmap/ucuncu" />
+
+            <TextView
+                android:id="@+id/textView267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KESİR"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir birimin bölündüğü eşit parçalardan birini veya bir kaçını göstermeye yarayan sayılara kesir denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KESİR ÇEŞİTLERİ  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Basit Kesir: "
+                android:textColor="#673AB7"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşaretine bakılmaksızın payı paydasından küçük olan kesirlere basit kesir denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Bileşik Kesir:"
+                android:textColor="#673AB7"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşaretine bakılmaksızın payı paydasından küçük olmayan (büyük veya eşit olan) kesirlere bileşik kesir denir. Bileşik kesirler tam sayılı kesir diye de adlandırılabilir. Tam sayılır kesir, önde tam sayı olan kesirdir."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Tam Sayılı Kesir:"
+                android:textColor="#673AB7"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi bir sayma sayısı ile birlikte yazılabilen kesirlere tam sayılı kesir denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her bileşik kesir bir tam sayılı kesir biçiminde yazılabilir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:srcCompat="@mipmap/dort" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                app:srcCompat="@mipmap/bes" />
+
+            <TextView
+                android:id="@+id/textView262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

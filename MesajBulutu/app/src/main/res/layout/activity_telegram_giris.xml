@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahveRengi"
+    tools:context=".telegramGiris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1921"
+            android:layout_width="match_parent"
+            android:layout_height="51dp" />
+
+        <TextView
+
+
+            android:id="@+id/whatsappCode2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Whatsapp grubuna katılmak için tıkla   >"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1947"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/beyazz"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1936"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView2211"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1927"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grupta ne yapıyoruz?"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/textView1934"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1928"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Çözemediğimiz soruları atıyoruz,"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1933"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1930"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Not paylaşımı yapıyoruz,"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1935"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1931"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Birbirimize sınavla ilgili rehberlik ediyoruz,"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1932"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1940"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Sohbet ediyoruz (muhabbet koyu :) )"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1941"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1942"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eğer bize katılmak istersen geç kalma :)"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/textView1944"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1945"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/whatsappCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Whatsapp grubuna katılmak için tıkla   >"
+            android:textColor="@android:color/holo_purple" />
+
+        <TextView
+            android:id="@+id/textView1946"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_purple"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/holo_purple" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

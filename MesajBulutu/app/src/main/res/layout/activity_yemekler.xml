@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yemekler">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2821"
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView2820"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ütü ile tost yapanlar"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2822"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VS"
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/textView2823"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Kettle ile makarna yapanlar"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2825"
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <TextView
+                android:id="@+id/textView2224"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/textView2829"
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <TextView
+                android:id="@+id/textView2828"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sadece Acil Durumlarda"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2824"
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/makarnaButton"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/makarnaa" />
+
+            <TextView
+                android:id="@+id/textView2324"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ezmeSalata"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/ezme" />
+
+            <TextView
+                android:id="@+id/textView2826"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/patates"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/patatess" />
+
+            <TextView
+                android:id="@+id/textView2348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/pilavButton"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/pilavv" />
+
+            <TextView
+                android:id="@+id/textView2349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/mantıButton"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/manti" />
+
+            <TextView
+                android:id="@+id/textView2296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/corba"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@mipmap/hazircorba" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

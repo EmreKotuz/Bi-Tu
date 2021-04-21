@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/kahveRengi"
+    android:layout_height="match_parent"
+    tools:context=".biyolojiyeGiris">
+
+    <Button
+        android:id="@+id/biyolojiwebButton"
+        android:layout_width="241dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="web sayfasını aç"
+        android:textColor="@color/beyazz"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1208" />
+
+    <Button
+        android:id="@+id/anaSayfa"
+        android:layout_width="169dp"
+        android:layout_height="42dp"
+        android:background="#FFFFFF"
+        android:text="Ana Sayfaya Dön"
+        android:textColor="#03A9F4"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biyolojiwebButton"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/textView1208"
+        android:layout_width="368dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Merhaba, şu an uygulamamıza entegre etmedik en kısa zamanda eklenecektir. Web sitesinden derslerden faydalanabilirsiniz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

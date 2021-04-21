@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".isiSicaklik">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1385"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1386"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ISI-SICAKLIK "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1387"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazen buzun eridiğini ya da suyu donduğunu ya da tellerin uzayıp kısalması gibi olayların nedeni ısı-sıcaklıdır. Isı ile sıcaklık birbirinden farklı noktaları vardır.  " />
+
+            <TextView
+                android:id="@+id/textView1388"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1389"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklık"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1390"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin belli bir ölçüye göre, soğukluğunu veya ılıklığını gösteren nicelik, sıcaklık olarak bilinir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1391"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddedeki her molekülün kinetik enerjisi farklı farklıdır. Bütün moleküllerin kinetik enerjilerinin toplamı, toplam molekül sayısına bölünürse, ortalama kinetik enerjisi bulunur. Bu ortalama kinetik enerji sıcaklığın bir ölçüsüdür. Bu değerin yüksek olduğu madde daha sıcak, düşük olduğu maddenin sıcaklığı ise daha düşük demektir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1392"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin ortalama kinetik enerjisi ile orantılı olan büyüklüğe sıcaklık denir. Bir maddenin sıcaklığı değişiyorsa, çevresine ısı veriyor ya da çevresinden ısı alıyordur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1393"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1394"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1395"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklıkları farklı olan maddeler bir araya konulduğunda aralarında enerji alış verişi olur. Alınan ya da verilen enerji ısı enerjisi denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1396"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1397"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı ile Sıcaklığın Birbirinden Farkı "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1398"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı ve sıcaklık ölçülebilir büyüklüklerdir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1399"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı enerji çeşididir,sıcaklık enerji değildir."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı kalorimetre ile,sıcaklık ise termometre ile ölçülür. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı birimi calori veya Joule’dür Sıcaklık birimi ise sadece Derece’dir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı madde miktarına bağlıdır.Sıcaklık ise madde miktarına bağlı değildir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklığın Ölçülmesi (Termometreler) "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklık ölçmek için kullanılan araçlara termometre denir. Maddelerin boyutlarında meydana gelen değişim, sıcaklıktaki değişim olarak kabul edilebilir. Termometreler bu esasa göre düzenlenmişlerdir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Termometrelerde 76 cm-Hg basıncında sabit iki sıcaklık değeri seçilir. Birisi suyun donma sıcaklığı diğeri ise suyun kaynama sıcaklığıdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Termometrenin Duyarlılığı  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Küçük sıcaklık değişimlerinden etkilenen termometrelerin duyarlılığı daha fazladır. Bunun için termometrenin haznesinde daha fazla sıvı ve sıcaklıkla daha çok genleşen sıvı olmalıdır. Cıvanın tercih edilmesi bundan dolayıdır. Ayrıca kılcal boru dar olmalı ki genleşen sıvının hareketi rahat gözlenebilsin.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1410"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerçekim kuvvetinin sıfır olduğu bir yerde termometre çalışır. Çünkü genleşme yerçekimine bağlı değildir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1412"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı Enerjisi"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1413"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin sıcaklığını artırmak için verilmesi gereken enerji çeşidine ısı enerjisi denir. Q ile gösterilir. Isı bir enerji çeşidi olduğundan enerji birimleri ısı birimleri olarak alınabilir. Uluslararası birim (SI) sistemine göre enerji birimi Joule (Jul)dür.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1414"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 cal = 4,18 Joule dür.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1416"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklık Değişimi "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1417"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elimizle bir maddeye dokunduğumuzda sıcaklık hissediyorsak madde elimize ısı veriyordur. Dokunduğumuzda soğukluk hissediyorsak elimiz maddeye ısı veriyordur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1418"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, sıcaklıkları farklı olan iki madde karıştırıldığında ya da birbirine değecek şekilde yan yana konulduğunda aralarında ısı alış verişi olur. Sıcak olan madde ısı verip sıcaklığı azalırken, sıcaklığı düşük olan madde ısı alarak sıcaklığı artar ve sonuçta ısıl denge sağlanır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1419"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı akışı her zaman sıcak maddelerden soğuk maddelere doğru olur. Sıcaklıkları eşit olan maddelerde ısı alış verişi olmaz.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1420"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öz ısı "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi bir maddenin 1 gr sıcaklığını 1°C artıran ısı miktardır. Her maddenin öz ısısı farklıdır.Dolayısıyla ayırt edeci bir özelliktir. Öz ısı “c” ile gösterilir. Ayırt edeci özellik madde miktarına bağlı değildir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin m gramının sıcaklığını DT kadar değiştirmek için verilmesi ya da alınması gereken ısı miktarı  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1424"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Q=m.c.Dt    bağıntısı ile bulunur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1433"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1437"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isı Alış Verişi "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1438"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcakları farklı cisimler bir araya getirildiğinde sıcak cisim ısı vererek soğurken, soğuk cisim ısı alarak ısınır. Cisimler arasındaki ısı alışverişi iki isminde son sıcaklıkları eşitleninceye kadar devam eder. Isı akışı sıcak cisimden soğuk cisme doğru olur. Her zaman alınan ısı verilen ısıya eşittir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1439"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qalınan = Qverilen  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1440"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m1 . c1 . DT1 = m2 . c2 . DT2  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1441"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki madde arasında hal değişimi yok ise, yukarıdaki eşitlik geçerlidir. Isıl denge sağlandığında iki maddenin son sıcaklığı kesinlikle eşit olur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1442"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklıkları T1 °C ve T2 °C olan aynı cins sıvıdan eşit kütleli karışım yapılırsa, karışımın son sıcaklığı  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1443"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1444"
+                android:layout_width="219dp"
+                android:layout_height="52dp"
+                android:background="@mipmap/isigif" />
+
+            <TextView
+                android:id="@+id/textView1445"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1446"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ERİME ve DONMA "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1447"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin içinde bulunduğu sıcaklığa göre, katı, sıvı ve gaz halinde bulundukları biliniyor. Maddeler ısı alarak ya da ısı vererek bir halden diğer bir hale geçiş yapabilirler. Maddelerin bir halden başka bir hale geçmesine hal değiştirme denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1448"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hal değişim sırasında maddelerin hacminde de değişme olur.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1449"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1450"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Erime Sıcaklığı "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1451"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sabit atmosfer basıncı altında bütün katı maddelerin katı halden sıvı hale geçtiği sabit bir sıcaklık değeri vardır. Bu sıcaklık değerine erime sıcaklığı ya da erime sıcaklık noktası denir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1452"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sabit atmosfer basıncı altında her maddenin erime sıcaklığı farklı olduğu için maddeler için ayırt edici bir özelliktir. Örneğin deniz düzeyinde buzun erime sıcaklığı 0 °C dir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1454"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buharlaşma"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1455"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıvı bir maddenin ısı olarak gaz haline geçmesi olayına buharlaşma denir. Buharlaşma olayı sıvı yüzeyinde olur. Isı alan sıvı moleküllerinden bazıları sıvı yüzeyinde,moleküller arası çekim kuvvetini ve sıvının yüzey gerilimini yenerek gaz fazına geçer.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1457"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buharlaşmaya basınç ve diğer fiziksel şartların etkisi çoktur.  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1458"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Buharlaşma her sıcaklıkta olabilir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1459"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Maddeler dışarıdan ısı alarak buharlaşırlar. Dolayısıyla buharlaşmanın olduğu yerde serinleme olur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1460"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Sıcaklığın artması buharlaşmayı hızlandırır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1461"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Açık hava basıncının azalması buharlaşmayı artırır. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Sıvının açık yüzey alanı arttıkça buharlaşma daha fazla olur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1463"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="· Rüzgarlı havada buharlaşma fazla olduğundan çamaşırlar daha çabuk kurur. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1464"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynama"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1466"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir kapta bulunan sıvı ısıtılırsa sıcaklığı yükselir ve buharlaşma artar. Sıvının sıcaklığının yükselmesiyle meydana gelen buhar basıncı, sıvının yüzeyine etki eden basınca eşit olduğu an, sıvı kaynamaya başlar. Kaynama sırasında sıvının sıcaklığı değişmez.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1467"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1468"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buharlaşma Isısı "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1469"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynama noktasına gelmiş 1 gram sıvı maddenin tamamının aynı sıcaklıkta gaz haline gelmesi için verilmesi gereken ısıya buharlaşma ısısı denir. Buharlaşma ısısı Lb ile gösterilir. Kaynama sıcaklığındaki m gramlık maddeyi gaz haline getirmek için verilmesi gereken ısı miktarı  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1470"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1471"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynama ve yoğunlaşma anında maddenin sıcaklığı değişmez. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1472"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin kaynama sıcaklığı ile yoğunlaşma ısısı eşittir "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1473"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin buharlaşma ısısı ile yoğunlaşma ısısı eşittir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1474"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaynama sıcaklığı ile buharlaşma ısıs ayırt edici özelliklerdendir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1475"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Süblimleşme"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1456"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1477"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suyun Hal Değişim Grafiği "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1478"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir parça buz ısıtıldığında önce sıcaklığı artar. Erime sıcaklığına geldiğinde hal değiştirmeye başlar ve buzun tamamı eriyinceye kadar sıcaklığı değişmez. Isı enerjisi verilmeye devam edildiğinde, suyun sıcaklığı artar ve 100 °C de kaynamaya başlar. Sıvının tamamı bitinceye kadar sıcaklık değişmez. Bu açıklamaya göre buzun sıcaklık-aldığı ısı enerjisi grafiği şekildeki gibi olur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1479"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1480"
+                android:layout_width="398dp"
+                android:layout_height="131dp"
+                android:background="@mipmap/sumblim" />
+
+            <TextView
+                android:id="@+id/textView1481"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1482"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madde ısı hızı sabit olan ocakla ısıtılıyorsa, ısı ekseni yerine zaman ekseni alınabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1483"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1484"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1485"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1486"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

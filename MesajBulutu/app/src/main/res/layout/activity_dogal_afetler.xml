@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dogal"
+    tools:context=".dogalAfetler">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/kahveRengi"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2295"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF818181" />
+
+            <TextView
+                android:id="@+id/textView268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView263"
+                android:layout_width="match_parent" android:background="#FF818181"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/dogalMod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:text="Gece Modu" />
+
+            <TextView
+                android:id="@+id/textView262" android:background="#FF818181"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğal Afet Nedir? "
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En geniş anlamıyla afet insanlara zarar veren olaylardır. Doğal afet ise can ve mal kaybına yol açan doğal olaylardır. Bu doğal olayların oluşumunda insanların da etkisi olabilmektedir. Bu tür afetlere beşeri afet diyoruz. Bunlara örnek olarak, kazalar, kontrol edilmeyen nükleer etkinlikler, terör eylemleri, hava, su kirliliği, erozyon, heyelan, yangınlar, küresel ısınma verilebilir. insanların yaşamadığı alanlarda görülen olaylar can ve mal kaybına neden olmadığından afet kriterine girmemektedir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:background="@mipmap/da" />
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa olaylarının doğal afete yol açmasında iki faktör etkilidir."
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView752"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A) Doğa olayının uç değerlerde (ekstrem) olması: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İnsanların bulunduğu yerdeki doğa olayının büyüklüğü, olayın afet hâline dönüşmesinde etkili olur. Gemileri karaların içlerine kadar sürükleyen tsunaminin, otomobilleri havalandıran bir hortumun, uzun süren kuraklığın veya 9,0 büyüklüğündeki bir depremin insan ve beşerî yapılar üzerindeki etkisi çok daha fazladır."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView764"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B) İnsanların doğal afet bilinci: "
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa olaylarının doğal afete dönüşmesinde insanların doğal afetler karşısındaki farkındalığı ve davranışları önemli ölçüde etkili olmaktadır. Doğal ortamdan nasıl yararlanıldığı, beşerî ve ekonomik faaliyetler için yer seçimi, doğa olaylarının afete dönüşmesinde çoğu zaman asıl belirleyici olandır. Kısaca, yaşanılan yerde doğal afet risklerini dikkate almadan yapılan faaliyetler doğal afetlere zemin hazırlar. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İ) Doğal Afetlerin Genel Özellikleri:"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oluşumları doğa olayları ile ilişkilidir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can, mal ve doğal kaynak kaybına yol açarlar"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kısa zamanda (aniden) meydana gelmesi. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başladıktan sonra insanlar tarafından engellenememesidir. "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir doğal afet başka bir doğal afetin oluşmasına neden olabilir."
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı afetlerin nerede ve ne zaman olabileceği tahmin edilebilmektedir. Örneğin; depremin fay hatları üzerinde daha fazla olduğu bilinmektedir. Kaya düşmesi, heyelan, çığ, sel olaylarının nerelerde daha çok görülebileceği bilinmektedir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı olaylar normal ölçülerde, normal zamanlarda oluştuğu zaman zarara neden olmadıkları halde şiddetlerinin fazla olduğu zamanlarda afet niteliği kazanmaktadırlar. Örneğin iç ve Doğu Anadolu’da kış mevsiminde meydana gelen don olayları zarara yol açmazken ilkbahar mevsiminde meydana gelen don olaylarından tarım ürünleri çok büyük zarar görmektedir. Bazı afetler arkasından diğer afetleri de tetikleyebilmektedir. Örnek olarak, sel ve su baskınlarından sonra görülen salgın hastalıklar, depremlerden sonra görülen yangınlar, heyelanlar verilebilir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Erozyon, hem meydana gelişinin uzun süreli olması ve başladıktan sonra insanlar tarafından engellenebilir olma özelliğiyle afet dışında kalmaktadır. Ülkemizde çok önemli etkileri olduğundan bu konuyu da afetler kapsamında inceleyeceğiz. Bazı afetlerin etkileri hemen görüldüğü gibi bazı afetlerin etkileri de zamanla ortaya çıkmaktadır. Depremin, selin, çığ’ın etkisi hemen görülürken, kuraklığın etkisi zamanla kendini göstermektedir."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

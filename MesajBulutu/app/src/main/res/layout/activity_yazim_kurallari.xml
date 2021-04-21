@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yazimKurallari">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YAZIM KURALLARI  "
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BÜYÜK HARFLERİN KULLANILDIĞI YERLER  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her cümle büyük harfle başlar. Ancak sıralı cümlelerde, cümleler arasında noktalı virgül kullanıldığında, bu işaretten sonraki cümle küçük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kitap, dergi isimleri, kurum, kuruluş isimleri ve diğer özel isimler daima büyük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel isimlere bağlı ünvan ve lakaplar özel isimden önce de gelse sonra da, büyük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ay, Güneş, Dünya ve öteki gezegen isimleri gerçek anlamıyla kullanılırsa büyük harfle, mecaz anlama gelirse küçük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yön bildiren isimler, yönünü bildirdiği isimden önce gelirse (yani sıfat olursa) büyük harfle, sonra gelirse küçük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarihler arasında kullanılan gün ve ay isimleri büyük harfle başlar. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Mİ” SORU EDATININ YAZIMI  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu edat kendinden önceki sözcüğe ayrı, kendinden sonraki eklere bitişik yazılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İKİLEMELERİN YAZIMI  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İkilemeyi oluşturan sözcüklerin arasına hiçbir noktalama işareti getirilmez. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pekiştirmeli sözcükler ise daima bitişik yazılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAYILARIN YAZIMI  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sayı isimleri birbirinden ayrı yazılır. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sayılara gelen ekler sayının okunuşuna göre getirilmeli. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Kİ” BAĞLACININ YAZIMI  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkçe’de üç tür “ki” vardır: İlgi zamiri, sıfat yapan ek ve bağlaç. Bunlardan ilk ikisi kendinden önceki sözcüğe bitişik, sonuncusu ayrı yazılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlgi zamiri daima bir ismin yerine geçer ve cümleden çıkarılamaz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Sizin arabanız yeni, bizimki biraz eskice.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “-ki” araba isminin yerine geçmiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“DE” BAĞLACININ YAZIMI  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkçe’de iki tür “de” vardır: Hal eki ve bağlaç.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hal eki cümlede yer, zaman bildirecek şekilde kullanılır ve cümleden çıkarıldığında cümlenin anlamı bozulur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Beni durakta bekle.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Geldiğinde beni arardı.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlelerindeki “de”leri çıkarırsak cümlenin anlamsız hale geldiğini görürüz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bağlaç olan “de” cümlede başka şeylerin de olduğu anlamını verir. Cümleden çıkarıldığında cümlenin anlamı daralır ama bozulmaz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BİLEŞİK SÖZCÜKLERİN YAZIMI  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bileşik sözcükler daima bitişik yazılır. Ancak bileşik fiillerin bir bölümünün, bileşik sıfatların ayrı yazılanları da vardır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre kurallı bileşik fiiller (yeterlik, sürerlik, tezlik, yaklaşma fiilleri) daima bitişik yazılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“gelebilir, gidiverdi, bakakaldı, düşeyazdı”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yardımcı fiille yapılanlarda isim durumundaki sözcükte ses düşmesi ya da türemesi oluyorsa bitişik, olmuyorsa ayrı yazılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KISATMALARIN YAZIMI  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüklerin baş harflerinin alınmasıyla oluşturulan kısaltmalar daima büyük harfle yazılır. Bu kısatmalara ek getirilirken, harflerin ifade ettiği sözcükler söylenmez sadece harfler okunarak getirilir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“ÖSS’de başarılı olamadı.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde eğer harflerin ifade ettiği sözcükleri söylesek ek “Öğrenci Seçme Sınavı’nda” şeklinde olacaktı. Kısaltıldığında “de” şeklinde olmuştur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

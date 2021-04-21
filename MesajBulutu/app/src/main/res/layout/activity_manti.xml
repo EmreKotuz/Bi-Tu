@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mantiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2369"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2389"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:background="@mipmap/mantiimg" />
+
+            <TextView
+                android:id="@+id/textView2390"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2370"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mantı"
+                android:textColor="#5E0000" />
+
+            <TextView
+                android:id="@+id/textView2371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ucuz ve hızlı yapılışı olarak tavsiye edilen yemek türü."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2388"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2372"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malzemeler"
+                android:textColor="#5729AA" />
+
+            <TextView
+                android:id="@+id/textView2373"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazır Mantı"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2374"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 kaşık Tuz"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2375"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tereyağ"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2376"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 tatlı kaşığı Salça"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2377"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yoğurt "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2378"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Varsa salça sosu "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2379"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2393"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2380"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapılışı"
+                android:textColor="#5729AA" />
+
+            <TextView
+                android:id="@+id/textView2381"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tencereye su koy yarısına kadar"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2382"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Su kaynasın, Tuz at bir kaşık"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2383"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazır mantıyı dök içine, Pişene kadar haşla, kontrol et"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2384"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu sırada küçük bir tavada yağı erit, kızdığında salça koy bir tatlı kaşığı, iyice kavur söndür "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2385"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haşlanan mantıyı süz, tabağa al, yoğurt dök, üzerine salça sosunu dök"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2386"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2394"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afiyet Olsun.." />
+
+            <TextView
+                android:id="@+id/textView2395"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textVi3ew202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2387"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

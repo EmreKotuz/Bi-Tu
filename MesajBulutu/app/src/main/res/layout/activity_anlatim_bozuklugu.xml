@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anlatimBozuklugu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANLATIM BOZUKLUKLARI  "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1624"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1625"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her cümle belli bir düşünceyi, duyguyu aktarmak için kurulur. Bu cümlenin, ifade edeceği anlamı açık ve anlaşılır bir biçimde ortaya koyması gerekir. Ayrıca mümkün olduğunca gereksiz unsurlardan arındırılmış olmalıdır bu cümle. İşte bu özelliği göstermeyen cümleler, anlatım bakımından bozuktur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1627"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu alanda sorulan sorular değişik özellikler gösterir. Bazen bir cümle verilir ve “Bu cümledeki anlatım bozukluğu nasıl giderilir?” diye sorulur, bazen de “Aşağıdakilerden hangisinde anlatım bozukluğu vardır?” şeklinde sorulur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1628"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1629"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Anlama dayalı bozukluklar  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gereksiz sözcük kullanılması"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede belirsizlik bulunması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birbiriyle çelişen ifadelerin bulunması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüğün anlamca cümleye uymaması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1634"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüklerin yanlış eyleme bağlanması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1635"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mantık hatasının olması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1636"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deyimin yanlış anlamda kullanılması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1637"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcüğün yanlış yerde kullanılması "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1638"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazen de bu belirsizlik noktalama işaretleriyle giderilir. "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1639"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Yaşlı adamın yüzüne dalgın dalgın baktı.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “dalgın dalgın” bakanın “yaşlı” olduğunu belirtmek için, “yaşlı” dan sonra virgül gelmelidir. Aksi takdirde “yaşlı” sözü adam isminin sıfatı olacaktır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede gereksiz sözcük kullanılması anlatım bozukluğuna yol açar. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cümlede gereksiz sözcük bulunduğunu anlamak için, sözcük cümleden çıkarılır. Bu durumda cümlenin anlam ve anlatımında bir bozulma oluyorsa o sözcük gerekli, olmuyorsa gereksizdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Herkesi eleştirip tenkit etmek bize hiçbir yarar sağlamaz.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “eleştirip” sözcüğünün verdiği anlamla “tenkit etmek” sözcüğünün verdiği anlam aynıdır. Öyleyse bu cümlede “eleştirip” sözü gereksizdir. Cümleden çıkarılmalıdır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cümlenin anlamı içinde bulunan başka bir sözü cümlede kullanmak da gereksiz sözcük kullanımına girer. "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede böyle bir sözcük varsa, o cümle de anlatım bakımından bozuktur.  " />
+
+            <TextView
+                android:id="@+id/textView1651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Böyle yüksek sesle bağırmana gerek yok, sağır değilim.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “bağırmak” zaten yüksek sesle konuşmak anlamındadır. Öyleyse bu sözün anlamı içinde bulunan “yüksek sesle” sözüne gerek yoktur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1653"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1654"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede belirsizlik varsa, o cümle iyi bir cümle değildir. "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1655"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu belirsizlik mutlaka giderilmelidir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1656"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1657"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı eylemler olumlu durumlarda, bazıları olumsuz durumlarda kullanılır. Eylemin anlamca yanlış yerde kullanılması da anlatım bozukluğuna yol açar. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1658"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1659"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bana yardım ederek, işi kısa sürede bitirmeme neden oldu..”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1660"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesindeki “neden olmak” eylemi daima olumsuz anlamlar verecek biçimde kullanılır. Oysa işin kısa sürede bitirilmesi olumlu bir durumdur. Öyleyse “neden oldu” sözü bu cümlede yanlış kullanılmıştır. Bunun yerine cümle “…bitirmemi sağladı.” şeklinde bitirilebilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı cümlelerde mantık hatasının bulunması da o cümlenin anlatımını bozar. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1708"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bırakın patates doğramayı yemek bile yapamaz o.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1709"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “bırakın” sözcüğünün cümleye kattığı anlamdan dolayı sanki patates doğramak yemek yapmaktan daha önemliymiş gibi görülüyor. Bu yanlışın düzeltilmesi için cümle,  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1710"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bırakın yemek yapmayı, patates bile doğrayamaz o.”  şeklinde söylenmelidir." />
+
+            <TextView
+                android:id="@+id/textView1711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazen sözcüklerin bağlandığı ortak eylemler de anlatımda bozukluğa yol açar. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1663"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1664"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu davranışıyla bize yarar mı sağladı zarar mı belli değil.”  " />
+
+            <TextView
+                android:id="@+id/textView1665"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “yarar” ve “zarar” sözcükleri “sağladı” eylemine bağlanmıştır. Ancak “yarar sağlamak” doğru olsa bile, “zarar sağlamak” doğru değildir. Cümle;  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bu davranışıyla bize yarar mı sağladı, zarar mı verdi belli değil.”  şeklinde söylenmelidir." />
+
+            <TextView
+                android:id="@+id/textView1667"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1668"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlede deyimin yanlış yerde kullanılması da cümlenin anlamını bozar. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1669"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Öğretmenin anlattığı konu tüm öğrencilerin dikkatini çekmişti. Herkes kulak kabartmış, öğretmeni dinliyordu.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “kulak kabartmış” yanlış kullanılmıştır. Çünkü “kulak kabartmak” fark ettirmeden dinlemek anlamındadır. Burada “kulak kesilmek” deyiminin kullanılması gerekirdi.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1672"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı sözcüklerin anlamları birbirine karıştırılabilir. Cümledeki sözcüklerin anlamına da dikkat edilmelidir. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Çocukların birbiriyle uygunluk içinde olmaları beni sevindirdi.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1675"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesindeki “uygunluk” sözü yanlış anlamda kullanılmıştır. Çünkü burada “uyum” sözü kullanılmalıdır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazen sözcük doğrudur ancak cümlede bulunduğu yer doğru değildir. "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1679"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Yeni elbisemi giymiştim ki kapı açıldı.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1680"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cümlesinde “yeni” sözünün yeri anlatımda bozukluğa yol açmıştır. Çünkü burada söylenmek istenen, elbisenin yeniliği değil, giymenin yeni yapıldığıdır. Öyleyse cümle;  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1681"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Elbisemi yeni giymiştim ki kapı açıldı.” şeklinde olmalıdır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1682"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1683"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı anlama gelen ek ve sözcüklerin bir arada kullanılması anlatım bozukluğuna yol açar. "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1684"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1685"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Onun beni sevmemesinin nedeni, fikirlerini benimsememiş olmamdandır.”  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1686"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “nedeni” sözcüğü bir olayın sebebini anlatıyor. Ayrıca “olmamdandır” sözündeki “-dan” eki de neden anlamı veren bir ektir. İkisinin bir arada bulunması cümlenin anlatımını bozmuştur. Cümle,  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1687"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Onun beni sevmemesinin nedeni, fikirlerini benimsememiş olmamdır.”  şeklinde düzeltilebilir."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1689"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anlatım bozukluklarının anlama dayalı olanlarını anlattık. yapıya dayalı anlatım bozukluklarını anlatacağız. Bu tür bozukluklar daha çok, Türkçe’nin kurallarıyla ilgili olduğundan, soruları çözebilmek için dilbilgisi kurallarının iyi bilinmesi gerekir. Bu tür bozukluklar şu şekilde sıralanabilir:  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1690"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öğe eksikliğinin bulunması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1691"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özneyle yüklem arasında olumluluk-olumsuzluk uyumsuzluğunun bulunması " />
+
+            <TextView
+                android:id="@+id/textView1692"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özneyle yüklem arasında tekillik-çoğulluk açısından uyumsuzluğun bulunması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1693"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özneyle yüklem arasında şahıs yönünden uyumsuzluğun bulunması " />
+
+            <TextView
+                android:id="@+id/textView1694"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tamlama uyumsuzluğunun bulunması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1695"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ek uyumsuzluğunun bulunması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1696"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Etken-edilgen fiillerin bir arada bulunması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1697"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim cümlelerinde ekfiilin ortak kullanılması "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1705"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1706"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

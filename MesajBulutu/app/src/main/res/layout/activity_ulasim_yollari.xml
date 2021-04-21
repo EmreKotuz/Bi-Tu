@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ekranUlasim"
+    android:layout_height="match_parent"
+    tools:context=".ulasimYollari">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView635"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.si Kara Yolları "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView629"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:background="@mipmap/ka"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:id="@+id/textView633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ülkemizde en yaygın olan ulaşım türüdür. Yük taşımacılığının % 70’i, yolcu taşımacılığının da % 90’ı karayolu ile yapılmaktadır. Özellikle 1950’li yıllardan sonra, karayolu yapımı artmış ve ulaşım araçları çoğalmıştır. Ülkemizdeki en işlek karayolları, Edirne, İstanbul, Ankara, Adana arası ile İstanbul, Bursa, İzmir arası ve İzmir, Aydın, Denizli arasıdır. Modern karayolu olan otoyollar ülkemizde sadece Edirne, İstanbul, Bolu ve Ankara arasında,Adana, Hatay çevresinde ve İzmir çevresinde bulunur. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView637"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.si Demir Yolları "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:background="@mipmap/de"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:id="@+id/textView631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkiye’de İlk demiryolu hattı 1866 yılında İzmir – Aydın arasında kurulmuştur. Cumhuriyetin ilk yıllarında demiryoluna önem verilmiştir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ancak, 1950’li yıllardan sonra, karayollarına daha çok önem verildiğinden demiryolu yapımı azalmıştır. Şu anda, ülkemizde 8200 km uzunluğunda demiryolu ağı vardır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu uzunluk yeterli değildir. Söz gelimi, Almanya’da 43 bin, Fransa’da 34 bin, İtalya’da 29 bin km lik demiryolu ağı bulunmaktadır. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView605"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:background="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView606"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.si Deniz Yolları "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:background="@mipmap/dee"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:id="@+id/textView628"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkiye’nin üç tarafının denizlerle çevrili olması ve iki önemli boğaza sahip olması, denizcilik alanında gelişmesi bakımından çok önemlidir. Dünya ticaretinde en fazla kullanılan yol deniz yoludur. Bu nedenle, ülkemizde deniz yolunun ve limanların geliştirilmesi gerekmektedir. 8333 km kıyı şeridine sahip olan ülkemizde, bölgeler arasında düzenli ve tarifeli yolcu ve yük taşımacılığı henüz gerçekleşmemiştir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya deniz ticaret filosundaki payımız % 1’e dahi ulaşmamıştır. Fakat, son yıllarda sanayi ve ticaretin gelişmesiyle, limanlarımızdaki indirilen – bindirilen yükte 8 – 10 katlık artışlar olmuştur. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView627"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:background="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView608"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.si Hava Yolları "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:background="@mipmap/ha"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:id="@+id/textView625"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ülkemiz ulaşımında en az payı olan ulaşım sektörüdür. Çünkü, hava yolu ile ulaşım yüksek sermaye ve teknoloji gerektirmektedir. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView624"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

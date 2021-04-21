@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sozcukteAnlam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1999"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KELİME ANLAMI  "
+                android:textColor="@color/deneme"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gerçek anlam"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir sözcüğün temel anlamıdır; buna sözcüğün ilk akla gelen anlamı ya da sözlükteki ilk anlamı da denir. Bir sözcüğün diğer anlamları gerçek anlamından yola çıkılarak oluşturulmuştur. Örneğin “Burun” dendiğinde aklımıza ilk gelen, insanın bir organıdır. Öyleyse; “Burnundaki benler onu öyle tatlı gösteriyordu ki…” cümlesindeki “burun” sözü insanın bir organı anlamında olduğundan gerçek anlamında kullanılmıştır. Ancak aynı söz; “Bugünlerde burnu büyüdü kimseleri gözü görmüyor.” cümlesinde insanın bir organı anlamını vermekten çok uzaktır. Temelde bu, gerçek anlamdan doğmuş ancak tamamen farklı bir özellik kazanmıştır."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2053"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşte sözcüğün gerçek anlamından tamamen uzaklaşarak kazandığı bu anlama mecaz anlam diyoruz.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2054"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir de sözün, çoğu kaynağın mecaz anlama dahil ettiği ancak mecaz anlamdan biraz farklı olması yönüyle yan anlam ya da yakıştırma diye de anılan bir anlamı vardır. Yukarıda verdiğimiz “burun” sözünü “Ayakkabımı biraz küçük almışım; burnu ayağımı sıkıyor.” cümlesinde ele alalım. Buradaki “burun” sözü gerçek anlamda değildir; çünkü “insanın bir organı” ifadesini taşımıyor. Tam olarak mecaz anlama da girmez; çünkü temelde gerçek anlamla yakın bir ilgisi vardır. Ayakkabının o kısmına burun denmesinin nedeni insanın burnuna konum itibariyle benzemesindendir. İşte sözcüğün, gerçek anlamında karşıladığı varlığa şekil benzerliğinden dolayı başka bir varlığa verilmesine yan anlam ya da yakıştırma denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2055"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2056"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOMUT VE SOYUT ANLAM  "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2057"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözcükler varlıkları ve kavramları karşılar. Varlık, madde olarak bulunan yani duyu organlarıyla algılanabilen bir nitelik taşır. Örneğin; ağaç, yeşil, kalem gözle; soğuk, ıslak dokunmayla; ses, gürültü işitmeyle; koku koklamayla; acı, ekşi tatmayla algılanabilir. İşte duyu organlarımız yardımıyla algılayabildiğimiz bu sözcüklere somut anlamlı sözcükler denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2058"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oysa üzüntü, sevgi, özlem, hasret, rüya gibi sözcükleri herhangi bir duyumuzla algılayamayız; bunların sadece kavram olarak var olduğunu kabul ederiz. İşte bu tür sözcüklere de soyut anlamlı sözcükler denir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2059"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TERİM ANLAM  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2061"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi bir bilim, sanat ya da meslekle ilgili özel bir kavramı karşılayan sözcüklere terim denir. Yeni bulunan bir kavram, yeni bir terimle karşılanabileceği gibi, günlük hayatta kullanılan bir sözcüğe özel bir anlam verilerek de karşılanabilir. Örneğin “ağız” sözü “Adamın ağzında diş kalmamış, hala genç gibi davranıyor.” cümlesinde gerçek anlamında ve günlük kullanımıyladır. Aynı söz “İstanbul’da büyümüş; ama Karadeniz ağzıyla konuşuyor.” cümlesinde dilbilgisinde bir tanım olan “yöresel konuşmalara dilde verilen karşılık” anlamına gelerek bir terim oluşturmuş. Ya da “Irmağın ağzı toprakla dolmuştu.” cümlesinde olduğu gibi “ırmağın denize karıştığı yer” anlamında kullanılarak coğrafi bir terim olmuştur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2062"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2063"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EŞ ANLAM  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2064"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı kavramı karşılayan farklı sözcükler eş anlamlıdır. Örneğin “ayakkabı” sözü ile “kundura” sözü aynı nesneyi karşıladıkları için eş anlamlı sayılır. Ancak bir sözcük daima başka bir sözcükle eş anlamlı olmaz. Bazen aynı sözcük farklı cümlelerde eş ya da farklı anlamlar da taşıyabilir. Cümlenin gelişine göre eş anlamlılık durumu değişir. Örneğin; “Çocuğun kara gözleri, büyüleyiciydi.” cümlesindeki “kara” yerine “siyah” diyebiliriz. Ancak “Ah alnımın kara yazısı!” sözündeki “kara” yerine “siyah” getirilemez. Çünkü “kara” sözü cümlelerin ikisinde de farklı anlamlar veriyor. Dolayısıyla ikinci cümlede mecaz anlama geldiği için yerine “siyah” sözcüğünü getiremiyoruz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2065"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KARŞIT (ZIT) ANLAM  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birbirine karşıt kavramları karşılayan sözcüklerdir. Karşıt anlamlı sözcükler iki zıt noktayı belirtirler. Örneğin; “güzel” sözcüğünün karşıtı “itici” olamaz çünkü iticilikte sevimsizlik anlamı da vardır. Oysa “güzel” sözü sevgiyi beraberinde ifade etmez. Bunun karşıtı ancak “çirkin”dir. Aynı durum eylemlerde de görülür. Örneğin; “sevmek” eyleminin karşıtı “sevmemek” değildir. Çünkü “sevmek” iyi bir duygunun varlığını bildirir. Sevmemekte ise bu duygunun bulunmadığı anlamı vardır. Oysa karşıtlıkta, olan duygunun tam karşıtı olmalıdır; bu da “nefret etmek”tir. Bu nedenle karşıtlıkla olumsuzluğun farkını görmek önemlidir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2068"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2069"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEYİM"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En az iki sözcükten meydana gelen, sözcüklerden en az birisi mecaz anlamıyla kullanılan, cümlede eylem bildiren söz öbekleridir. Deyimi oluşturan sözcükler çoğu zaman kendi anlamlarından uzaklaşmış görülürler. Örneğin; “Haberi duyunca etekleri zil çaldı.” cümlesinde “etekleri zil çalmak” çok sevinmek anlamına gelen bir deyimdir. Ancak burada etek, zil, çalmak sözlerinin sevinmekle bir ilgisinin olmadığı açık.  " />
+
+            <TextView
+                android:id="@+id/textView2071"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2072"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bazı deyimlerde ise sözcükler gerçek anlamlarını tamamen yitirmemiş olabilir. Örneğin; “Yükte hafif pahada ağır ne varsa getirin.” cümlesindeki altı çizili deyimde “yük” ve “paha” sözcüklerinin gerçek anlamlı olduğu açıktır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2073"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2074"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ATASÖZÜ"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2075"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yıllar önce söylenmiş, dilden dile aktarılarak günümüze kadar gelmiş, öğüt bildiren, genel kural niteliği taşıyan söz öbekleridir. Genellikle kesin bir yargı bildiren cümleler biçiminde görülür.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2076"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atasözlerinin söyleyeni belli değildir. Sadece mecaz anlam veren atasözü olabileceği gibi, sadece gerçek ya da hem gerçek hem mecaz anlam taşıyanlar da vardır. Örneğin; “Tatlı dil yılanı deliğinden çıkarır.” atasözü sadece mecaz; “Dost ile ye iç, alışveriş etme.” sadece gerçek”; “Taşıma su ile değirmen dönmez.” hem gerçek hem mecaz anlam verir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2077"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2078"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SESTEŞ (EŞSESLİ) SÖZCÜKLER  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2079"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yazılışları aynı, anlamları arasında hiçbir ilgi bulunmayan sözcüklerdir. Örneğin;  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir gül de içimiz aydınlansın.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2082"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÖZDEYİŞ (VECİZE)  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2083"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kim tarafından söylendiği bilinen özlü sözlerdir. Genellikle evrensel nitelikler gösterir.  " />
+
+            <TextView
+                android:id="@+id/textView2084"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düşünüyorum, öyleyse varım.  " />
+
+            <TextView
+                android:id="@+id/textView2085"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2086"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YANSIMA SÖZCÜKLER  "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2087"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğada duyulan seslerin taklit edilmesiyle oluşan sözcüklerdir. Bu sözcüklerde ses-anlam ilişkisi güçlüdür. Bu tür sözcükler sese dayalı olduğundan çoğu dilde benzerlik gösterir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2088"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çalılıktan çıtır çıtır sesler geliyordu.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2089"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2090"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İKİLEME"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2091"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sözün anlamını pekiştirmek, onu zenginleştirmek ya da değişik anlam ilgileri oluşturmak için iki sözün bir araya getirilmesiyle oluşan söz öbeğidir. İkilemeler yapıca ve anlamca farklılıklar gösterir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2092"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2093"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AD AKTARMASI  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2094"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benzetme ilgisi kurmadan bir sözün başka bir söz üzerine kullanılmasıdır. Bunda, parça söylenip bütün, genel söylenip özel çağrıştırılabilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2095"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Biz hilale şan arayan gemicileriz.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2096"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dizelerinde “hilal” sözü bayrak yerine kullanılmıştır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

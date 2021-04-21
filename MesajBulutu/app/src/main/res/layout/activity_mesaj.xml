@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mesaj">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/randommm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:background="@color/beyazaYakin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="284dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#8F6E56" />
+
+                <TextView
+                    android:id="@+id/textView740"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:id="@+id/button6"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/icci" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView741"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvKullaniciAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dersButton"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/dd" />
+
+            <TextView
+                android:id="@+id/textView2818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/kronooo"
+                    android:layout_width="193dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/kroon" />
+
+                <TextView
+                    android:id="@+id/textView2819"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/tekno"
+                    android:layout_width="186dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/teknoek" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/yemekButton"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/tarr" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/eğzersiz"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/sporr" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/ingilizceyeGiris"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/enn" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/Beyin"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:background="@mipmap/not" />
+
+            <TextView
+                android:id="@+id/destekButton1"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="55dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onYediOsmanliDevleti">
+
+    <ScrollView
+        android:id="@+id/scrollView20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2592"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17.YY OSMANLI DEVLETİ "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı İmparatorluğu’nun Duraklama Nedenleri "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2654"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezi Yönetimin Bozulması  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2653"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı merkezi yönetiminin bozulmasında;  " />
+
+            <TextView
+                android:id="@+id/textView2655"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. yüzyıldan itibaren tahta çıkan padişahların devlet işlerine ilgisiz kalmaları ve ordunun başında seferlere çıkmamaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2656"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şehzadelerin sancaklara gönderilmemesinden dolayı, devlet işlerinde yeterli bilgi ve tecrübeye sahip olmadan devletin başına geçmeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2657"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Padişahların tecrübesizliğinden yararlanan saray kadınlarının ve ağalarının devlet yönetiminde etkili olmaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2658"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Önemli makamların liyakata bakılmadan rüşvet ve iltimas yoluyla dağıtılması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2659"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi nedenler etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2660"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekonominin Bozulması  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVI. yüzyılın sonlarından itibaren Osmanlı ekonomisinin bozulmasında; " />
+
+            <TextView
+                android:id="@+id/textView2663"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coğrafi Keşiflerin etkisiyle ticaret yollarının yön değiştirmesi ve gümrük gelirlerinin büyük ölçüde azalması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2664"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. yüzyılda Avusturya ve İran ile yapılan savaşların yüklü harcamalara yol açması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2665"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İhracatın azalması, ithalatın artması ve kapitülasyonların giderek Avrupalı devletlerin sömürü aracı haline gelmesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sömürgelerden Avrupa’ya yüklü miktarda altın ve gümüşün gelmesi, bu madenlerin bir miktarının Osmanlı ülkesine girmesi ve paranın değerini düşürerek enflasyonu artırması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2667"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vergilerin yükseltilmesi üzerine köylerde yaşayan insanların vergilerini ödeyemeyerek tarımsal üretimi bırakmaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2668"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saray masraflarının artması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2669"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi nedenler etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Askeri Sistemin Bozulması  "
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView2672"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. Murat döneminden itibaren kapıkulu ocaklarına kanunlara aykırı asker alınarak sayılarının artırılması "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeniçerilerin geçim sıkıntısını ileri sürerek askerlik dışında işlerle uğraşmaları "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İltizam sisteminin yaygınlaşması üzerine tımar sisteminin önemini kaybetmesi ve eyaletlerde asker yetiştirilmemesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2675"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Denizcilikle ilgisi olmayan kişilerin donanmanın başına getirilmesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avrupa’da meydana gelen harp teknolojisindeki gelişmelerin takip edilmemesi "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView2677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi etkenler Osmanlı askeri sisteminin bozulmasına neden olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2679"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sosyal Alandaki Bozulmalar  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2680"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tımar sisteminin bozulması, nüfusun artması ve Anadolu’da çıkan Celâli isyanları halkın devlete olan güvenini sarsmıştır. XVII. yüzyılda başta İstanbul olmak üzere büyük şehirlerin nüfusları hızla artmış, bu durum şehirlerde işsizliğe ve güvenliğin bozulmasına neden olmuştur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2752"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2753"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2682"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğitim Sisteminin Bozulması  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2683"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı eğitim sisteminin temelini oluşturan medreselerin çağın gerisinde kalması ve Avrupa’da eğitim alanında meydana gelen yeniliklerin takip edilmemesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2684"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medrese öğrenimi görmemiş pek çok kişiye ilmi rütbeler verilmesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2685"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeni doğmuş çocuklara müderrislik ünvanının verilmesi ve beşik uleması diye adlandırılan bir sınıfın ortaya çıkması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2686"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2687"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dış Etkenler  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coğrafi Keşiflerle zenginleşen ve ekonomilerini güçlendiren Avrupa devletleri, Rönesans ve Reform hareketleriyle düşünce ve bilim hayatında önemli atılımlar yapmıştır. Osmanlı İmparatorluğu Avrupa’daki teknolojik ve bilimsel gelişmelere ayak uyduramamış, Avrupa’nın gerisinde kalmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2689"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. yüzyılda Osmanlı İmparatorluğu doğal sınırlarına ulaşmıştır. Sınırlarını çöllere, okyanuslara ve güçlü devletlere dayandıran Osmanlı Devleti duraklama sürecine girmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2690"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avrupalıların Haçlı anlayışıyla Osmanlı İmparatorluğu’na hep birlikte saldırmaları duraklamaya neden olmuştur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2691"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2692"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. Yüzyılda Osmanlı – Avusturya İlişkileri "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2693"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1593 – 1606 Osmanlı – Avusturya Savaşları  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2694"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sokullu Mehmet Paşa döneminde imzalanan antlaşma tarafların karşılıklı saldırılarıyla bozulmuş ve iki devlet arasında savaşlar başlamıştır. İki devlet arasındaki savaş Avusturya’nın isteğiyle Zitvatorok Antlaşması imzalanarak sona erdirilmiştir (1606).  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2695"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2696"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zitvatorok Antlaşması ile Osmanlı Devleti;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2697"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avrupa’daki üstünlüğünü kaybetmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2698"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avusturya kralı Osmanlı padişahına denk hale gelmiştir. Böylece, Osmanlı Devleti’nin Avrupa devletleriyle hukuki eşitlik dönemi başlamıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2699"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viyana Kuşatması ve Osmanlı – Avusturya Savaşı "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avusturya, Orta Avrupa’da gücünü artırmak için Macaristan’a egemen olma politikası izlemiştir. Macarlara yardım etmeyi kabul eden Sadrazam Merzifonlu Kara Mustafa Paşa sefere çıkarak Viyana’yı ikinci defa kuşatmıştır (1683). Osmanlı orduları Viyana önlerinde bozguna uğrayarak geri çekilmiştir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türklerin Viyana önlerinde bozguna uğraması, Avrupa’da büyük bir sevinç meydana getirmiş ve Papa’nın gayretleriyle Türkleri Avrupa’dan atmak amacıyla Kutsal İttifak kurulmuştur (1684). Bu ittifaka; Avusturya, Lehistan, Venedik, Malta şövalyeleri ve sonradan Rusya katılmıştır. 16 yıl devam eden savaşlarda Osmanlı Ordusu yenilmiş, kutsal İttifak devletleriyle Osmanlı Devleti arasında Karlofça Antlaşması imzalanmıştır (1699).  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2704"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karlofça Anlaşması; "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-Osmanlı Devleti Batıda ilk kez toprak kaybetmiştir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-Osmanlı Devleti Orta Avrubadaki egemenliğini kaybetmiştir  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2705"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-Avruba devletleri savunmadan saldırıya geçmiş ve askeri bakımdan üstünlükleri ortaya çıkmıştır.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2706"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karlofça Antlaşması’ndan sonra Rusya ile Osmanlı Devleti arasında İstanbul Antlaşması imzalanmıştır (1700).  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2708"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İstanbul Antlaşması’yla;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2709"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı Devleti, Karlofça ve İstanbul Antlaşmaları’yla kaybettiği toprakları geri alabilmek amacıyla XVIII. yüzyılda Avusturya, Venedik ve Rusya ile savaşlar yapmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2710"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2714"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17.YY İç İsyanlar ve Sonuçları "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İstanbul İsyanları "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2716"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İstanbul isyanları kapıkulu askerlerinden yeniçeriler ve sipahiler tarafından çıkarılmıştır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2717"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İstanbul isyanlarının çıkmasında;  " />
+
+            <TextView
+                android:id="@+id/textView2718"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devlet yönetimindeki otorite boşluğundan yararlanan yeniçeri ağaları ve saray kadınlarının yönetimi olumsuz yönde etkilemeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2719"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kapıkulu sisteminin değişmesi ve ocağa askerlikle ilgisi olmayan kişilerin alınması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kapıkulu askerlerinin maaşlarının zamanında ödenmemesi veya ayarı düşük paralarla ödenmesi "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeniçerilerin cülus bahşişi almak için sık sık padişah değiştirmek istemeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devlet yönetiminde etkin olmak isteyen devlet adamlarının yeniçerileri kışkırtması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2723"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeniçeri ve sipahilerin çıkarları doğrultusunda hareket etmeyen padişah ve devlet adamlarını görevden uzaklaştırmak istemeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2724"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kapıkulu askerlerinin disiplin altında tutulamaması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2725"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi nedenler etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2726"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2728"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" İstanbul isyanları sonucunda;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2729"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsyancılar, daima isteklerini yaptırmayı başarmışlar ve Osmanlı merkezi idaresi üzerinde kapıkulu (özellikle yeniçeriler) askerlerinin etkisi artmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2730"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsyancılar, padişah ve devlet adamlarını görevden almışlar, hatta öldürmüşlerdir. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2731"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsyanlar İstanbul’da asayişin bozulmasına, halkın zor durumda kalmasına, şehirde yangınların çıkmasına ve yağmalamaların yapılmasına neden olmuştur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2732"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2733"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celâli İsyanları "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView2734"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. yüzyılda Anadolu’da çıkan isyanlara “Celali İsyanları” denilmiştir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2740"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2735"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celâli isyanlarının sonucunda;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2736"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eyaletlerde devlet yönetiminin bozulması ve vergi toplamada adaletsiz davranılması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2737"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirlik sisteminin bozulması ve dirliklerin dağıtımında haksızlıkların yapılması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2738"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XVII. yüzyılda savaşların uzun sürmesi ve yenilgiyle sonuçlanmasından dolayı askerden kaçanların Anadolu’da eşkiyalığa başlaması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2739"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devşirme asıllı devlet adamlarının Anadolu halkıyla kaynaşamamaları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2741"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezi otoritenin zayıflaması "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2742"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kadı ve sancak beylerinin kanunlara aykırı davranarak halkı zor duruma düşürmeleri "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2743"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı – İran ve Osmanlı – Avusturya savaşları "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2727"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gibi nedenler etkili olmuştur.  " />
+
+            <TextView
+                android:id="@+id/textView2744"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2745"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celâli isyanlarının sonucunda;  "
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/textView2746"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadolu’da devlet otoritesi sarsılmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2747"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadolu’da huzur ve güvenlik bozulmuş, birçok şehir ve kasaba harap olmuştur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2749"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üretim faaliyetleri azalmış, ekonomi bozulmuştur. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2750"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vergiler toplanamamış ve devletin gelirleri azalmıştır. "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2748"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

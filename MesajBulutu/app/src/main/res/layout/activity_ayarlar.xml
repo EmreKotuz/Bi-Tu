@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ana"
+    tools:context=".ayarlar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:id="@+id/kullaniciAdiniGüncelle"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="ismini güncelle   >"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView750"
+                android:layout_width="170dp"
+                android:layout_height="2dp"
+                android:background="@color/beyazz" />
+
+            <TextView
+                android:id="@+id/textView746"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/sade"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/öğrenci"
+                android:layout_width="344dp"
+                android:layout_height="36dp"
+                android:lineSpacingExtra="18sp"
+                android:text="Bize Yazın   >"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="497dp" />
+
+            <TextView
+                android:id="@+id/te3xtView7530"
+                android:layout_width="230dp"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_blue_bright" />
+            <TextView
+                android:id="@+id/textView747"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/sade"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/telegram"
+                android:layout_width="395dp"
+                android:layout_height="45dp"
+                android:text="Whatsapp Grubumuza katılın   >"
+                android:textColor="@color/sarı"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="357dp" />
+
+            <TextView
+                android:id="@+id/te3x3tView7530"
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:background="@color/sarı" />
+            <TextView
+                android:id="@+id/textView748"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/sade" />
+
+            <TextView
+                android:id="@+id/buttonÇikiş"
+                android:layout_width="344dp"
+                android:layout_height="30dp"
+                android:text="Çıkış yap   >"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="459dp" />
+
+            <TextView
+                android:id="@+id/te3x3tV3iew7530"
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_orange_dark" />
+            <TextView
+                android:id="@+id/textView749"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kaynakButton"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Kaynak Adresimiz   >"
+                android:textColor="#E91E63"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="459dp" />
+
+            <TextView
+                android:id="@+id/te3x3tV3iew"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#E91E63" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fiildeCati">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1792"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/destekTemel10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:fontFamily="monospace"
+                android:text="Destek Ol     >"
+                android:textColor="@color/beyazz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1793"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FİİL ÇATISI  "
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1794"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekimli bir fiilden oluşan yüklemin nesne ve özneye göre gösterdiği durumlara çatı denir. Bundan hareketle, yüklemin isim soylu sözcüklerden oluştuğu cümlelerde çatının aranmayacağını söyleyebiliriz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1795"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1796"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çatı; yüklemin nesne ve özneyle ilgisi olduğundan, sorularda karşımıza çoğu kez, nesne-yüklem ve özne-yüklem ilişkisi olarak çıkar. Şimdi bunları ayrı ayrı inceleyelim.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1797"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1798"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NESNE – YÜKLEM İLİŞKİSİ  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1799"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiiller nesne alıp almamalarına göre değişik şekillerde adlandırılır. Bunları dört grupta inceleyebiliriz.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Geçişli Fiil  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1802"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesne alabilen fiillerdir. Bir fiilin nesne alıp almadığının nasıl anlaşılacağını cümle öğelerinde “nesne” konusunda işlemiştik. Buna göre, fiil nesne alıyorsa geçişli olacaktır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1803"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1804"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1805"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Etrafı daha iyi görebilmek için ışığı yaktı.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1806"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde “yaktı” yüklemdir; “o” gizli öznedir. Nesneyi bulmak için “O neyi yaktı?” diye soruyoruz. “ışığı” cevabı geliyor. Öyleyse yüklem nesne almıştır; “yakmak” fiili geçişli bir fiildir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1807"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1808"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Geçişsiz Fiil  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1809"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nesne almayan fiillerdir. Bu fiillerin yüklem olduğu cümlelere dışarıdan da herhangi bir nesne getirilemez.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1810"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1811"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1812"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Eve dönünce, yorgunluktan, uzandığım yerde uyuyakalmıştım.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1813"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinin yüklemine “Neyi uyuyakalmıştım?” diye sorduğumuzda mantıklı bir soru olmadığını görüyoruz. Çünkü bu fiiil nesne almaz; yani geçişsizdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1814"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1815"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÖZNE – YÜKLEM İLİŞKİSİ  "
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/textView1816"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Öznenin yüklemle ilişkisi beş grupta incelenir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1817"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Etken Fiil  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1819"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklem durumundaki fiilin bildirdiği işi, öznenin kendisi yapıyorsa fiil etkendir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1820"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1821"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin"
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1822"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Masanın üzerini güzelce temizledi.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1823"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pan kim?” diye sorduğumuzda yine “o” cevabı geliyor. Yani özne, yüklemin bildirdiği işi kendisi yapmıştır. Öyleyse fiil etkendir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1826"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1827"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Edilgen Fiil  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1828"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiilin bildirdiği işi özne değil de başkası yapıyorsa, özne bu işten etkileniyorsa, fiil edilgendir. Bu fiiller, etken fiillere “-l-” ve “-n-” eklerinin getirilmesiyle yapılır. Etken fiilin nesnesi olan öğe, fiil edilgen yapıldığında özne durumuna geçer ve bu öznelere “sözde özne” adı verilir. Örneğin etken fiilde örnek verdiğimiz cümleyi edilgen yapalım;  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1829"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1830"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Masanın üzeri güzelce temizlendi.”  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1831"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesini incelersek; “temizlendi” yüklemdir. “Temizlenen ne?” diye sorduğumuzda “Masanın üzeri” öznesi cevap veriyor. “İşi yapan kim?” diye sorduğumuzda, “başkası” cevabı gelir. Yani işi yapan özne değil,  başkasıdır. Çünkü masa kendi kendini temizleyemez. Öyleyse fiil edilgendir, öznesi de sözde öznedir."
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1832"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1833"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Dönüşlü Fiil  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1834"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiilin bildirdiği işi özne kendi üzerinde yapıyorsa, yani özne hem işi yapan, hem de yaptığı işten etkilenense, bu anlamı veren fiil dönüşlüdür. Dönüşlü fiiller de etken fiillere “-l-” ve “-n-” ekleri getirilerek yapılır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1835"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1836"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. İşteş Fiil  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1837"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En az iki özne tarafından yapılabilen fiillerdir. Bu fiiller, fiillere “-ş-” eki getirilerek türetilir. Bazı fiiller ise kök olarak “-ş-” ile bitmiştir ve işteş özellik gösterir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1839"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1840"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Ettirgen Fiil  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1841"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konumuzun başında, nesne-yüklem ilişkisini verirken, ettirgenliğe de değinmiştik. Bu tür fiillerde işi özne bir başkasına yaptırır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1842"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1843"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Oğluna terliklerini getirtti.”  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1844"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cümlesinde getirme işini yapan “oğlu” dur, özne ona işi yapmasını söylemiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1855"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

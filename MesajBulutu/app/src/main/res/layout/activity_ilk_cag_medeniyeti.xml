@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ilkCagMedeniyeti">
+
+    <ScrollView
+        android:id="@+id/scrollView18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2528"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2461"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İLK ÇAĞ MEDENİYETLERİ: "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView2530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadolu Medeniyetleri "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2463"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anadolu, göç ve ticaret yollarının üzerinde bulunması, Asya ile Avrupa’yı birbirine bağlaması, topraklarının verimli olması ve ikliminin insanların yaşayışına uygun olması gibi nedenlerden dolayı zengin ve yüksek kültürlerin beşiği olmuştur. Karşılıklı kültür alış – verişleri Anadolu’da uygarlıkların gelişmesini hızlandırmıştır.M.Ö. II. Binden M.Ö. VI.Yüzyıla Kadar Türkiye Hititler  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2464"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hititler, M.Ö. 2000 yılı başlarında Kafkaslardan Orta Anadolu’ya gelerek Kızılırmak kıvrımı içine yerleşmişlerdir. Hititler, M.Ö. 1400 yıllarında imparatorluk haline gelmişlerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2466"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2467"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu dönemin en önemli gelişmesi, Hititler ile Mısırlılar arasında yapılan Kadeş Savaşı Antlaşması’dır. M.Ö. 1296’da yapılan Kadeş Antlaşması tarihte bilinen ilk yazılı antlaşmadır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2468"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2469"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frigyalılar"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2470"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frigler, Ege göçleri sırasında Anadolu’ya gelerek M.Ö. 800 yıllarında Gordion (Polatlı) merkezli bir devlet kurdular.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2471"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kafkaslar üzerinden gelen Kimmerlerin egemenliği altına giren Frigyalılara Persler son vermişlerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2473"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2474"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lidyalılar"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2475"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lidyalılar, Frigyalılar gibi M.Ö. 1200’lerde Anadolu’ya gelerek, bugünkü Gediz ve Küçük Menderes vadileri arasında kalan bölgede Kral Giges tarafından Sard (Salihli) merkezli bir devlet kurmuşlardır. Pers saldırılarına dayanamayan Lidya Devleti, M.Ö. 546 yıllarında yıkılmıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2477"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İyonyalılar"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2478"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dorların baskısı sonucunda Akaların bir kısmı Yunanistan’dan Batı Anadolu’ya göç etmişler ve İzmir çevresindeki yerli halkla kaynaşarak şehir devletleri kurmuşlardır. Bu şehir devletleri arasında siyasal birlik sağlanamamıştır. İyon şehir devletleri arasında en tanınmışları Efes, Milet, Foça ve İzmir’dir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2479"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2480"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urartular"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2481"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urartu Devleti, Doğu Anadolu’da Asya kökenli Hurriler tarafından kurulmuştur. Urartuların merkezi Tuşpa (Van)’dır. Bölgenin en güçlü devletlerinden biri olan Urartular, M.Ö. 600’lerde Medler tarafından yıkılmıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2482"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2483"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlk Çağlarda Devlet Yönetimi "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2484"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlk çağlarda Türkiye’de kurulan devletler krallıkla yönetilmiştir. Bütün yetkiyi elinde bulunduran krallar, aynı zamanda başkomutan, baş yargıç ve baş rahiptir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2485"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hititlerde Pankuş Meclisi‘nin bulunması meşrutiyete benzeyen bir yönetim varlığını ve kralların yetkilerinin bir dönem kısıtlandığını göstermektedir. " />
+
+            <TextView
+                android:id="@+id/textView2486"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2487"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İskender İmparatorluğu "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2488"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M.Ö. 337’de tahta geçen İskender, önce Yunanistan’daki bütün şehir devletlerini, sonra da Anadolu, İran, Irak, Suriye ve Mısır’da Perslere ait tüm toprakları kendine bağlamayı başardı. Büyük İskender’in Asya seferinin sonucunda Hellenizm uygarlığı doğmuştur. Büyük İskender, 33 yaşında öldü (M.Ö. 323). İskender’in ölümünden sonra kazanılan topraklarda bağımsız devletler kurulmuştur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2489"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2490"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roma İmparatorluğu "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2491"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Romalılar; disiplinli, planlı ve teşkilatlı hareket ederek kısa sürede bütün İtalya’yı Roma’ya bağlamışlardır. Bu gelişmelerden sonra Romalılar, Doğu Akdeniz’e yönelmişlerdir. İskender İmparatorluğu parçalandıktan sonra Selevkoslar Krallığı’nı yenerek Türkiye topraklarının tamamına hakim olmuşlardır.  "
+                android:textColor="#0C0000" />
+
+            <TextView
+                android:id="@+id/textView2492"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mezopotamya Medeniyetleri "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2494"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sümerler birbirinden bağımsız birçok küçük şehir devletçiklerinden oluşan bir uygarlık kurdular.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2495"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şehir devletleri arasında savaş eksik olmuyordu. Kuvvetli prensler, yakınındaki diğer şehirlere de söz geçirerek büyük krallıklar kuruyordu.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2496"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mezopotamya’daki ilk medeniyet olan Sümerler, aynı zamanda tarihte bilinen ilk yazıyı da kullanmışlardır. M.Ö. 3000’lerde kullanılmaya başlanan yazı sayesinde kültür aktarımı kolaylaşmıştır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mısır Medeniyeti "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mısır Medeniyeti, Nil nehrinin çevresinde kurulmuştur. Etrafının çöllerle çevrili olması, diğer medeniyetlerle daha az etkileşmesine neden olmuştur.  "
+                android:textColor="#0A0000" />
+
+            <TextView
+                android:id="@+id/textView2500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mısırlılar öldükten sonra dirilmeye inanmışlar ve bu nedenle diğer yaşamlarında kullanabilmek için bazı eşyalarını mezarlarına koymuşlardır.  "
+                android:textColor="#0A0000" />
+
+            <TextView
+                android:id="@+id/textView2501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2531"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textVi3ew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fenikeliler"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fenikeliler, Lübnan dağları ile Akdeniz sahili arasında kalan kıyı şeridine yerleşmişlerdir. Arazilerinin tarıma elverişli olmaması ve Mısır’dan Anadolu’ya ulaşan ticaret yolu üzerinde bulunmaları Fenikelilerin ticaret alanında ilerlemelerini sağlamıştır. Fenikeliler şehir devletçikleri halinde yaşamış ve krallıkla idare edilmişlerdir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İbraniler"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarihte ilk defa tek tanrılı bir dine inanan İbraniler, Musevilik dininin sadece kendi kavimlerine ait olduğunu kabul ederek diğer toplumlarda yayılmasını engellemişlerdir. Bu durum dünyanın değişik yerlerine dağılan Yahudilerin milli birliklerini korumalarını ve varlıklarını sürdürmelerini sağlamıştır.  " />
+
+            <TextView
+                android:id="@+id/textView2507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yunan Medeniyeti "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2509"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dorlar taarfından Yunanistan’da kurulan şehir devletçiklerine polis adı verilmiştir. Yunanistan’ da sınıflar arasındaki mücadeleler sonunda sınıf farkları kaldırılmış ve demokrasi yönetimi benimsenmiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2510"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yunanistan’da Halk gelirine göre, “Dörtyüzler Meclisi” veya “Halk Meclisleri”nde yönetime katılma olanağı elde etmiştir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView2511"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yunanistan’da yapılan kanunlarla demokratikleşme yolunda önemli bir adım olmasına rağmen asillerin yetkileri ellerinden alındığıiçin diğer sınıflar arasında mücadele yine devam etmiştir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

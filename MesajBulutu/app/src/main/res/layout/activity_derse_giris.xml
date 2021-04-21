@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ekran"
+    tools:context=".derseGiris">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:background="@mipmap/mat"
+                android:layout_height="144dp" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/telegrammmmm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whatsapp grubumuz hakkında bilgi    >"
+                android:textColor="@color/gırmızı" />
+
+            <TextView
+                android:id="@+id/textView742"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gırmızı" />
+
+            <TextView
+                android:id="@+id/textView744"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kullanicii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dostum bize mesaj göndermek için tıklayın    >"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView745"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/matematik"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/mmm" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/fizikButtonn"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/eeeeeeee" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kimya"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/k" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/biyolojiButton"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/bbb" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/cografya"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/co" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/turkceButton"
+                android:layout_width="match_parent"
+                android:background="@mipmap/tu"
+                android:layout_height="104dp" />
+
+            <TextView
+                android:id="@+id/textView2317"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/tarihButton"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@mipmap/tarihh" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

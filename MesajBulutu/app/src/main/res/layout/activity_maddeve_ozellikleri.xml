@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maddeveOzellikleri">
+
+    <ScrollView
+        android:id="@+id/scrollView14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MADDE "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hacmi, kütlesi ve eylemsizliği olan ve uzayda yer kaplayan her şeye madde denir  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin Ortak Özellikleri "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bütün maddelerde bulunan özelliğe ortak özellik denir. Bir maddenin yalnız kendine ait özelliğine ise, ayırt edici özellikdenir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddelerin ortak özellikleri,  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Eylemsizlik  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Hacim  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Kütle  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Eylemsizlik  "
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/textView1248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin sahip olduğu hareket ve şekil durumunu koruma meyline eylemsizlik denir. Arabadan inmek isteyen bir yolcu, araba henüz durmadan önce inerse, arabanın hareket yönünde gitmek zorunda kalır. Arabada iken hızı olan yolcu inince de bu hızını devam ettirmek isteyecektir. Bu durum bütün maddeler için geçerlidir. Duran madde durmak ister, hareket halindeki ise hareketini devam ettirmek ister.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Hacim  "
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/textView1251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hacim; maddenin boşlukta kapladığı yerdir. Katı,sıvı ve gazların hepsinin hacimleri vardır.Katıların hacimleri belirlidir, sıvılarınki de belirlidir. Fakat gazların hacimleri belirsizdir.Bulundukların kabın şeklini alırlar.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geometrik Biçimli Cisimlerin Hacimleri "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geometrik şekilli, dikdörtgenler prizması, küp, silindir, küre ve koni şeklindeki katı cisimlerin hacimleri, boyutları ölçülerek hesaplanır. Dikdörtgenler prizmasının hacmi farklı üç kenarının çarpımına eşittir.  "
+                android:textColor="#3A3232" />
+
+            <TextView
+                android:id="@+id/textView1254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Olmayan Cisimlerin Hacimleri  "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün geometrik yapıda olmayan katı cisimlerin hacimleri, dereceli kaplardaki sıvılardan yararlanılarak bulunur.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu tür cisimler tamamen sıvı dolu olan bir kaba batırıldığında, sıvıda erimemek şartıyla hacmi kadar hacimde sıvı taşırır. Eğer cisim tamamen batmıyorsa, taşan sıvının hacmi batan kısmın hamine eşit olur.	"
+                android:textColor="#3A3232" />
+
+            <TextView
+                android:id="@+id/textView1258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle madde miktarı ile ilgili bir özelliktir. m sembolü ile gösterilir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ağırlık ve kütle kavramları birbirine karıştırılmamalıdır. Ağırlık gezegenin maddeye uyguladığı kütle çekim kuvvetidir. Kütleleri eşit olan cisimlerin farklı gezegenlerde ağırlıkları eşit olmayabilir. Kütle eşit kollu terazi ile ölçülür, ağırlık ise dinamometre denilen yaylı kantarla ölçülür.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eşit Kollu Terazi "
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle eşit kollu terazi ile ölçülür. Eşit kollu terazi moment prensibine göre çalışır. Eşit kollu terazinin kolları eşit uzunlukta ve kefeleri özdeştir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özkütle"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/textView1267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin birim hacminin kütlesine o maddenin özkütlesi denir.  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1269"
+                android:layout_width="212dp"
+                android:layout_height="61dp"
+                android:background="@mipmap/ozkutle" />
+
+            <TextView
+                android:id="@+id/textView1270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle m, hacim V, özkütle d ile gösterilmek üzere  " />
+
+            <TextView
+                android:id="@+id/textView1271"
+                android:layout_width="118dp"
+                android:layout_height="46dp"
+                android:background="@mipmap/ozkutlee" />
+
+            <TextView
+                android:id="@+id/textView1272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="olur." />
+
+            <TextView
+                android:id="@+id/textView1273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özağırlık"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir maddenin birim hacminin ağırlığına özağırlık denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1277"
+                android:layout_width="272dp"
+                android:layout_height="83dp"
+                android:background="@mipmap/ozagirlik" />
+
+            <TextView
+                android:id="@+id/textView1278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karışımın Özkütlesi "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birbirine türdeş olarak karışabilen aynı sıcaklıktaki sıvıların karıştırılmasıyla, karışan sıvıların özkütlelerinden farklı özkütleli bir karışım elde edilir. Karışımın özkütlesi, birbirine karışan sıvıların özkütlelerine ve karışma oranlarına bağlıdır.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki ya da daha fazla sıvının karıştırılmasıyla meydana gelen karışımın özkütlesi,  "
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <TextView
+                android:id="@+id/textView1282"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1283"
+                android:layout_width="339dp"
+                android:layout_height="92dp"
+                android:background="@mipmap/karisimozkutle" />
+
+            <TextView
+                android:id="@+id/textView1284"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eşitliği ile bulunur.  " />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

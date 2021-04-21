@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dogrusalHareket">
+
+    <ScrollView
+        android:id="@+id/scrollView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğrusal Hareket "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1288"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareket  "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin sabit kabul edilen bir noktaya göre konumunun değişmesine hareket denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1372"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yörünge"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin hareketi sırasında izlediği yolun şekline yörünge denir. İzlenen yolun şekli doğrusal ise bu harekete doğrusal hareket denir. Daire ise, dairesel hareket denir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konum"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1362"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareketli bir cismin sabit bir yere göre bulunduğu yere denir.. Bir araç nasıl hareket ederse etsin en son durduğu noktadaki konumu, o noktanın seçilen başlangıç noktasına olan vektörel uzaklığıdır. Bir araç dönüp dolaşıp ilk bulunduğu noktaya gelirse, konumu sıfır olur.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1364"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yer Değiştirme "
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView1365"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin iki konumu arasındaki vektörel uzaklıktır. Başka bir ifadeyle son konum (x2) ile ilk konum  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1366"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(x1) arasındaki vektörel farktır ve son konumdan ilk konumun vektörel olarak çıkarılmasıyla bulunur. Bu işlem, Dx = x2 – x1 şeklinde gösterilir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1368"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1369"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@mipmap/dogrusalll" />
+
+            <TextView
+                android:id="@+id/textView1370"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki doğrusal yolun O noktası başlangıç noktası olarak seçilirse, P noktasında duran bir aracın konumu + 1500 metredir. K de duranın konumu ise – 1000 metredir.  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="N noktasından L noktasına gelen bir araç,  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dx = x2 – x1  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dx = – 500 – (+ 1000) = – 1500 m  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(–) yönde 1500 metre yer değiştirmiştir.  "
+                android:textColor="@color/kahveRengi" />
+
+            <TextView
+                android:id="@+id/textView1297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hız"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin birim zamandaki yer değiştirme miktarına hız denir. Hız v sembolü ile gösterilir ve vektörel bir büyüklüktür. Hız,  "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView1300"
+                android:layout_width="155dp"
+                android:layout_height="39dp"
+                android:background="@mipmap/hizre" />
+
+            <TextView
+                android:id="@+id/textView1301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="şeklinde tanımlanır.  " />
+
+            <TextView
+                android:id="@+id/textView1302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İvme"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hızın birim zamandaki değişme miktarına ivme denir.Hız-zaman grafiğine herhagi bir anda çizilen teğetin eğimi ani ivmeyi verir.Belli bir zaman aralığında grafik üzerinde iki noktayı birleştiren doğru parçasının eğimi de o aralıktaki ortalama eğimi verir. a sembolü ile gösterilir ve vektörel bir büyüklüktür. Cismin t1 anındaki hızı v1, t2 anındaki hızı v2 ise, ivme;  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1373"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1305"
+                android:layout_width="151dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/ivmere" />
+
+            <TextView
+                android:id="@+id/textView1374"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="şeklinde ifade edilir. " />
+
+            <TextView
+                android:id="@+id/textView1306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Doğrusal Hareket"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir doğru üzerinde eşit aralıklarında eşit yol olarak giden cismin hareketidir. Cismin birim zamanda yaptığı yer değiştirmeye hız denir ve “V” harfi ile gösterilir.Cismin hızı sabittir, hız sabitse hareket düzgündür ve ivme sıfırdır.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Değişen Doğrusal Hareket"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView1311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğrusal bir yolda hareket eden aracın hızı düzgün değişiyorsa bu harekete düzgün değişen doğrusal hareket denir. Bu harekette ivme sabit olduğundan sabit ivmeli harekette denilir. İvmenin sabit olması, aracın hızının her saniye ivme kadar artması ya da azalması demektir.  "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView1312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1360"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/5237628702"></com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
